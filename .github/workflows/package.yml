@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   package:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       RE1_GAME_ORIGINAL_DIR: ${{ github.workspace }}/.ci-inputs/game
       RE1_BUILD_FONT: ${{ github.workspace }}/.ci-inputs/build-font.ttf
