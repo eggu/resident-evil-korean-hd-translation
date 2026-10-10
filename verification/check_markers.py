@@ -141,7 +141,7 @@ def main():
         assert choices[0][2]<244 and choices[1][2]<312
         cases.append({'case':'yes-no','xy_uv':choices,'pass':True})
     coverage=json.loads((ROOT/'build/mod_korean_serif/coverage.json').read_text(encoding='utf-8'))
-    font=ImageFont.truetype(str(FONT),coverage['font_size'])
+    font=ImageFont.truetype(str(FONT),coverage['font_size'],layout_engine=ImageFont.Layout.BASIC)
     widths={s:font.getlength(s)/coverage['render_scale'] for s in ['엄청난 저택이군.']}
     assert widths['엄청난 저택이군.']<=236
     report={'direct_mod_argument':direct_argument,'text_widths_logical_pixels':widths,'ddraw_sha256' :DDHASH,'renderer_source_sha256':hashlib.sha256((ROOT/'src/korean_subtitle.c').read_bytes()).hexdigest(),'cases':cases}

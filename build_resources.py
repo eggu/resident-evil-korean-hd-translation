@@ -119,7 +119,7 @@ def render_document(row):
     if '{' in text or '}' in text:
         raise ValueError(f"Unexpected document control text: {row['id']}")
     for size in (12, 11, 10, 9):
-        font = ImageFont.truetype(str(FONT), size)
+        font = ImageFont.truetype(str(FONT), size, layout_engine=ImageFont.Layout.BASIC)
         lines = wrap_document(text, font)
         step = size + 3
         height = sum(24 if CIPHER_TOKEN in line else step for line in lines)

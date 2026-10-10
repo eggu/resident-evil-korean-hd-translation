@@ -44,7 +44,7 @@ def build(name, expected):
         indices[top * width:bottom * width] = bytes(width * (bottom - top))
 
     font_px, scale, tracking = 14, 4, 2
-    font = ImageFont.truetype(FONT, font_px * scale)
+    font = ImageFont.truetype(FONT, font_px * scale, layout_engine=ImageFont.Layout.BASIC)
     rendered = Image.new('L', (width * scale, height * scale))
     draw = ImageDraw.Draw(rendered)
     for lines, baseline_rows in zip(LINES, ((baselines[0], baselines[1]), (baselines[2],))):

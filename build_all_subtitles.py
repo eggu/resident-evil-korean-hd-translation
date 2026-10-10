@@ -35,14 +35,14 @@ def main():
     (out/'sentences-sd').mkdir(parents=True,exist_ok=True)
     opening=ET.parse(source/'text/ROOM_106_0.xml').getroot()
     preview_texts={part for entry in list(opening)[11:19] for part in re.split(r'\{[^}]+\}',entry.text or '') if part.strip()}
-    font=ImageFont.truetype(str(FONT),args.font_size); step=args.font_size+3*scale
+    font=ImageFont.truetype(str(FONT),args.font_size,layout_engine=ImageFont.Layout.BASIC); step=args.font_size+3*scale
     original=(GAME/'jpn/Data/PBFONT1.TIM').read_bytes()
     expected=json.loads((ROOT/'input_hashes.json').read_text(encoding='utf-8'))['jpn/Data/PBFONT1.TIM']
     assert hashlib.sha256(original).hexdigest()==expected
     block=8+struct.unpack_from('<I',original,8)[0]
     header=original[:block]
     fragments={}; records=[]; preview=[]; counts={'entries':0,'room_entries':0,'common_entries':0,'resource_entries':0,'save_menu_entries':0}; tile_count=0
-    menu_font=ImageFont.truetype(str(FONT),11*scale)
+    menu_font=ImageFont.truetype(str(FONT),11*scale,layout_engine=ImageFont.Layout.BASIC)
     def encode(match,save_menu=False):
         nonlocal tile_count
         text=match.group(0)

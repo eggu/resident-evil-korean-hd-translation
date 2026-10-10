@@ -41,7 +41,7 @@ $env:RE1_BUILD_FONT = 'C:\Windows\Fonts\batang.ttc'
 .venv\Scripts\python.exe scripts\package_release.py
 ```
 
-`RE1_GAME_ORIGINAL_DIR`는 필수이며 설치 폴더를 자동 추측하지 않습니다. `RE1_BUILD_FONT`는 TTF/OTF/TTC 파일 경로입니다. 기본값은 macOS의 AppleMyungjo, Windows의 Batang이고 Linux에서는 직접 지정해야 합니다. TTC는 첫 번째 face를 사용합니다. CI와 현재 검증된 이미지의 빌드 폰트는 AppleMyungjo입니다. 다른 폰트의 글리프 누락·넘침은 생성 단계에서 검사하며 이미지 배치는 달라질 수 있습니다.
+`RE1_GAME_ORIGINAL_DIR`는 필수이며 설치 폴더를 자동 추측하지 않습니다. `RE1_BUILD_FONT`는 TTF/OTF/TTC 파일 경로입니다. 기본값은 macOS의 AppleMyungjo, Windows의 Batang이고 Linux에서는 직접 지정해야 합니다. TTC는 첫 번째 face를 사용합니다. CI와 현재 검증된 이미지의 빌드 폰트는 AppleMyungjo입니다. Pillow의 BASIC 조판을 명시해 운영체제에 따른 RAQM 자동 선택 차이를 방지합니다. 다른 폰트의 글리프 누락·넘침은 생성 단계에서 검사하며 이미지 배치는 달라질 수 있습니다.
 
 결과: `dist/Resident-Evil-Korean-HD-Translation-R9.zip`과 ZIP SHA-256 파일. ZIP 내부에는 파일별 `SHA256SUMS.txt`와 소스·폰트 해시를 기록한 `release.json`이 있습니다. 버전은 `VERSION`에서 관리합니다.
 
@@ -83,6 +83,6 @@ $env:RE1_BUILD_FONT = 'C:\Windows\Fonts\batang.ttc'
 
 원래 x86 호출·인자·스택·텍스처·메뉴 경로를 에뮬레이션합니다. GPU/드라이버와 실제 게임 화면 검증을 대체하지 않습니다.
 
-[Build release package](https://github.com/eggu/resident-evil-korean-hd-translation/actions/workflows/package.yml)는 검수된 리소스와 글꼴 렌더링을 맞추기 위해 macOS 러너를 사용하며, main push 또는 수동 실행에서 동일한 생성·패키징 스크립트와 검증을 실행하고, 성공한 `dist/`만 Artifact로 업로드합니다. 생성 결과를 Git에 다시 커밋하지 않습니다.
+[Build release package](https://github.com/eggu/resident-evil-korean-hd-translation/actions/workflows/package.yml)는 main push 또는 수동 실행에서 동일한 생성·패키징 스크립트와 검증을 실행하고, 성공한 `dist/`만 Artifact로 업로드합니다. 생성 결과를 Git에 다시 커밋하지 않습니다.
 
 GitHub 호스팅 러너에는 게임 원본이 없어, 이 저장소의 CI만 비공개 draft release `ci-build-inputs`의 암호화된 원본 픽스처와 `BUILD_INPUTS_KEY` Secret을 사용합니다. 복호화된 입력 경로를 `RE1_GAME_ORIGINAL_DIR`/`RE1_BUILD_FONT`로 넘기는 준비 단계이며, 로컬 빌더와 분리되어 있습니다. 원본·폰트·Secret과 복호화된 입력은 공개하거나 Artifact로 올리지 않습니다. 포크에서는 본인 원본 경로를 제공하는 러너를 구성하거나 로컬 명령으로 빌드할 수 있습니다.
