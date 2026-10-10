@@ -1,0 +1,53 @@
+name: Build release package
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    env:
+      RE1_GAME_ORIGINAL_DIR: ${{ github.workspace }}/.ci-inputs/game
+      RE1_BUILD_FONT: ${{ github.workspace }}/.ci-inputs/build-font.ttf
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-test.txt
+      - name: Install build and test dependencies
+        run: python -m pip install -r requirements.txt -r requirements-test.txt
+      - name: Download private CI source inputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download ci-build-inputs --pattern ci-build-inputs.tar.gz.enc --dir local
+      - name: Prepare verified CI inputs
+        env:
+          BUILD_INPUTS_KEY: ${{ secrets.BUILD_INPUTS_KEY }}
+        run: python scripts/prepare_ci_inputs.py
+      - name: Generate resources and package
+        run: python scripts/package_release.py
+      - name: Test delivered package and original input guards
+        run: python -m unittest discover -s tests -v
+      - name: Test native game callers
+        run: |
+          python verification/check_markers.py
+          python verification/check_hd_sd.py
+          python verification/check_config_screen.py
+          python verification/check_empty_box.py
+          python verification/check_movie_outline.py
+          python verification/check_movie_font.py
+      - name: Upload copy-only package
+        uses: actions/upload-artifact@v4
+        with:
+          name: Resident-Evil-Korean-HD-Translation-${{ github.sha }}
+          path: dist/*
+          if-no-files-found: error

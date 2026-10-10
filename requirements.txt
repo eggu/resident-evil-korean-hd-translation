@@ -1,0 +1,4 @@
+pillow==12.3.0
+ziglang==0.16.0
+fonttools==4.66.1
+py7zr==1.1.3

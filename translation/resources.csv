@@ -1,0 +1,2079 @@
+﻿id,종류,파일,항목,원문언어,원문,번역문,검수상태,적용경로,메모,원본SHA256
+item_simple.xml:0,아이템명,item_simple.xml,0,en,-Nothing-,,원문 없음/제어 슬롯,R7 문장 렌더러 · 출력 생략,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지; 아이템 상자 빈 슬롯의 _Nothing_ 호출은 아무것도 그리지 않음,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:1,아이템명,item_simple.xml,1,en,Combat Knife,생존용 단검,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:2,아이템명,item_simple.xml,2,en,Beretta,권총,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:3,아이템명,item_simple.xml,3,en,Shotgun,산탄총,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:4,아이템명,item_simple.xml,4,en,Colt Python,매그넘 리볼버,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:5,아이템명,item_simple.xml,5,en,Colt Python,매그넘 리볼버,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:6,아이템명,item_simple.xml,6,en,Flamethrower,화염방사기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:7,아이템명,item_simple.xml,7,en,Grenade Gun,유탄 발사기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:8,아이템명,item_simple.xml,8,en,Grenade Gun,유탄 발사기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:9,아이템명,item_simple.xml,9,en,Grenade Gun,유탄 발사기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:10,아이템명,item_simple.xml,10,en,Rocket Launcher,로켓 발사기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:11,아이템명,item_simple.xml,11,en,Hand Gun Bullets,권총 탄창,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:12,아이템명,item_simple.xml,12,en,Shotgun Shells,산탄총 탄약,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:13,아이템명,item_simple.xml,13,en,DumDum Rounds,덤덤탄,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:14,아이템명,item_simple.xml,14,en,Magnum Rounds,매그넘 탄약,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:15,아이템명,item_simple.xml,15,en,Fuel,연료,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:16,아이템명,item_simple.xml,16,en,Explosive Rounds,유탄,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:17,아이템명,item_simple.xml,17,en,Acid Rounds,유산탄,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:18,아이템명,item_simple.xml,18,en,Flame Rounds,소이탄,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:19,아이템명,item_simple.xml,19,en,Empty Bottle,빈 병,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:20,아이템명,item_simple.xml,20,en,Water,물,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:21,아이템명,item_simple.xml,21,en,UMB No.2,UMB No.2,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:22,아이템명,item_simple.xml,22,en,UMB No.4,UMB No.4,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:23,아이템명,item_simple.xml,23,en,UMB No.7,UMB No.7,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:24,아이템명,item_simple.xml,24,en,UMB No.13,UMB No.13,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:25,아이템명,item_simple.xml,25,en,Yellow-6,Yellow-6,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:26,아이템명,item_simple.xml,26,en,NP-003,NP-003,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:27,아이템명,item_simple.xml,27,en,V-Jolt,V-JOLT,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:28,아이템명,item_simple.xml,28,en,Broken Shotgun,망가진 산탄총,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:29,아이템명,item_simple.xml,29,en,Square Crank,사각 크랭크,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:30,아이템명,item_simple.xml,30,en,Hexagonal Crank,육각 크랭크,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:31,아이템명,item_simple.xml,31,en,Emblem,엠블럼,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:32,아이템명,item_simple.xml,32,en,Gold Emblem,황금 엠블럼,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:33,아이템명,item_simple.xml,33,en,Blue Jewel,푸른 보석,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:34,아이템명,item_simple.xml,34,en,Red Jewel,붉은 보석,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:35,아이템명,item_simple.xml,35,en,Music Score,악보,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:36,아이템명,item_simple.xml,36,en,Wolf Medal,늑대 메달,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:37,아이템명,item_simple.xml,37,en,Eagle Medal,독수리 메달,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:38,아이템명,item_simple.xml,38,en,Herbicide,제초제,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:39,아이템명,item_simple.xml,39,en,Battery,배터리,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:40,아이템명,item_simple.xml,40,en,MO-Disk,MO 디스크,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:41,아이템명,item_simple.xml,41,en,Wind Crest,바람 문장,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:42,아이템명,item_simple.xml,42,en,Flare,신호탄,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:43,아이템명,item_simple.xml,43,en,Slides,슬라이드,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:44,아이템명,item_simple.xml,44,en,Moon Crest,달 문장,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:45,아이템명,item_simple.xml,45,en,Star Crest,별 문장,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:46,아이템명,item_simple.xml,46,en,Sun Crest,태양 문장,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:47,아이템명,item_simple.xml,47,en,Ink Ribbon,잉크 리본,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:48,아이템명,item_simple.xml,48,en,Lighter,라이터,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:49,아이템명,item_simple.xml,49,en,Lockpick,락픽,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:50,아이템명,item_simple.xml,50,en,Oil Tank,기름통,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:51,아이템명,item_simple.xml,51,en,Sword Key,검 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:52,아이템명,item_simple.xml,52,en,Armor Key,갑옷 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:53,아이템명,item_simple.xml,53,en,Shield Key,방패 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:54,아이템명,item_simple.xml,54,en,Helmet Key,투구 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:55,아이템명,item_simple.xml,55,en,Master Key,마스터 키,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:56,아이템명,item_simple.xml,56,en,Closet Key,옷장 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:57,아이템명,item_simple.xml,57,en,Key for Room 002,002호실 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:58,아이템명,item_simple.xml,58,en,Key for Room 003,003호실 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:59,아이템명,item_simple.xml,59,en,Control Room Key,제어실 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:60,아이템명,item_simple.xml,60,en,Power Room Key,동력 구역 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:61,아이템명,item_simple.xml,61,en,Desk Key,책상 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:62,아이템명,item_simple.xml,62,en,Blank Book,백지 책,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:63,아이템명,item_simple.xml,63,en,Doom Book 2,최후의 책(하편),초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:64,아이템명,item_simple.xml,64,en,Doom Book 1,최후의 책(상편),초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:65,아이템명,item_simple.xml,65,en,First Aid Spray,구급 스프레이,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:66,아이템명,item_simple.xml,66,en,Serum,혈청,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:67,아이템명,item_simple.xml,67,en,Red Herb,적색 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:68,아이템명,item_simple.xml,68,en,Green Herb,녹색 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:69,아이템명,item_simple.xml,69,en,Blue Herb,청색 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:70,아이템명,item_simple.xml,70,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:71,아이템명,item_simple.xml,71,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:72,아이템명,item_simple.xml,72,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:73,아이템명,item_simple.xml,73,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:74,아이템명,item_simple.xml,74,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:75,아이템명,item_simple.xml,75,en,Mixed Herbs,조합한 약초,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:76,아이템명,item_simple.xml,76,en,Pickaxe,곡괭이,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:77,아이템명,item_simple.xml,77,en,Comm. Radio,무전기,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:78,아이템명,item_simple.xml,78,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:79,아이템명,item_simple.xml,79,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:80,아이템명,item_simple.xml,80,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:81,아이템명,item_simple.xml,81,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:82,아이템명,item_simple.xml,82,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:83,아이템명,item_simple.xml,83,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:84,아이템명,item_simple.xml,84,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:85,아이템명,item_simple.xml,85,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:86,아이템명,item_simple.xml,86,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:87,아이템명,item_simple.xml,87,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:88,아이템명,item_simple.xml,88,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:89,아이템명,item_simple.xml,89,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:90,아이템명,item_simple.xml,90,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:91,아이템명,item_simple.xml,91,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:92,아이템명,item_simple.xml,92,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:93,아이템명,item_simple.xml,93,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:94,아이템명,item_simple.xml,94,en,,,원문 없음/제어 슬롯,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:95,아이템명,item_simple.xml,95,en,Researcher's Will,어느 연구원의 유서,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:96,아이템명,item_simple.xml,96,en,Researcher's Will,어느 연구원의 유서,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:97,아이템명,item_simple.xml,97,en,Keeper's Diary,사육사의 일지,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:98,아이템명,item_simple.xml,98,en,Orders,보안 부장의 메일,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:99,아이템명,item_simple.xml,99,en,Pass Number,패스 넘버,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:100,아이템명,item_simple.xml,100,en,Plant-42 Report,식물 42 보고서,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:101,아이템명,item_simple.xml,101,en,Fax,팩스,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:102,아이템명,item_simple.xml,102,en,Scrapbook,스크랩북,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:103,아이템명,item_simple.xml,103,en,Security System,연구소 경비 시스템 자료,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:104,아이템명,item_simple.xml,104,en,Researcher's Letter,어느 연구원의 편지,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:105,아이템명,item_simple.xml,105,en,V-Jolt Report,유기화학 실험 문서,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:106,아이템명,item_simple.xml,106,en,Barry's Picture,배리의 사진,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:107,아이템명,item_simple.xml,107,en,Pass Code 01,패스 코드 01,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:108,아이템명,item_simple.xml,108,en,Pass Code 02,패스 코드 02,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:109,아이템명,item_simple.xml,109,en,Pass Code 03,패스 코드 03,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:110,아이템명,item_simple.xml,110,en,Botany Book,식물도감,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:111,아이템명,item_simple.xml,111,en,Ingram,잉그램,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:112,아이템명,item_simple.xml,112,en,Minimi,미니미,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:113,아이템명,item_simple.xml,113,en,Crank,크랭크,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:114,아이템명,item_simple.xml,114,en,Crank,크랭크,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:115,아이템명,item_simple.xml,115,en,Chemical,식물용 약품,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:116,아이템명,item_simple.xml,116,en,Mansion Key,저택 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:117,아이템명,item_simple.xml,117,en,Mansion Key,저택 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:118,아이템명,item_simple.xml,118,en,Mansion Key,저택 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:119,아이템명,item_simple.xml,119,en,Mansion Key,저택 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:120,아이템명,item_simple.xml,120,en,Laboratory Key,연구소 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:121,아이템명,item_simple.xml,121,en,Special Key,특수 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:122,아이템명,item_simple.xml,122,en,Guardhouse Key,기숙사 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:123,아이템명,item_simple.xml,123,en,Guardhouse Key,기숙사 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:124,아이템명,item_simple.xml,124,en,Laboratory Key,연구소 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:125,아이템명,item_simple.xml,125,en,Small Key,작은 열쇠,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:126,아이템명,item_simple.xml,126,en,Red Book,빨간 책,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:127,아이템명,item_simple.xml,127,en,Doom Book 2,최후의 책(하편),초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+item_simple.xml:128,아이템명,item_simple.xml,128,en,Doom Book 1,최후의 책(상편),초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,650871b72f9a73867ede66da08c18044ad62367b5374d6ed8d29038f8a1e36c0
+desc.xml:0,아이템 설명,desc.xml,0,en,This doesn't seem to be\nenough for this mission.,이번 임무에는 부족해 보입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:1,아이템 설명,desc.xml,1,en,Beretta M92FS. Automatic\nloaded with 9mm bullets.,베레타 M92FS. 9mm 탄약을 사용하는 자동 권총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:2,아이템 설명,desc.xml,2,en,Remington M870.\nA pump-action shotgun.,레밍턴 M870. 펌프 액션 산탄총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:3,아이템 설명,desc.xml,3,en,Powerful gun can be loaded\nwith .357 magnum rounds.,.357 매그넘 탄약을 사용하는 강력한 권총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:4,아이템 설명,desc.xml,4,en,Powerful gun can be loaded\nwith .357 magnum rounds.,.357 매그넘 탄약을 사용하는 강력한 권총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:5,아이템 설명,desc.xml,5,en,Can throw flame for 9 sec.\nwith max. fuel.,연료를 가득 채우면 9초 동안 화염을 방출할 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:6,아이템 설명,desc.xml,6,en,A launcher can be loaded\nwith various rounds.,여러 종류의 탄약을 사용하는 유탄 발사기입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:7,아이템 설명,desc.xml,7,en,A launcher can be loaded\nwith various rounds.,여러 종류의 탄약을 사용하는 유탄 발사기입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:8,아이템 설명,desc.xml,8,en,A launcher can be loaded\nwith various rounds.,여러 종류의 탄약을 사용하는 유탄 발사기입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:9,아이템 설명,desc.xml,9,en,One shot can destroy any\ntarget.,한 발로 어떤 목표든 파괴할 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:10,아이템 설명,desc.xml,10,en,Clip for Beretta.,권총용 탄창입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:11,아이템 설명,desc.xml,11,en,Shells for the shotgun.,산탄총용 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:12,아이템 설명,desc.xml,12,en,More powerful than magnum\nrounds.  For the C.Python.,매그넘 탄약보다 강력한 콜트 파이슨용 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:13,아이템 설명,desc.xml,13,en,.357 magnum rounds.\nFor the Colt Python.,콜트 파이슨용 .357 매그넘 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:14,아이템 설명,desc.xml,14,en,Fuel for the flamethrower.,화염방사기용 연료입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:15,아이템 설명,desc.xml,15,en,Powerful rounds for the\nGrenade Gun.,유탄 발사기용 강력한 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:16,아이템 설명,desc.xml,16,en,Powerful rounds for the\nGrenade Gun.,유탄 발사기용 강력한 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:17,아이템 설명,desc.xml,17,en,Powerful rounds for the\nGrenade Gun.,유탄 발사기용 강력한 탄약입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:18,아이템 설명,desc.xml,18,en,A glass bottle to put\nchemicals in.,약품을 담는 유리병입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:19,아이템 설명,desc.xml,19,en,There's water in the\nbottle.,병 속에 물이 들어 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:20,아이템 설명,desc.xml,20,en,This is needed to generate\nV-JOLT.,V-JOLT를 만드는 데 필요한 약품입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:21,아이템 설명,desc.xml,21,en,This is needed to generate\nV-JOLT.,V-JOLT를 만드는 데 필요한 약품입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:22,아이템 설명,desc.xml,22,en,This is not the chemical I\nneed.,필요한 약품이 아닙니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:23,아이템 설명,desc.xml,23,en,This is not the chemical I\nneed.,필요한 약품이 아닙니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:24,아이템 설명,desc.xml,24,en,This is not the chemical I\nneed.,필요한 약품이 아닙니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:25,아이템 설명,desc.xml,25,en,This is not the chemical I\nneed.,필요한 약품이 아닙니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:26,아이템 설명,desc.xml,26,en,Now I can destroy that ivy\nmonster.,이제 저 덩굴 괴물을 없앨 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:27,아이템 설명,desc.xml,27,en,It's too dangerous to fire!\nDose it have another use?,발사하기에는 너무 위험합니다! 다른 용도가 있을까요?,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:28,아이템 설명,desc.xml,28,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:29,아이템 설명,desc.xml,29,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:30,아이템 설명,desc.xml,30,en,There's a scratch.\nSomeone may have used it.,흠집이 있습니다. 누군가 사용했던 것 같습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:31,아이템 설명,desc.xml,31,en,There's a scratch.\nSomeone may have used it.,흠집이 있습니다. 누군가 사용했던 것 같습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:32,아이템 설명,desc.xml,32,en,It's shining beautifully.,아름답게 빛나고 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:33,아이템 설명,desc.xml,33,en,It's shining beautifully.,아름답게 빛나고 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:34,아이템 설명,desc.xml,34,en,"The title is “Moonlight\nSonata"".",곡목은 '월광 소나타'입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:35,아이템 설명,desc.xml,35,en,A medal from the\nsecond Doom Book.,최후의 책(하편)에 들어 있던 메달입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:36,아이템 설명,desc.xml,36,en,A medal from the\nfirst Doom Book.,최후의 책(상편)에 들어 있던 메달입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:37,아이템 설명,desc.xml,37,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:38,아이템 설명,desc.xml,38,en,Now I can move the\nelevator.,이걸로 엘리베이터를 가동할 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:39,아이템 설명,desc.xml,39,en,It seems to be a start-up \ndisk.,시동용 디스크인 것 같습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:40,아이템 설명,desc.xml,40,en,It represents wind.,바람을 상징합니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:41,아이템 설명,desc.xml,41,en,I can signal Brad with this.,이걸로 브래드에게 신호를 보낼 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:42,아이템 설명,desc.xml,42,en,It seems to be some kind\nof research report.,어떤 연구 보고서인 것 같습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:43,아이템 설명,desc.xml,43,en,A carving of the moon.,달 모양이 새겨져 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:44,아이템 설명,desc.xml,44,en,A carving of the star.,별 모양이 새겨져 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:45,아이템 설명,desc.xml,45,en,A carving of the sun.,태양 모양이 새겨져 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:46,아이템 설명,desc.xml,46,en,It's used with a\ntypewriter.,타자기에 사용하는 물건입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:47,아이템 설명,desc.xml,47,en,Some fluid is left.,연료가 조금 남아 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:48,아이템 설명,desc.xml,48,en,A simple lock can be\nopened with this.,단순한 잠금장치는 이걸로 열 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:49,아이템 설명,desc.xml,49,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:50,아이템 설명,desc.xml,50,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:51,아이템 설명,desc.xml,51,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:52,아이템 설명,desc.xml,52,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:53,아이템 설명,desc.xml,53,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:54,아이템 설명,desc.xml,54,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:55,아이템 설명,desc.xml,55,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:56,아이템 설명,desc.xml,56,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:57,아이템 설명,desc.xml,57,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:58,아이템 설명,desc.xml,58,en,A key to enter the Control\nRoom.,제어실 출입문에 사용하는 열쇠입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:59,아이템 설명,desc.xml,59,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:60,아이템 설명,desc.xml,60,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:61,아이템 설명,desc.xml,61,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:62,아이템 설명,desc.xml,62,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:63,아이템 설명,desc.xml,63,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:64,아이템 설명,desc.xml,64,en,I can heal any wound with\nthis.,이걸로 상처를 완전히 치료할 수 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:65,아이템 설명,desc.xml,65,en,Only one dose is left.,한 번 사용할 양밖에 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:66,아이템 설명,desc.xml,66,en,It's a local herb.,이 지방에서 자라는 약초입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:67,아이템 설명,desc.xml,67,en,It's a local herb.,이 지방에서 자라는 약초입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:68,아이템 설명,desc.xml,68,en,It's a local herb.,이 지방에서 자라는 약초입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:69,아이템 설명,desc.xml,69,en,It's a mixture of green\nand red herbs.,녹색 약초와 적색 약초를 조합했습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:70,아이템 설명,desc.xml,70,en,It's a mixture of 2 green\nherbs.,녹색 약초를 2개 조합했습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:71,아이템 설명,desc.xml,71,en,It's a mixture of green\nand blue herbs.,녹색 약초와 청색 약초를 조합했습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:72,아이템 설명,desc.xml,72,en,"It's a mixture of green,\nblue and red herbs.","녹색, 청색, 적색 약초를 모두 조합했습니다.",초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:73,아이템 설명,desc.xml,73,en,It's a mixture of 3 green\nherbs.,녹색 약초를 3개 조합했습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:74,아이템 설명,desc.xml,74,en,It's a mixture of 2 green\nherbs and blue herb.,녹색 약초 2개와 청색 약초를 조합했습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:75,아이템 설명,desc.xml,75,en,Nothing important.,특별히 이상한 점은 없습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:76,아이템 설명,desc.xml,76,en,The battery is still\ncharged.,배터리에 아직 전력이 남아 있습니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:77,아이템 설명,desc.xml,77,en,A sub machine gun loaded\nwith 9mm bullets.,9mm 탄약을 사용하는 기관단총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+desc.xml:78,아이템 설명,desc.xml,78,en, A full-automatic\nlight-weight machine gun.,완전 자동 경량 기관총입니다.,초안,R7 문장 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,fd1e75c8a54f01575401333966e92be2f4160d3be56ea0456972242f4618d0bc
+save2.xml:0,저장 메뉴,save2.xml,0,en,Exit,나가기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:1,저장 메뉴,save2.xml,1,en,Create New,새로 만들기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:2,저장 메뉴,save2.xml,2,en,Load,불러오기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:3,저장 메뉴,save2.xml,3,en,Save,저장하기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:4,저장 메뉴,save2.xml,4,en,Do not load,불러오지 않기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:5,저장 메뉴,save2.xml,5,en,Do not save,저장하지 않기,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:6,저장 메뉴,save2.xml,6,en,Chris,Chris,초안,별도 UI 렌더러 · 표시 미검증,사용자 요청: 불러오기 이름을 원래 ASCII 표시로 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:7,저장 메뉴,save2.xml,7,en,Jill,Jill,초안,별도 UI 렌더러 · 표시 미검증,사용자 요청: 불러오기 이름을 원래 ASCII 표시로 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:8,저장 메뉴,save2.xml,8,en,Proceed to overwrite?,덮어쓰시겠습니까?,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:9,저장 메뉴,save2.xml,9,en,Yes,예,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:10,저장 메뉴,save2.xml,10,en,No,아니요,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:11,저장 메뉴,save2.xml,11,en,M. Room 1F,저택 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:12,저장 메뉴,save2.xml,12,en,Hall 1F,홀 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:13,저장 메뉴,save2.xml,13,en,Courtyard Room B1,정원 지하 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:14,저장 메뉴,save2.xml,14,en,Guardhouse 1F,기숙사 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:15,저장 메뉴,save2.xml,15,en,Laboratory B3,연구소 지하 3층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:16,저장 메뉴,save2.xml,16,en,Storeroom 1F,창고 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:17,저장 메뉴,save2.xml,17,en,Courtyard Path B1,정원 통로 지하 1층,초안,별도 UI 렌더러 · 표시 미검증,영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:18,저장 메뉴,save2.xml,18,en,Chris,Chris,초안,별도 UI 렌더러 · 표시 미검증,저장 파일명 생성용 ASCII 식별자; 번역하지 않음,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+save2.xml:19,저장 메뉴,save2.xml,19,en,Jill,Jill,초안,별도 UI 렌더러 · 표시 미검증,저장 파일명 생성용 ASCII 식별자; 번역하지 않음,ba3b1d61f5158a0bdc8d53b7de6bb0014659910b1498cabbea08258e61b7bfc2
+config.xml:0,조작 설정,config.xml,0,en,Unused,사용 안 함,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:1,조작 설정,config.xml,1,en,Option Screen,설정,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:2,조작 설정,config.xml,2,en,Status Screen,상태 화면,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:3,조작 설정,config.xml,3,en,Run/Cancel,달리기/취소,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:4,조작 설정,config.xml,4,en,Fire/Confirm,공격/확인,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:5,조작 설정,config.xml,5,en,Aim,조준,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:6,조작 설정,config.xml,6,en,Turn Right,오른쪽 회전,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:7,조작 설정,config.xml,7,en,Turn Left,왼쪽 회전,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:8,조작 설정,config.xml,8,en,Backward,뒤로 이동,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:9,조작 설정,config.xml,9,en,Forward,앞으로 이동,초안,R7 문장 렌더러 · 표시 미검증,현재 REbirth 1.1.4 ddraw.dll 내장 DATA/107/1033/config.xml 및 네이티브 메뉴 항목표; 영문 원작 SDK 원문; 리마스터 용어를 참고하되 원작 고유 아이템/약품 번호 유지,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+TEXTM_00.TIM,문서 페이지,ITEM_M2/TEXTM_00.TIM,0,ja (image/OCR),"植物学
+〜茶効をもつ植物について〜
+周知の通り、植物には薬効を持つものが多
+くある。人類は太古から様々な植物を用い
+傷や病を癒してきた。
+本書では、この薬効を持つ植物の例として
+アークレイ山地周辺に自生する三つのハー
+ブを取り上げその概要を述べたいと思う。","식물도감
+─약효를 지닌 식물에 관하여─
+
+잘 알려져 있듯 약효를 지닌 식물은 많다. 인류는 태고부터 다양한 식물로 상처와 병을 치료해 왔다.
+
+이 책에서는 아크레이 산지 주변에 자생하는 세 가지 약초를 예로 들어 그 특성을 설명하고자 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,b77275874aff5f02b707a4fd6c72edb844681e30d8f46ffa5061f2fed8b852ef
+TEXTM_01.TIM,문서 페이지,ITEM_M2/TEXTM_01.TIM,0,ja (image/OCR),"この三つのハーブはそれぞれの色が異なる
+と同様に、それぞれの薬草としての効用も
+異なる。
+緑色のものは人の体力を回復させ、
+青色のものは動物などからうけた毒を消す。
+そして赤色のハーブ。
+これは単独で用いただけでは何ら効果を生
+み出さない。
+赤色のハープは、他のハーブと調合する事
+によって、初めてその効果を発揮する。
+例えば体力を回復するハーブとこのハーブ
+を調合するとその効果は数倍にもなるのだ。
+以上がアークレイに自生する三つのハープ
+についての概要である。
+さらにこの三つのハーブはそれぞれの量を","이 세 약초는 색이 서로 다르듯 약효도 서로 다르다.
+
+녹색 약초는 체력을 회복시키고, 청색 약초는 동물 등으로부터 받은 독을 없앤다.
+
+적색 약초는 단독으로 사용하면 아무 효과도 없다. 다른 약초와 조합해야 비로소 효능을 발휘한다. 예를 들어 체력 회복용 약초와 조합하면 회복 효과가 몇 배로 커진다.
+
+이것이 아크레이에 자생하는 세 약초의 기본적인 특성이다.
+
+또한 이 약초들의 양을 늘리거나…",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,b65fc4aaf0dee62e321aaa83edda1f0600ebac81890d1e14fcf3c44d005ba933
+TEXTM_02.TIM,문서 페이지,ITEM_M2/TEXTM_02.TIM,0,ja (image/OCR),"増やしたり、種類の違うものを組み合わせ
+問合することにより、さまざまな効果の薬
+を作り出すことが出来るのだが、
+それについては実際にあなた自身の手で試
+してほしい。
+それが、本当の知識を得る一番良い方法な
+のだから・・・。
+植靿学
+～業幼をもつ値物について～","종류가 다른 약초를 조합하면 다양한 효과를 지닌 약을 만들 수 있다.
+
+이에 관해서는 여러분이 직접 시험해 보기 바란다.
+
+그것이 진정한 지식을 얻는 가장 좋은 방법이기 때문이다…",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,391f62db5eaf34f950ae0e7e81eb837233f452855bcfd678c6e0e0d2a68bcf68
+TEXTM_L0.TIM,문서 페이지,ITEM_M2/TEXTM_L0.TIM,0,ja (image/OCR),"研究員の遭害
+手紙だ。前半は破られていて判読出来ない。
+残っている部分の内容は以下の通り。","어느 연구원의 유서
+
+편지다. 앞부분은 찢어져 읽을 수 없다.
+
+남아 있는 내용은 다음과 같다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,57e3c8fae4ea05cf8f0ea7556eb978d7bd30790e1d9776eb83cd4d93c067ce9d
+TEXTM_L1.TIM,문서 페이지,ITEM_M2/TEXTM_L1.TIM,0,ja (image/OCR),"そうなんだ、僕は感染している。
+あらゆる手を尽くして見たが、症状の進行
+を数日遅らせるのがやっとだった。
+君が僕の中で日に日に失われていくのが、
+僕には何より耐えられない。
+だから僕はこのまま生ける尻になるよりも
+安らかな死を選んだ。
+一時間後には、僕は二鹿と覚める手のない
+眠りについていることだろう。
+君がこの僕の決断を解ってくれることを切
+た願う！・・。
+さようなら
+君を永遠に愛する
+マーチン＝クラックホーン","그래, 난 감염됐어.
+온갖 방법을 써 봤지만 증상 진행을 며칠 늦추는 게 고작이었어.
+
+내 안에서 네가 하루하루 사라져 간다는 게 무엇보다 견디기 힘들어.
+그래서 살아 있는 시체가 되느니 편안한 죽음을 택했어.
+
+한 시간 뒤면 난 다시는 깨어나지 않을 잠에 들어 있겠지.
+네가 내 결정을 이해해 주길 간절히 바라… 안녕.
+
+널 영원히 사랑하는
+마틴 크랙혼",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,063fa681db4319c32fd645be5c61c3803abe20a06246188c3cc28d1bd4bb0329
+TEXTM_M0.TIM,문서 페이지,ITEM_M2/TEXTM_M0.TIM,0,ja (image/OCR),"研究員の遭音
+僕の甦しいアルマへ
+Juine 3,1998
+この手紙が届いたという事は、僕にとって
+喜ばしい事であり、そして悲しむべき手で
+もある。
+あのサングラス野郎のせいで、君と電話で
+話す事すら出来なかったんだ。
+アルマ、どうか落ち若いてこの手紙を読ん
+でほしい。","어느 연구원의 유서
+
+1998년 6월 3일
+사랑하는 알마에게
+
+이 편지가 도착했다면 내겐 기쁜 일이면서 슬픈 일이기도 해.
+그 선글라스 낀 자식 때문에 너와 전화 통화조차 할 수 없었어.
+알마, 부디 침착하게 이 편지를 읽어 줘.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,f5f515a56789aaf3f17de9b64cbf8efdc84c88d6fd16b0cbe2c277b0e6ac8bf1
+TEXTM_M1.TIM,문서 페이지,ITEM_M2/TEXTM_M1.TIM,0,ja (image/OCR),"僕がある製薬会社の研究所にスカウトされ
+そこに移った手は前に話したと思う。
+実は先月その研究所で故が起って、研究
+中のウイルスが痛れ出してしまったんだ。
+ウイルスに感染した僕の同僚はみんな死ん
+でしまった。
+いや正確には死んでいないかもしれない。
+何故なら、彼らは今も歩き回る事が出来
+るし、現に何人かが今、供の部屋のドア
+を叩いている。
+でも彼らの瞳にもはや知性の光はない。
+あの呪われたウイルスは人間の脳から、
+人間らしさの全て、愛も喜びも恐れもジ
+ョークも永久に消し去ってしまうんだ。
+そしてアルマ、君と過ごした日々さえ。","어느 제약회사 연구소로 스카우트돼 옮겼다는 얘기는 했지.
+지난달 연구소에서 사고가 나 연구 중이던 바이러스가 유출됐어. 감염된 동료들은 모두 죽었어.
+
+아니, 정확히는 죽지 않았을지도 몰라. 아직 걸어 다니고, 지금도 몇 명이 내 방문을 두드리고 있어.
+하지만 그 눈엔 지성이 없어.
+
+그 저주받은 바이러스는 뇌에서 인간다운 모든 것을 영원히 지워 버려. 사랑, 기쁨, 공포, 농담까지.
+그리고 알마, 너와 함께한 날들마저.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,593c63ae002e4c9263e02edd188179e7e5922d0629592ccb0b61cd5a89140be0
+TEXTM_M2.TIM,문서 페이지,ITEM_M2/TEXTM_M2.TIM,0,ja (image/OCR),"そうなんだ、僕は感染している。
+あらゆる手を尽くして見たが、症状の進行
+を数日遅らせるのがやっとだった。
+君が僕の中で日に日に失われていくのが、
+僕には何より耐えられない。
+だから僕はこのまま生ける尻になるよりも
+安らかな死を選んだ。
+一時間後には、僕は二鹿と覚める手のない
+眠りについていることだろう。
+君がこの僕の決断を解ってくれることを切
+た願う！・・。
+さようなら
+君を永遠に愛する
+マーチン＝クラックホーン","그래, 난 감염됐어.
+온갖 방법을 써 봤지만 증상 진행을 며칠 늦추는 게 고작이었어.
+
+내 안에서 네가 하루하루 사라져 간다는 게 무엇보다 견디기 힘들어.
+그래서 살아 있는 시체가 되느니 편안한 죽음을 택했어.
+
+한 시간 뒤면 난 다시는 깨어나지 않을 잠에 들어 있겠지.
+네가 내 결정을 이해해 주길 간절히 바라… 안녕.
+
+널 영원히 사랑하는
+마틴 크랙혼",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,3057c69786040da55d9d7638a100b52fcc129a7d21d6111406aefafd3d124ec1
+TEXTM_N0.TIM,문서 페이지,ITEM_M2/TEXTM_N0.TIM,0,ja (image/OCR),"飼育係の日誌
+May 9, 1998
+夜、答備員のスコットとエリアス、研究員
+のスティーブとポーカーをやった。
+スティーブの奴、やたらついてやがったが
+きっといかさまにちがいねエ。
+俺たちをばかにしやがって。","사육사의 일지
+
+1998년 5월 9일
+밤에 경비원 스캇, 엘리어스, 연구원 스티브와 포커를 쳤다.
+스티브 그 자식, 운이 너무 좋았다. 틀림없이 속임수를 썼을 거다.
+우릴 바보 취급하다니.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,f2eb887a77a7411da35023bc14e17d7c7b2edf1b32f8aca239151aa3d973c12d
+TEXTM_N1.TIM,문서 페이지,ITEM_M2/TEXTM_N1.TIM,0,ja (image/OCR),"May 10, 1998
+今日、研究員のおえら方から新しい化け物
+の世話を頼まれた。皮をひんむいたゴリラ
+のような奴だ。
+生きたえさがいいってんで、豚を投げこん
+だら、奴ら、足をもぎ取ったり内臓を引き
+出したり遊んだあげくやっと食いやがる。
+May 11, 1998
+今朝5時頃、宇宙服みてえな防護衣を着た
+スコットに突然たたき起こされて俺も宇宙
+服を着せられた。
+なんでも、研究所で手故があったらしい。
+研究員の連中ときたら、夜も衰ないで実験
+ばかりやってるからこんな事になるんだ。","1998년 5월 10일
+오늘 연구원 높으신 양반들이 새 괴물을 돌봐 달라고 했다. 가죽을 벗겨 놓은 고릴라 같은 놈이다.
+살아 있는 먹이를 좋아한다기에 돼지를 넣었더니 다리를 뜯고 내장을 꺼내며 놀다가 겨우 처먹더라.
+
+1998년 5월 11일
+새벽 5시쯤 우주복 같은 보호의를 입은 스캇이 날 깨워 나도 그 옷을 입게 했다.
+연구소에 사고가 났다나. 밤에도 안 자고 실험만 하니 이 꼴이 나지.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,8ea5e7521ce7abb35871b281026a02df4caf573a5305e8ebab295e0ef2657b5a
+TEXTM_N2.TIM,문서 페이지,ITEM_M2/TEXTM_N2.TIM,0,ja (image/OCR),"May 12, 1998
+昨日からこのいまいましい宇宙服をつけた
+ままなんで、背中がむれちまって妙にかゆ
+い。
+いらいらするんで、腹いせにあの大どもの
+飯を抜きにしてやった。
+いい気味だ。
+May 13, 1998
+あまりに背中がかゆいんで医務室にいった
+ら、背中たでっけえパンリウコウを貼られ
+た。
+それから、もう俺は宇宙服を着なくていい
+と医者がいった。
+おかげで今夜はよく眠れそうだぜ。","1998년 5월 12일
+어제부터 그 빌어먹을 우주복을 입고 있어 등이 땀에 절어 몹시 가렵다.
+짜증이 나서 화풀이로 개들 밥을 굶겼다. 꼴 좋다.
+
+1998년 5월 13일
+등이 너무 가려워 의무실에 갔더니 커다란 반창고를 붙여 줬다.
+의사가 이제 우주복을 벗어도 된댔다.
+덕분에 오늘 밤엔 푹 잘 수 있겠군.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,2203aa431e90ccdc49f0fee89d8a265b0409f6fcf6f184f9033cafdba09e3a08
+TEXTM_N3.TIM,문서 페이지,ITEM_M2/TEXTM_N3.TIM,0,ja (image/OCR),"May 14, 1998
+朝起きたら、背中だけでなく足にも腫物が
+できてやがった。
+大どものオリがやけに静かなんで、足引き
+ずって見に行ったら数が全然たりねえ。
+めしを三日抜いたくらいで逃げやがって。
+おえら方に見つかったら大変だ。
+May 16, 1998
+昨日、この屋しきから逃げ出そとした研究
+いんが一人、射さつされた、てはなしだ。
+夜、からだ中あついかゆい。
+腕のはれ物
+かきむしたら
+肉がくさり
+落ちやがた。
+いつたいおれどうなて","1998년 5월 14일
+아침에 보니 등뿐 아니라 다리에도 종기가 생겼다.
+개 우리가 조용해 절뚝거리며 가 봤더니 수가 모자란다. 사흘 굶겼다고 도망치다니. 윗사람들이 알면 큰일이다.
+
+1998년 5월 16일
+어제 저택서 도망치려던 연구원 하나가 총 맞아 죽었대다.
+밤 온몸 뜨겁고 가렵다.
+팔 종기 긁으니 살 썩어 떨어져.
+대체 나 어떻게 돼",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,4f6b18583a349e1e5c49e85dd3553fbd09c8aee0c20d26e8155a0d72d73cdd76
+TEXTM_N4.TIM,문서 페이지,ITEM_M2/TEXTM_N4.TIM,0,ja (image/OCR),"May 19, 1998
+やとねつひいたもとてもかゆい
+今日はらへったの、いぬのエサくう
+May 21, 1998
+かゆい
+かゆいスコットー
+ひどいかやなんで
+ころし
+うまかっ
+です。
+きた","1998년 5월 19일
+겨우 열 내렸다 그래도 가렵다
+오늘 배고파서 개 밥 먹는다
+
+1998년 5월 21일
+가렵다 가렵다 스캇 왔다
+못생긴 얼굴이라 죽였
+맛있었 습니다",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,4201b5cd5fbcf00ae28d9283f63cd60711725755324c841361b7ce5cee3e7704
+TEXTM_N5.TIM,문서 페이지,ITEM_M2/TEXTM_N5.TIM,0,ja (image/OCR),"4
+かゆい
+うま
+柏駒学
+～製効をも→柏物につけて〜","4
+
+가려워
+맛있어",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,36e110a46718116cf5103dc3ed7d81aa239f8cb5f58e21b19928b15bd4f239bc
+TEXTM_O0.TIM,문서 페이지,ITEM_M2/TEXTM_O0.TIM,0,ja (image/OCR),"保安部長へのメール
+TOP
+SECRET
+Julhy
+22, 1998
+2:13
+保安部長へ
+Xデイが近づいている。
+一週間以内に、以下の作戦を順に速やか
+に実行せよ。","보안 부장의 메일
+
+극비
+1998년 7월 22일 02:13
+보안 부장에게
+
+X-DAY가 다가오고 있다.
+일주일 안에 다음 작전을 순서대로 신속히 실행하라.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,19b2c241d30fc3f1283cfeaa91051a5b4bb2502c576c3e6fdef17bd4bf767274
+TEXTM_O1.TIM,문서 페이지,ITEM_M2/TEXTM_O1.TIM,0,ja (image/OCR),"1. S.T.A.R.S.を研究所に誘い込みB.O.W.
+（生物兵器）と戦わせ実戦データを得よ。
+2.変異体を含むB.O.Wの胚を、一種につ
+き2個ずつ回収せよ。
+ただし、タイラントは廃棄処分とせよ。
+3.人員・実験動物を含むアークレイ研究
+所の全てを事故に見せかけて処分せよ。
+植靿学
+～茶幼をもつ値物について～","1. S.T.A.R.S.를 연구소로 유인해 B.O.W.(생물 병기)와 싸우게 하고 실전 데이터를 확보하라.
+
+2. 변이체를 포함한 B.O.W.의 배아를 종류별로 두 개씩 회수하라. 단, 타일런트는 폐기한다.
+
+3. 인원과 실험동물을 포함한 아크레이 연구소의 모든 것을 사고로 위장해 처분하라.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,b47bd0c39f796e80dbaf80825743594ddb4b15447707c10838d8e9f51089df0a
+TEXTM_P0.TIM,문서 페이지,ITEM_M2/TEXTM_P0.TIM,0,ja (image/OCR),パスナンバー,패스 넘버,원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,cd169452cfe2fd0d40cf73cdcc98f3751ffefbe408f7b0334cab7bed16d35e5f
+TEXTM_Q0.TIM,문서 페이지,ITEM_M2/TEXTM_Q0.TIM,0,ja (image/OCR),"プラント42のメモ
+あの事故から四日後、ポイント42のプ
+ラントの成長速度には目を見張るものが
+ある。
+他のプラントに比べ、ヒーウイルスの強
+い悪響を受けており、その形状に見合う
+生態は、もはや宿主の植物が何であった
+のか想像することすら困難な程である。","식물 42 보고서
+
+그 사고가 발생한 지 나흘, 포인트 42의 식물 성장 속도가 놀랍다.
+
+다른 식물보다 T-바이러스의 영향을 강하게 받아 형태와 생태가 변했다. 원래 숙주가 어떤 식물이었는지 짐작하기조차 어렵다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,0d258b8372f34af234371894caf7455b0be7ada76b03e1c71d6d8feb3dc6dbc5
+TEXTM_Q1.TIM,문서 페이지,ITEM_M2/TEXTM_Q1.TIM,0,ja (image/OCR),"42の栄養源は二種類ある。
+一つは、地下まで達した根から得ている
+養分だ。
+事故直後、発狂した職員が地下の水槽を
+壊したため、現在地下は水浸しだ。
+そこに流出している何らかの薬品成分が、
+プラント42の急速な成を促進させてい
+る事は想像に難くない。
+さらに地下から伸びたプラント42の一
+部は、ダクトを通り、一階の天井から球根
+状になってぶら下がっている。
+その球根から伸びている何本ものツルが、
+もう一つの養分の入手手段となっている。","식물 42의 영양 공급원은 두 가지다.
+하나는 지하까지 뻗은 뿌리로 흡수하는 양분이다.
+사고 직후 미쳐 버린 직원이 지하 수조를 부숴 지금 지하는 물에 잠겼다.
+흘러나온 어떤 약품 성분이 급성장을 촉진한다는 것은 쉽게 짐작할 수 있다.
+
+식물의 일부는 덕트를 지나 1층 천장에 구근처럼 매달려 있다.
+여기에서 뻗은 여러 덩굴이 또 다른 영양 공급원이다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,952617dee107f58bd721c2c1eda487c19b65a53d0e203f16897217689a39f6bf
+TEXTM_Q2.TIM,문서 페이지,ITEM_M2/TEXTM_Q2.TIM,0,ja (image/OCR),"プラント42は獲物を感知すると、
+丁度イカの触手のように獲物にツルを巻つ
+け動けなくしてから、ツルの裏についてい
+る吸入器で血を吸うのだ。
+しかもそれなりに知能があるらしく、獲物
+を得た時や、睡眠中はツタを扉にからませ、
+外敵の侵入を防いでいる。
+既に数人の職員がその犠性となった。
+May 21, 1998
+ヘンリー＝サートン","식물 42는 먹이를 감지하면 오징어 촉수처럼 덩굴을 감아 움직이지 못하게 한 뒤, 덩굴 뒷면의 흡입기로 피를 빤다.
+
+어느 정도 지능도 있는 듯하다. 먹이를 잡았을 때나 잠을 잘 때는 덩굴로 문을 막아 외부의 침입을 방지한다.
+이미 직원 몇 명이 희생됐다.
+
+1998년 5월 21일
+헨리 사튼",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,8803f8c7dea90c9c84a7da52df61d70c56dd8ed080e162bd637d87288cc94662
+TEXTM_R0.TIM,문서 페이지,ITEM_M2/TEXTM_R0.TIM,0,ja (image/OCR),"ファックス
+送信先街生管理部門統合本部長
+送信元ラクーン特研部災害対策委員会
+このメモランダムは、関係者以外の者が関
+覧することを厳禁する。
+また本書類の内容が了解されしだい破棄さ
+れなければならない。","팩스
+
+수신: 위생 관리부 통합 본부장
+발신: 라쿤 특수 연구부
+      재해 대책 위원회
+
+관계자 이외의 열람을 엄금한다.
+내용을 확인하는 즉시 이 문서를 폐기해야 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,bcaa517a5d65257e3e67f988ba8cd4275af84ce2b76b85bc2265b4bcb67989e1
+TEXTM_R1.TIM,문서 페이지,ITEM_M2/TEXTM_R1.TIM,0,ja (image/OCR),"今回の「セーウイルス」流出の件について、
+当委員会が実地調査を試みたところ被害の
+概算は当初の報告をはるかに上回るもので
+あると推定される。
+第一た、実数についての正確なデータを得
+ることは現状では非常に困難であるが、研
+究員の半数以上は「ヒーウイルス」に被爆し
+た時点で死亡しているとみられる。
+また、生存者のほとんど全ては「セーウイル
+ス」感染者特有の症状が重度に現われてお
+り、死亡者数はさらに増加するものと思わ
+れる。
+第二に問題となるのは、セキュリティーシ
+ステムがかろうじて作動しているものの、
+特務答備隊もほぼ全滅の状況であり、技が
+社の最高機密に居する研究事項が無防備の","이번 T-바이러스 유출을 현지 조사한 결과, 피해는 최초 보고를 훨씬 웃돌 것으로 추정된다.
+
+첫째, 정확한 수치를 파악하기는 매우 어렵지만 연구원 절반 이상이 바이러스에 노출된 시점에 사망한 것으로 보인다.
+생존자 대부분에게 감염자 특유의 중증 증상이 나타나 사망자는 더 늘어날 전망이다.
+
+둘째, 보안 시스템은 가까스로 작동하지만 특수 경비대가 거의 전멸했다. 회사 최고 기밀인 연구 자료가 무방비 상태로…",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,67ee2e58fb8f14dbdf88405c1b777044ecc82d7ab8fdb91fffbc96dd4e240244
+TEXTM_R2.TIM,문서 페이지,ITEM_M2/TEXTM_R2.TIM,0,ja (image/OCR),"まま外部にさらされていることである。
+特にこの点は一刻の猫予もなく対策を講じ
+られたい。
+そして第三の問題として、これは第二の問
+題と重複する点もあるが、実験体の多くが
+その制御を失って暴走している状況である。
+実は、我々が見たところ、研究員のうち実
+験体に殺害されたと思われる死者が決して
+少なくないのである。
+その死体は修殺されたというにふさわしい
+ものであり、奇しくも我々の研究の成功を
+裏付けるものであるが、
+このままでは報道機関に憂慮すべき材料を
+提供してしまう可能性もきわめて高い。
+総じて串態はきわめて深刻である。","외부에 노출돼 있다. 이 문제는 한시도 지체하지 말고 대책을 마련해야 한다.
+
+셋째, 두 번째 문제와도 관련되지만 많은 실험체가 통제를 벗어나 폭주하고 있다.
+연구원 중 실험체에 살해된 것으로 보이는 사망자가 상당수다.
+시신은 학살이라는 말이 어울릴 정도다. 역설적으로 연구의 성공을 입증하지만, 언론에 우려할 만한 자료를 제공할 가능성이 크다.
+
+상황은 전반적으로 매우 심각하다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,680a0faf806a18aaf47caab6929f20faf518b96909daff1e9ef905eaaf021b7c
+TEXTM_R3.TIM,문서 페이지,ITEM_M2/TEXTM_R3.TIM,0,ja (image/OCR),"これらの事をかんがみるに、中途半端な
+「tーウイルス」の際蔽は全く不可能と言わ
+ざるを得ない。望むべきは根本的で早急な
+解決策であると我々は考える。
+特にラクーンにおける、
+州答察やS.T.A.R.S.の介入は迅速なも
+のと思われる。この方面においても何らか
+の手を打つぺきだろう。
+植靿学
+～茶効をもつ値物について～","이상의 사정을 고려할 때 T-바이러스를 어설프게 은폐하는 것은 불가능하다.
+근본적이고 신속한 해결책이 필요하다는 것이 본 위원회의 판단이다.
+
+특히 라쿤 시에서는 주 경찰이나 S.T.A.R.S.가 신속하게 개입할 것으로 예상된다.
+이 방면에도 대책을 마련해야 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,cdaef16f70022e78118a1d42655f5abd18d4e7fd62c6cb5e6f0b3a6516309485
+TEXTM_S0.TIM,문서 페이지,ITEM_M2/TEXTM_S0.TIM,0,ja (image/OCR),"スクラップブック
+狂獣の仕業か？女性バラバラ死体
+RACCOON TIMES MAY 27,1998
+20日午後10時頃、ラクーン市内シダー区マ
+ーブル川の左岸で、20才前後の若い女性の
+死体が発見された。","스크랩북
+
+맹수의 소행인가?
+여성의 토막 시신 발견
+라쿤 타임스 1998년 5월 27일
+
+20일 22시쯤 라쿤 시 시더 구역 마블 강의 왼쪽 강둑에서 20세 안팎의 젊은 여성 시신이 발견됐다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,718f83de05b402455bf686e6ad98759eeba2d7c716fbba15e95a17c252fd3331
+TEXTM_S1.TIM,문서 페이지,ITEM_M2/TEXTM_S1.TIM,0,ja (image/OCR),"ラクーン普察局は、欠如している道体の両
+腕と左足の切断面に、強い力で噛み砕かれ
+たような歯型があることから、グリズリー
+またはそれに類する狂獣の仕業と推定。
+また、残っていた右足の登山靴から、同局
+では、被害者はアークレイを登山中に猛獣
+に襲われて川に転落、先日の増水で流され
+たものとみて、身元の確認を急いでいる。
+アークレイ山地にモンスター現わる
+RACCOON WEEK JUN 16,199
+最近アークレイ山地でモンスターを見たと
+の目製報告が相次ぎ、話題を呼んでいる。
+今までの目製例を総合すると、その外見は
+大に酷似。普段は群れで行動するらしい。","라쿤 경찰은 없어진 양팔과 왼쪽 다리의 절단면에 강한 힘으로 물어뜯은 이빨 자국이 있어, 회색곰 같은 맹수의 소행으로 추정한다.
+남은 오른발의 등산화를 근거로 아크레이 등산 중 습격당해 강에 추락한 뒤 최근 불어난 물에 떠내려온 것으로 보고 신원을 조사 중이다.
+
+아크레이 산지에 괴물 출현
+라쿤 위클리 1998년 6월 16일
+
+최근 괴물 목격담이 잇따른다. 외형은 개와 비슷하고 주로 무리를 지어 다닌다고 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,1222e08c42a037d6c609f4ba727e27013d153bb23176aa37d543ed8e48f023cf
+TEXTM_S2.TIM,문서 페이지,ITEM_M2/TEXTM_S2.TIM,0,ja (image/OCR),"ここまでだと単なる野大のようだが、この
+モンスター、外見からは想像もつかないほ
+ど獰狂で食欲、しかも不死身らしい。
+睡眠を邪魔しなければ大は寝ているってい
+うし、当分アークレイに行くのはよしたほ
+うがよさそうだ。でも、新種の動物を発見
+となれば、一躍君も有名人かもに？
+アークレイ山の怪！山道封鎖
+RACCOON TIIIES JUL 9.1998
+このところ、アークレイ山地での遭難が相
+次いでおり、市当局ではアークレイに至る
+山道を全面的に封鎖することを決定した。","평범한 들개 같지만, 겉모습과 달리 매우 사납고 탐욕스러우며 불사신이라고 한다.
+잠자는 개는 건드리지 말라니, 당분간 아크레이에는 가지 않는 편이 좋겠다. 하지만 신종 동물을 발견하면 당신도 유명해질지 모른다!
+
+아크레이 산의 괴이한 사건!
+산길 폐쇄
+라쿤 타임스 1998년 7월 9일
+
+조난 사고가 잇따르자 시 당국은 아크레이로 향하는 산길을 전면 폐쇄하기로 했다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,2d3ac0025a66dbec422f1c641d9b42c8c68cbb61f20fcda94f07726bf5685da4
+TEXTM_S3.TIM,문서 페이지,ITEM_M2/TEXTM_S3.TIM,0,ja (image/OCR),"また、封鎖と同時に、ラクーン答察局では
+S.T.A.R.S.も使って遭難者の捜索に本格的
+に乗り出す構えであるが、広大な山地のか
+なりの部分を原生林が占めるアークレイで
+の捜索の難航は必至である。
+アークレイ山地で恐ろしい怪物を見た、と
+いう目製報告もあり、遭難者の安否が気づ
+かわれる。
+怕勅学
+～業幼をもつ値物について～","산길 폐쇄와 함께 라쿤 경찰은 S.T.A.R.S.를 투입해 조난자 수색에 본격적으로 나설 방침이다.
+
+그러나 광활한 산지의 상당 부분이 원시림인 아크레이에서는 수색에 난항이 예상된다.
+
+무서운 괴물을 봤다는 목격담도 있어 조난자들의 안전이 우려된다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,a2ca714b7e41664d631ac49c8287b9dee73ab7e0159e1607968aa704ae0e621e
+TEXTM_T0.TIM,문서 페이지,ITEM_M2/TEXTM_T0.TIM,0,ja (image/OCR),"研究所・答備システム資料
+ーB1=
+〇ヘリポート
+ヘリポートの使用は政府関係者及び経営幹
+部に限られる。
+なお、事故発生の際はこの限りではない。","연구소 경비 시스템 자료
+
+─지하 1층─
+
+○ 헬기장
+정부 관계자와 경영 간부만 사용할 수 있다.
+단, 사고 발생 시에는 예외로 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,5f472f269f6d6b7628c145ad4809a9e6517b66dce539f81737640e6cd9835cb0
+TEXTM_T1.TIM,문서 페이지,ITEM_M2/TEXTM_T1.TIM,0,ja (image/OCR),"〇ヘリポート搭乗用通路
+顧問研究員か答備所長の同行がない者の入
+は認められない。
+未確認の侵入者は直ちに射殺せよ。
+〇エレベーター
+緊急災害時には機能を停止させる。
+ーB 2=
+〇映像資料室
+映像資料室を特研部管轄の下に設置する。
+利用に関する裁量権はキース・アーヴィン
+グ室長に委任するものと定める。","○ 헬기장 탑승 통로
+고문 연구원 또는 경비소장과 동행하지 않으면 출입할 수 없다. 미확인 침입자는 즉시 사살한다.
+
+○ 엘리베이터
+재해 발생 시에는 작동을 중지한다.
+
+─지하 2층─
+○ 영상 자료실
+특수 연구부 관할로 설치한다.
+이용에 관한 재량권은 키스 어빙 실장에게 위임한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,866c3e768fae47182c9ae4bb617735c174d1dc5b78390e605bc8d2a6f9950707
+TEXTM_T2.TIM,문서 페이지,ITEM_M2/TEXTM_T2.TIM,0,ja (image/OCR),"-B3ー
+〇串屋（監獄）
+牢屋の使用は街生管理部門がこれを管理す
+る。ウイルスを実験体に投与する場合は、
+顧問研究員（E・スミス、S・ロス、A・
+ウェスカー）の同行を必須とする。
+O3重ロックのドア
+全てのパスコード書類を提示しない者の入
+室を禁ずる。
+パスコード書類は、各ブロックの研究主任
+が専用の出力装置によって作成したもの以
+外を認めない。","─지하 3층─
+
+○ 감옥
+위생 관리부에서 관리한다.
+실험체에 바이러스를 투여할 때는 고문 연구원(E. 스미스, S. 로스, A. 웨스커)의 동행이 필수다.
+
+○ 삼중 잠금문
+모든 패스 코드 문서를 제시하지 않으면 출입할 수 없다.
+각 구역의 연구 주임이 전용 출력 장치로 작성한 문서만 인정한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,0a092fa7818722b63706dd99bc7a36dd19a8ddb732953ad22501b176c52e9bce
+TEXTM_T3.TIM,문서 페이지,ITEM_M2/TEXTM_T3.TIM,0,ja (image/OCR),"〇動力室（動力炉）
+本社派造の監督官以外の者の入室を禁する。
+なお、顧問研究員が特別な指示を受けた時
+はこの限りではない。
+〇パスコード出力装置
+研究主任以外の者が、パスコード出力装置
+を扱うことを禁ずる。
+ーB4=
+◎最重要機密事項
+tーウイルス投与による「タイラント」経
+過報告について、・・
+（以下判読不能）","○ 동력실(동력로)
+본사에서 파견한 감독관만 출입할 수 있다. 단, 고문 연구원이 특별 지시를 받았을 때는 예외다.
+
+○ 패스 코드 출력 장치
+연구 주임 이외의 조작을 금한다.
+
+─지하 4층─
+○ 최중요 기밀
+ T-바이러스 투여에 따른 타일런트 경과 보고에 관하여…
+(이하 판독 불가)",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,a9d938c828e13fb1ba175dc9bf60ccafa0982a8d8de89468d27f22d64fd9e267
+TEXTM_U0.TIM,문서 페이지,ITEM_M2/TEXTM_U0.TIM,0,ja (image/OCR),"研究員の手紙
+親愛なるエイダへ
+Juune 8,1998
+エイダ、いま君がこれを読んでいるという
+事は、私はすでに私でなくなっているとい
+うことだ。
+今日の検査の結果で思った通りの反応が出
+た、陽性だ。
+もうすぐあんな姿になってしまうのかと思","어느 연구원의 편지
+
+1998년 6월 8일
+사랑하는 에이다에게
+
+에이다, 이 편지를 읽고 있다면 난 이미 내가 아닐 거야.
+오늘 검사 결과는 예상대로 양성이었어.
+곧 그런 모습이 된다고 생각하면…",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,4862013a51ba86a9640f6f656d2818473760e1a065aeae36de9caf7d04be2ae8
+TEXTM_U1.TIM,문서 페이지,ITEM_M2/TEXTM_U1.TIM,0,ja (image/OCR),"うと、気が狂いそうになる。
+エイダ、君は今のところ感染していない。
+こんなことはないかもしれないが、もし君
+が最後の一人だったら、映像室に置いてあ
+る資料を持ち、動力室に行って起爆装置を
+作動させた後、ここから脱出して欲しい。
+そしてマスコミを使って、ことの全てを公
+にしてくれ。
+正常に機能していれば、ここのロックは全
+てセキュリティーシステムで解除できる。
+これには小実験にある端末から、私の名
+前でログインし、さらにパスワードを入力
+すればアクセスできるようにしておいた。
+パスワードは「ADA」、君の名だ。
+映像室のあるB 2のロックを解くたは私と
+君の名でアクセスした後、さらにもう一つ
+のパスワードを入力しなければならない。","미쳐 버릴 것 같아.
+에이다, 넌 아직 감염되지 않았어.
+혹시 네가 마지막 생존자가 된다면 영상실 자료를 챙겨 동력실 폭파 장치를 작동시킨 뒤 탈출해 줘.
+그리고 언론에 모든 것을 알려 줘.
+
+정상 작동 중이라면 보안 시스템으로 모든 잠금을 풀 수 있어.
+소실험실 단말기에 내 이름으로 로그인하고 암호를 입력하면 접속할 수 있도록 해 뒀어.
+암호는 ADA, 네 이름이야.
+영상실이 있는 지하 2층 잠금은 우리 이름으로 접속한 뒤 암호 하나를 더 입력해야 해.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,5d462c9b06a5bb129fb456629df3bf96bb0dc855a9469e552abfd07b2bbe2ccb
+TEXTM_U2.TIM,문서 페이지,ITEM_M2/TEXTM_U2.TIM,0,ja (image/OCR),"下に念のため暗号でしるしておいたが、君
+ならすぐにわかるはずだ。
+これが私の最後の頼みだ、もし変わり果て
+た姿の私を見かけたらエイダ、君の手で楽
+にしてくれ。
+PASSWORD= NXNM
+君のJohnより
+植靿学
+～茶効をもつ値物について～","혹시 몰라 아래에 암호로 적어 뒀지만, 너라면 바로 알 수 있을 거야.
+
+이게 내 마지막 부탁이야.
+변해 버린 나를 보게 되면 에이다, 네 손으로 편하게 해 줘.
+
+PASSWORD = [[원본암호]]
+
+너의 존이",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 이미지에서 번역. [[원본암호]]는 원본 TIM의 그림 문자 영역을 그대로 복사하는 자리 표시자다. 암호 해답으로 대체하지 않는다.,3aedb2ddd88c1a70c88fb2217ed8a5dd52086625b9b4f51c8f10821f62d42647
+TEXTM_V0.TIM,문서 페이지,ITEM_M2/TEXTM_V0.TIM,0,ja (image/OCR),"有機化学実験ファイル
+タイラントウイルスに感染し、異常成長し
+た植物の細胞には、いくつかの共通の性寛
+が見られるのは前回のレポートで述べたと
+おりである。
+しかしいくつかの実験で、興味深い事実が
+明らかになった。
+それは、私たちがあの実験で使用した、
+「UMB」系の薬品の一つである「UMB","유기화학 실험 문서
+
+타일런트 바이러스에 감염돼 비정상적으로 성장한 식물 세포에 몇 가지 공통된 특성이 있다는 것은 지난 보고서에 기술했다.
+
+그런데 몇 차례 실험에서 흥미로운 사실이 밝혀졌다.
+우리가 실험에 사용한 UMB 계열 약품 중 하나인…",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,a5f63e58f3fd00bb26c9ea1c29b656e0fa2b41f7b6dc1c9345e0de7198031e34
+TEXTM_V1.TIM,문서 페이지,ITEM_M2/TEXTM_V1.TIM,0,ja (image/OCR),"No.16 」に、これら植物の細胞を、急速
+に死滅させる成分が含まれているという事
+である。
+私たちはこの
+「UMB No.16 」を、
+「V-JOLT」と名付けた。
+計算では、プラント42の場合、根に直接
+「V-JOLT」をかければ、全体が死滅
+するのに5秒もかからない。
+生成はUMB系の薬品をいくつかの手順で
+混合すれば良いのだが、UMB系の特徴と
+して人体に有害なガスを発生する恐れがあ
+るので取扱いたは注意が必要である。","UMB No.16에 이 식물의 세포를 급속히 죽이는 성분이 들어 있었다.
+우리는 이를 V-JOLT라 명명했다.
+
+계산상 식물 42의 뿌리에 직접 투여하면 5초 이내에 전체가 사멸한다.
+
+UMB 계열 약품을 정해진 순서로 혼합하면 생성할 수 있다.
+단, 인체에 유해한 가스를 발생시킬 위험이 있으므로 취급에 주의해야 한다.",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,8875b6e0e70b67bd08e3ec3026a8dc0453aa80ece6759f146f644695d3d677e2
+TEXTM_V2.TIM,문서 페이지,ITEM_M2/TEXTM_V2.TIM,0,ja (image/OCR),"まずUMB系薬品の種類と特徴を簡単に示す。
+UMB No.2 赤　NP-003 紫
+UMB No.4 緑　Yellow-6 黄
+UMB No.7 白　UMB No.13 青
+V-JOLT (UMB No.16) 茶褐色","UMB 계열 약품의 종류와 특징
+
+UMB No.2     적색
+NP-003       보라색
+UMB No.4     녹색
+Yellow-6     황색
+UMB No.7     백색
+UMB No.13    청색
+V-JOLT
+(UMB No.16)  갈색",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,1acedba63771de64b128c9d3d9bcb95a46aaa91a0f77aa6fe6e110e5da0a3a4c
+TEXTM_W0.TIM,문서 페이지,ITEM_M2/TEXTM_W0.TIM,0,ja (image/OCR),パリーの写真,배리의 사진,원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,3f53f8cc89cd2365f2635b76bbf2ef66717d92997b9d256eb9a35ce7ef8accd9
+TEXTM_W1.TIM,문서 페이지,ITEM_M2/TEXTM_W1.TIM,0,ja (image/OCR),"バリーから預かった写真だ
+裏に何か書いてある
+『かわいいモイラとポリーへ
+元気で明るい娘になって、お母
+さんを励ましてくれ。
+父さんはいつでも天国からお前
+達を見守っている。
+パリーニバートン』","배리에게 받은 사진이다.
+뒤에 뭔가 적혀 있다.
+
+사랑하는 모이라와 폴리에게
+
+건강하고 밝게 자라서 엄마에게 힘이 되어 주렴.
+아빠는 언제나 하늘에서 너희를 지켜보고 있을 거야.
+
+배리 버튼",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,b98e88b7d4e17396bc32d15be104d5955b118a697467d859f771229c327ebbb4
+TEXTM_X0.TIM,문서 페이지,ITEM_M2/TEXTM_X0.TIM,0,ja (image/OCR),"パスコード01
+あなたがたがこのことを行い、
+あなたの子、あなたの一人子さえ与える
+ことを差し控えなかったゆえに・・・
+（創世紀 22:16）","패스 코드 01
+
+네가 이렇게 행하여 네 아들, 네 외아들까지도 아끼지 않았으므로…
+
+(창세기 22:16)",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,094494c5ea7732abed702056783f9d8fd2ab59f121deec94def7dee3f16c3547
+TEXTM_Y0.TIM,문서 페이지,ITEM_M2/TEXTM_Y0.TIM,0,ja (image/OCR),"パスコード02
+わたしは確かにあなたを祝福し、あなたの
+眉を確かに殖やして天の星のように、
+海辺の砂の粒のようにする。
+あなたの胤は
+その敵の門を手にいれるだろう。
+（創世紀
+22:17）","패스 코드 02
+
+내가 너에게 복을 주고 네 자손을 하늘의 별처럼, 바닷가의 모래알처럼 많아지게 하리라.
+네 자손은 원수의 성문을 차지하리라.
+
+(창세기 22:17)",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,e860affd33a68a6425f2c0b7acaf6a94f87d662776472e74c328c9677f149919
+TEXTM_Z0.TIM,문서 페이지,ITEM_M2/TEXTM_Z0.TIM,0,ja (image/OCR),"パスコード03
+そして、あなたの胤によって地のすべての
+国の民は必ず白らを祝福するであろう。
+あなたが
+わたしの声に感き従ったからである。
+（創世紀 22:18）","패스 코드 03
+
+네 자손을 통해 땅 위의 모든 민족이 복을 받을 것이다.
+네가 내 말에 순종했기 때문이다.
+
+(창세기 22:18)",원작 이미지 대조 필요,TIM 이미지 교체 · 표시 미검증,원작 일본어 페이지 이미지에서 번역. 원문 열은 OCR 초안이며 원본 이미지 대조 필요. 리마스터 추가 문서/수치로 대체하지 않음.,5c4d77e3b68559ff6f6503d82c52673e48bd19601fffb85e1819f9afd80fe3e6
+FILEM_000.png,문서 PNG 페이지,FILE/FILEM_000.png,0,en (이미지 OCR),"BOTANY
+BOOK
+~ About Medicinal Herbs ～","식물도감
+~약효를 지닌 식물에 관하여~",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_000.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,7877da3a734505f5b703e454bad0a9f065eb3ea9fe011c32663b8eeaf76f716c
+FILEM_001.png,문서 PNG 페이지,FILE/FILEM_001.png,0,en (이미지 OCR),"As you may know, there are many
+plants that have medical
+effects.
+Since ancient times，
+humans have been healing wounds
+and diseases using various
+plants.
+In this book, we're going to
+sample three herbs that grow
+around the Raccoon mountains
+and give their outlines as
+examples of those plants with","잘 알려져 있듯 약효를 지닌 식물은 많다.
+인류는 태고부터 다양한 식물로 상처와
+병을 치료해 왔다.
+
+이 책에서는 아크레이 산지 주변에
+자생하는 세 가지 약초를 예로 들어 그
+특성을 설명하고자 한다.
+
+이 세 약초는 색이 서로 다르듯 약효도
+서로 다르다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_001.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,3ae2a00f488a806e08f7fbf4c056ae032dbb0ac1bddfe9d8d3bfbd823fb84254
+FILEM_002.png,문서 PNG 페이지,FILE/FILEM_002.png,0,en (이미지 OCR),"medical properties.
+Fach berbhhas
+e1tterentcolOYs
+aneciterent
+ettectsasmecica
+plants：
+physIcal strength.
+OneYeCOVPYS
+tbebUeone
+neutrallzes natural toxins，
+Whlethereaber coeslnothave
+any ettect by 1tselt.
+Theredl herb
+is only effective
+Whe t m ea t other
+herbs.","녹색 약초는 체력을 회복시키고, 청색
+약초는 동물 등으로부터 받은 독을 없앤다.
+
+적색 약초는 단독으로 사용하면 아무
+효과도 없다. 다른 약초와 조합해야 비로소
+효능을 발휘한다. 예를 들어 체력 회복용
+약초와 조합하면 회복 효과가 몇 배로
+커진다.
+
+이것이 아크레이에 자생하는 세 약초의
+기본적인 특성이다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_002.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,668326bd98488f0ff76b1f10f9280e0f89f1c5eaee91ec17a68befd10c8103d2
+FILEM_003.png,문서 PNG 페이지,FILE/FILEM_003.png,0,en (이미지 OCR),"or example.
+it you mix this
+theberり
+thatYecovers
+physical strength，
+eTTeCTWJU0R
+By adjusting
+experimenting
+tripled.
+amountand
+WIththeSe
+thYPP
+herbS,vou
+Can createVaYIOUS
+Iincs of medicines
+りひt
+Ueovethe
+vouY hands，
+because
++hatis
+the best way to
+acquIre
+true knowledge.","또한 이 약초들의 양을 늘리거나…
+
+종류가 다른 약초를 조합하면 다양한
+효과를 지닌 약을 만들 수 있다.
+
+이에 관해서는 여러분이 직접 시험해 보기
+바란다.
+
+그것이 진정한 지식을 얻는 가장 좋은
+방법이기 때문이다…",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_003.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,22a14b6069478294653ad6034eac8deeeaac587199062c4fdeea2ea9c5b8a3ea
+FILEM_L00.png,문서 PNG 페이지,FILE/FILEM_L00.png,0,en (이미지 OCR),"RESEARCHER'S
+WILL",어느 연구원의 유서,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_L00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,24b473a35adc854b3eade56243b224396a2bfe082af499b06cb7be1cc7f506c3
+FILEM_L01.png,문서 PNG 페이지,FILE/FILEM_L01.png,0,en (이미지 OCR),"It's
+aretter
+ottheletter
+mne remaining sdyo..
+ISm1ss1np：","편지다. 앞부분은 찢어져 읽을 수 없다.
+
+남아 있는 내용은 다음과 같다.
+
+그래, 난 감염됐어.
+온갖 방법을 써 봤지만 증상 진행을 며칠
+늦추는 게 고작이었어.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_L01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,0de496f7e66a70054dfce63cafe5a4a405f5c52e229bb82523d4290b17039ebb
+FILEM_L02.png,문서 PNG 페이지,FILE/FILEM_L02.png,0,en (이미지 OCR),"Yes,Im intected
+Idid everythingI could，
+but I
+could only delay
+theprogress by
+OTPWCAVS
+rhe most trlghtening
+CBID91S
+that I forget more about you by
+theday.
+SoI chose a peaceful death，
+Yather than becoming the IIving
+dedd：","내 안에서 네가 하루하루 사라져 간다는 게
+무엇보다 견디기 힘들어.
+그래서 살아 있는 시체가 되느니 편안한
+죽음을 택했어.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_L02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,a99986f5bcadde86090c283204259f35688c6ec29203e01250c12eec168e38e3
+FILEM_L03.png,문서 PNG 페이지,FILE/FILEM_L03.png,0,en (이미지 OCR),"Within an hour,I will have
+entered my eternal sleep.
+I do hope you'll understand my
+decision...
+Good Bye and Forever Yours，
+Martin Crackhorn","한 시간 뒤면 난 다시는 깨어나지 않을
+잠에 들어 있겠지.
+네가 내 결정을 이해해 주길 간절히 바라…
+안녕.
+
+널 영원히 사랑하는
+마틴 크랙혼",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_L03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9c68f6fd060594502db9814d2587077fdb4dec8aa5ab4f02efb483d966608b32
+FILEM_M00.png,문서 PNG 페이지,FILE/FILEM_M00.png,0,en (이미지 OCR),"RESEARCHER'S
+WILL",어느 연구원의 유서,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,24b473a35adc854b3eade56243b224396a2bfe082af499b06cb7be1cc7f506c3
+FILEM_M01.png,문서 PNG 페이지,FILE/FILEM_M01.png,0,en (이미지 OCR),"My dear Alma，
+The fact that you have received
+letter Is both a Joy and a
+isaeness tormen
+I1 could not even talk to you
+because ot
+thatsuyIn the
+sunglasses.
+aImd, be calm and
+YeRQth1S
+I think I've told you that I
+moved to a pharmaceutical","1998년 6월 3일
+사랑하는 알마에게
+
+이 편지가 도착했다면 내겐 기쁜 일이면서
+슬픈 일이기도 해.
+그 선글라스 낀 자식 때문에 너와 전화
+통화조차 할 수 없었어.
+알마, 부디 침착하게 이 편지를 읽어 줘.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fd922f9dc2245d77de6aeaac0656d96ab0a4eca1c6e1a60a978847ab52bbe8d7
+FILEM_M02.png,문서 PNG 페이지,FILE/FILEM_M02.png,0,en (이미지 OCR),"company's lab. They headhunted
+me.
+Last month，
+there wasan
+accident in the lab and the virus
+we were studying escaped.
+All my colleagues who were
+infected by the virus are dead.
+To be accurate，
+they've become
+the living dead.
+They still wander around.
+Some of them are knocking on my","어느 제약회사 연구소로 스카우트돼
+옮겼다는 얘기는 했지.
+지난달 연구소에서 사고가 나 연구 중이던
+바이러스가 유출됐어. 감염된 동료들은
+모두 죽었어.
+
+아니, 정확히는 죽지 않았을지도 몰라.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fa9918ab3d5692479fe5dc0c76178e49ba69cedf9a25672601b7ddae1a7b39ee
+FILEM_M03.png,문서 PNG 페이지,FILE/FILEM_M03.png,0,en (이미지 OCR),"room door desperately right now.
+But there's no sign
+of
+intelligence in their eyes.
+That cursed virus
+takes away all
+humanity from the human brain.
+Love,joy，
+sorrow，
+fear.
+humor.
+eternally.
+And Alma，
+eventhememories
+the days I spent with you..
+of","아직 걸어 다니고, 지금도 몇 명이 내
+방문을 두드리고 있어.
+하지만 그 눈엔 지성이 없어.
+
+그 저주받은 바이러스는 뇌에서 인간다운
+모든 것을 영원히 지워 버려. 사랑, 기쁨,
+공포, 농담까지.
+그리고 알마, 너와 함께한 날들마저.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,85754001783ae741d8e1f49b7e0e0d92e7f1d468a2bd685b0dad19a9c16839b3
+FILEM_M04.png,문서 PNG 페이지,FILE/FILEM_M04.png,0,en (이미지 OCR),"Yes,Im intected
+Idid everythingI could，
+but I
+could only delay
+theprogress by
+OTPWCAVS
+rhe most trlghtening
+CBID91S
+that I forget more about you by
+theday.
+SoI chose a peaceful death，
+Yather than becoming the IIving
+dedd：","그래, 난 감염됐어.
+온갖 방법을 써 봤지만 증상 진행을 며칠
+늦추는 게 고작이었어.
+
+내 안에서 네가 하루하루 사라져 간다는 게
+무엇보다 견디기 힘들어.
+그래서 살아 있는 시체가 되느니 편안한
+죽음을 택했어.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,a99986f5bcadde86090c283204259f35688c6ec29203e01250c12eec168e38e3
+FILEM_M05.png,문서 PNG 페이지,FILE/FILEM_M05.png,0,en (이미지 OCR),"Within an hour,I will have
+entered my eternal sleep.
+I do hope you'll understand my
+decision...
+Good Bye and Forever Yours，
+Martin Crackhorn","한 시간 뒤면 난 다시는 깨어나지 않을
+잠에 들어 있겠지.
+네가 내 결정을 이해해 주길 간절히 바라…
+안녕.
+
+널 영원히 사랑하는
+마틴 크랙혼",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_M05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9c68f6fd060594502db9814d2587077fdb4dec8aa5ab4f02efb483d966608b32
+FILEM_N00.png,문서 PNG 페이지,FILE/FILEM_N00.png,0,en (이미지 OCR),"KEEPER'S
+DIARY",사육사의 일지,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,61bb866a6b71b985820ced0f3b4e72928ed0e6bd9217d8a732dd9fe652fc1d1b
+FILEM_N01.png,문서 PNG 페이지,FILE/FILEM_N01.png,0,en (이미지 OCR),"May 9，
+1998
+At nisht.
+weplayed Toker
+WIth
+Seatt
+thP
+guard, AllaS
+aneteVP
+t eYese rc
+Stevewas really uckys
+thInk he Was cheating.
+what a scumeao・
+IbutI","1998년 5월 9일
+밤에 경비원 스캇, 엘리어스, 연구원
+스티브와 포커를 쳤다.
+스티브 그 자식, 운이 너무 좋았다.
+틀림없이 속임수를 썼을 거다.
+우릴 바보 취급하다니.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,54b226a3a6eee703a42e94c9f1d5ef775af5944587fedb13927250032fe67f73
+FILEM_N02.png,문서 PNG 페이지,FILE/FILEM_N02.png,0,en (이미지 OCR),"May 10.1338
+Today，
+a high ranking researcher
+askedl me
+totake
+CRYeOTOnew
+monster
+It looks
+llke a gorllla WIthout
+any skin.
+them JIVeTO0c
+rhey told me to
+TPPQ
+When I threwiir
+a plg, they were playing With
+1t...
+tearing ott the plg S leps
+and pulling out the
+guts betore
+they actually ate 1t.","1998년 5월 10일
+오늘 연구원 높으신 양반들이 새 괴물을
+돌봐 달라고 했다. 가죽을 벗겨 놓은
+고릴라 같은 놈이다.
+살아 있는 먹이를 좋아한다기에 돼지를",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,92da40c4ce34f376662980f01a1dfe0398f490d12d233526f78eb924693d70b6
+FILEM_N03.png,문서 PNG 페이지,FILE/FILEM_N03.png,0,en (이미지 OCR),"MaY ILISJO
+roundl 5oclock
+th1smorning，
+Scott came
+1T
+and woke me up
+suddenly.
+protectlon
+He waswearinga
+aspace SuIt.
+su1tthot
+1J00ks
+like
+He
+tolcme
+てOPしい
+one on as well.
+I heardl there wasanaccidentiin
+the9asementrao
+It's no wonder, those researchers
+never rest，
+even at nlght.","넣었더니 다리를 뜯고 내장을 꺼내며
+놀다가 겨우 처먹더라.
+
+1998년 5월 11일
+새벽 5시쯤 우주복 같은 보호의를 입은
+스캇이 날 깨워 나도 그 옷을 입게 했다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,f6a37b2a5537320aace4d543b69435801ffc82cda2bd4961771be9d09f048b6e
+FILEM_N04.png,문서 PNG 페이지,FILE/FILEM_N04.png,0,en (이미지 OCR),"May 12, 1998
+T've been wearing
+this annoying
+space suit since
+yesterday.
+skin grows musty and feels very
+itchy.
+By way of revenge，
+Ididntteed
+those dogs
+today.
+Now I feel better.","연구소에 사고가 났다나. 밤에도 안 자고
+실험만 하니 이 꼴이 나지.
+
+1998년 5월 12일
+어제부터 그 빌어먹을 우주복을 입고 있어
+등이 땀에 절어 몹시 가렵다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9588f9626c74f98151da756eba97fe384ffc9d78b039edc0c2bfab1e60b6d5f4
+FILEM_N05.png,문서 PNG 페이지,FILE/FILEM_N05.png,0,en (이미지 OCR),"May 13，
+Iwent to
+themecicaroom
+because my back Is all swollen
+and teels Itchy.
+They put a big bandage on my
+back and the doctor tald me I
+aialnot need to wear the Space
+suit any more.
+I guessI can sleep well tonight.","짜증이 나서 화풀이로 개들 밥을 굶겼다.
+꼴 좋다.
+
+1998년 5월 13일
+등이 너무 가려워 의무실에 갔더니 커다란
+반창고를 붙여 줬다.
+의사가 이제 우주복을 벗어도 된댔다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,84998251f3e56dfb5db6ff79f45519992d6b03c67fb76536656627182a682b72
+FILEM_N06.png,문서 PNG 페이지,FILE/FILEM_N06.png,0,en (이미지 OCR),"May 14, 1998
+When I woke up
+this morning, I
+found another blister on my TooC.
+It Was annoying and I ended up
+drdgging my toot as
+Wentto
+the dogsi
+rhey have been
+gulet sInce morning, Which IS
+very unusual.
+Ifoundl that
+ot them had escaped
+beiinreal trouble
+1+the
+higher - ups find
+OUt","덕분에 오늘 밤엔 푹 잘 수 있겠군.
+
+1998년 5월 14일
+아침에 보니 등뿐 아니라 다리에도 종기가
+생겼다.
+개 우리가 조용해 절뚝거리며 가 봤더니",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N06.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,1aaa735816c4c1c793bf37abdf5f360801e6180ead3cd585cd4d31527669ba6d
+FILEM_N07.png,문서 PNG 페이지,FILE/FILEM_N07.png,0,en (이미지 OCR),"MaYI3,1330
+Even though I didni't feel well，
+Idecided to go to see Nancy.
+It's my first day off in a long
+time.
+But I was stopped by the
+guard on
+the Way Out.
+rhey say the company has ordered
+that no one leave the prounds.
+I can't even make a phone call.
+What kind of joke is this ？！","수가 모자란다. 사흘 굶겼다고 도망치다니.
+윗사람들이 알면 큰일이다.
+
+1998년 5월 16일
+어제 저택서 도망치려던 연구원 하나가 총
+맞아 죽었대다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N07.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9225403e8014d4172743f83a019a1df69741bd79036e6593fc83d12ee7e4b4b9
+FILEM_N08.png,문서 PNG 페이지,FILE/FILEM_N08.png,0,en (이미지 OCR),"MayIb-
+heardl a resear cher who
+TYIPC
+to escape trom thIs manslon Was
+shot last night.
+My entire body teels burning and
+1tchy at nlght
+whenIwas scratching the
+swelllng on my arm，
+alump of
+rotten tlesh dropped oTT
+what the hell Is happening to me！","밤 온몸 뜨겁고 가렵다.
+팔 종기 긁으니 살 썩어 떨어져.
+대체 나 어떻게 돼
+
+1998년 5월 19일
+겨우 열 내렸다 그래도 가렵다",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N08.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9c99a18a918fa615f717ab335a3c76a51f6f505718f4c83c6fa06ccb34f0512f
+FILEM_N09.png,문서 PNG 페이지,FILE/FILEM_N09.png,0,en (이미지 OCR),"May 19，
+1998
+leversome
+1tCby.
+hungry and
+PQt
+dogsle
+Itchy1tchy scott came
+Ugly face so killed him.
+Tasty.","오늘 배고파서 개 밥 먹는다
+
+1998년 5월 21일
+가렵다 가렵다 스캇 왔다
+못생긴 얼굴이라 죽였
+맛있었 습니다",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N09.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,021c06e11fa0cce2b2afc3c88c020f3415250f5a72ae6fcd6bcc41533bf64ed9
+FILEM_N10.png,문서 PNG 페이지,FILE/FILEM_N10.png,0,en (이미지 OCR),"Itchy
+Tasty","4
+
+가려워
+맛있어",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_N10.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fd0ef9aefe5c48e2e88848a58dfea21369e4eea7f0b840feeb94743113a75536
+FILEM_O00.png,문서 PNG 페이지,FILE/FILEM_O00.png,0,en (이미지 OCR),ORDERS,보안 부장의 메일,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_O00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,ea11c18ccf6e39c6768377161a30e2d2e00b18b3d1d89d04bcfa047cdbdaffb7
+FILEM_O01.png,문서 PNG 페이지,FILE/FILEM_O01.png,0,en (이미지 OCR),"TOP SECRET
+July 22, 1998
+To the Head of the Security
+Department
+""X-day"" is
+approaching.
+Complete
+the following orders
+within the weelk","극비
+1998년 7월 22일 02:13
+보안 부장에게
+
+X-DAY가 다가오고 있다.
+일주일 안에 다음 작전을 순서대로 신속히",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_O01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,871fecb0fde6d00a47791989ed8fc4af7faec0ec35dd9d3104b6f3348270402b
+FILEM_O02.png,문서 PNG 페이지,FILE/FILEM_O02.png,0,en (이미지 OCR),"1.Lure
+themembersof STRS
+intothelab anaiave them
+tlght wIth the b.o.w. In order
+toostaineataotaetual
+battles.
+2Colllec+ two
+embrvosper
+BOW
+tvpe making sure to Include all
+specles except tor
+Ivrant.","실행하라.
+
+1. S.T.A.R.S.를 연구소로 유인해
+B.O.W.(생물 병기)와 싸우게 하고 실전
+데이터를 확보하라.
+
+2. 변이체를 포함한 B.O.W.의 배아를",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_O02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,7ce53125f28645370d27178371de5deb6e47f5e22b07206f42d11e469a013ae8
+FILEM_O03.png,문서 PNG 페이지,FILE/FILEM_O03.png,0,en (이미지 OCR),"3.Destroy the Arkley
+lab
+including all researchers
+and
+lab animals in a manner which
+willseem accidental.
+White Umbrella","종류별로 두 개씩 회수하라. 단,
+타일런트는 폐기한다.
+
+3. 인원과 실험동물을 포함한 아크레이
+연구소의 모든 것을 사고로 위장해
+처분하라.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_O03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,ee9aaa68cfbb3532debbe1ed797bcba7b195bdf78e04afebc293237cb4e8053b
+FILEM_P00.png,문서 PNG 페이지,FILE/FILEM_P00.png,0,en (이미지 OCR),PASS NUMBER,패스 넘버,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_P00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,ad98e75f5cbb33bad3807a969c951e052a3d48efda24fcb59be3399974c2e5ea
+FILEM_P01.png,문서 PNG 페이지,FILE/FILEM_P01.png,0,en (이미지 OCR),,,원문 없음/제어 슬롯,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_P01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,cf19974cf65bd7214d41e166bd138edccc616f0c9d5cd318acdf5c3cce3b5df4
+FILEM_Q00.png,문서 PNG 페이지,FILE/FILEM_Q00.png,0,en (이미지 OCR),"PLANT 42
+REPORT",식물 42 보고서,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fece6bd7ee1cb1710d1f0e521d9c7664fae8edfed9676f2c6cb7dc9869e03eab
+FILEM_Q01.png,문서 PNG 페이지,FILE/FILEM_Q01.png,0,en (이미지 OCR),"4 days have
+passed since the
+accident and the plant at Point
+42 is
+growing amazingly fast.
+It has been eftected by the
+T-Virus differently than other
+plants have been and shows
+unique shape in addition to its
+size.
+Looking
+at the way it
+behaves, it is now difficult to
+determine what kind of plant it
+Was originally.","그 사고가 발생한 지 나흘, 포인트 42의
+식물 성장 속도가 놀랍다.
+
+다른 식물보다 T-바이러스의 영향을 강하게
+받아 형태와 생태가 변했다. 원래 숙주가
+어떤 식물이었는지 짐작하기조차 어렵다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,b60f1843f954f134e651d24579d5ee87f37450de225d0527b3af2a2daf28e70b
+FILEM_Q02.png,문서 PNG 페이지,FILE/FILEM_Q02.png,0,en (이미지 OCR),"There are two waysin which
+Plant 42 gathers nutrition.
+The first one lis through its
+root that reaches into the
+basement.
+Imm ediately after the accident.
+a scientist went mad and broke
+the watey tank in the basement.
+Now the basement is filled with
+water.
+It is easily imaginable that
+some chemical elements were","식물 42의 영양 공급원은 두 가지다.
+하나는 지하까지 뻗은 뿌리로 흡수하는
+양분이다.
+사고 직후 미쳐 버린 직원이 지하 수조를
+부숴 지금 지하는 물에 잠겼다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9925e18b0aedfb3aa6d4a0507f10d22c0b8098b722197005e29ef5bbf19fa866
+FILEM_Q03.png,문서 PNG 페이지,FILE/FILEM_Q03.png,0,en (이미지 OCR),"blended in the water and
+promotes the incredibly fast
+growth of Plant 42
+Another part of Plant 42 from
+the basement grows
+through the
+duct and hangs down like so
+many bulbs from the ceiling of
+the first floor.
+Many vines come
+out of those bulbs and they are
+thesecond resource tor its
+nutrition.","흘러나온 어떤 약품 성분이 급성장을
+촉진한다는 것은 쉽게 짐작할 수 있다.
+
+식물의 일부는 덕트를 지나 1층 천장에
+구근처럼 매달려 있다.
+여기에서 뻗은 여러 덩굴이 또 다른 영양
+공급원이다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,319c0bda3f3d0d609fd977d24de074b791be3a8412873e90cefd14f1eb1d0077
+FILEM_Q04.png,문서 PNG 페이지,FILE/FILEM_Q04.png,0,en (이미지 OCR),"Once sensIng movement, Flant 42
+ishoots its Vinesaroune the
+prey and holds 1t.
+starts sucking
+up blood，
+using
+the Suekers0cateaat
+theっacK
+otits Vine
+It also has some Intelllgence.
+It blocks the door by twining Its
+Vines around It especlally when
+It captures prey or Is sleeping.","식물 42는 먹이를 감지하면 오징어
+촉수처럼 덩굴을 감아 움직이지 못하게 한
+뒤, 덩굴 뒷면의 흡입기로 피를 빤다.
+
+어느 정도 지능도 있는 듯하다. 먹이를",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fb32bb16633ad6ded1993f2dc6a7e22c03473717f2fa200e1db4124b00cc35a6
+FILEM_Q05.png,문서 PNG 페이지,FILE/FILEM_Q05.png,0,en (이미지 OCR),"eVeralStattmembersbhavp
+already tallen Victims to this.
+May 21 ，
+1998
+Henry Sartor","잡았을 때나 잠을 잘 때는 덩굴로 문을
+막아 외부의 침입을 방지한다.
+이미 직원 몇 명이 희생됐다.
+
+1998년 5월 21일
+헨리 사튼",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Q05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,83faf08644c393541ac60ad3ae145b4583e15bfbbbc8682d8555ad3cf2151921
+FILEM_R00.png,문서 PNG 페이지,FILE/FILEM_R00.png,0,en (이미지 OCR),FAX,팩스,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,77389fb5ffb732303181a9aace13af2963f8ed3e83f1106967e4cd897c6c1344
+FILEM_R01.png,문서 PNG 페이지,FILE/FILEM_R01.png,0,en (이미지 OCR),"To：
+General Manager of Sanitation
+Division
+From：
+Special Committee on Disasters
+Raccoon Special Research Dept.
+This memorandum iis strictly
+confidential and must be
+destroyed as soon as
+1t s
+understood.","수신: 위생 관리부 통합 본부장
+발신: 라쿤 특수 연구부
+      재해 대책 위원회
+
+관계자 이외의 열람을 엄금한다.
+내용을 확인하는 즉시 이 문서를 폐기해야
+한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,e59de4c6b8423a5aa88fa23f629e6acdd34a13eb4a974eb8765b291befa933cc
+FILEM_R02.png,문서 PNG 페이지,FILE/FILEM_R02.png,0,en (이미지 OCR),"Regarding
+tbe
+""T-Virus ” outbreak
+which occured recently，
+this
+Committee conducted a field
+survey.
+According
+t〇
+the survey
+results, estimates on
+the amount
+of damage caused by the accident
+are considerably greater than
+reported earlier.
+First，
+although it is very
+difficult to
+obtain accurate
+data in terms of actual numbers，","이번 T-바이러스 유출을 현지 조사한 결과,
+피해는 최초 보고를 훨씬 웃돌 것으로
+추정된다.
+
+첫째, 정확한 수치를 파악하기는 매우
+어렵지만 연구원 절반 이상이 바이러스에
+노출된 시점에 사망한 것으로 보인다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,2240cbed96191781f3286b3a1dd4b9cdb8afa54dc7d2985635e6dbd52405438d
+FILEM_R03.png,문서 PNG 페이지,FILE/FILEM_R03.png,0,en (이미지 OCR),"It1s thought that more than
+half of the
+resear chersdiedl
+atter exposure to
+t e
+T-Virus.
+The body
+count W1llmostlIkery
+IDCYPRSP
+sInce nearly all ot the
+SUYVIVOYS
+showsvmptoms pecullar
+to the
+T-Virusd
+Second，
+our securIty sVstem 1S
+still in operation.
+HOweveg
+our specldl security guard squad
+has been nearry
+destroyed","생존자 대부분에게 감염자 특유의 중증
+증상이 나타나 사망자는 더 늘어날
+전망이다.
+
+둘째, 보안 시스템은 가까스로 작동하지만
+특수 경비대가 거의 전멸했다. 회사 최고
+기밀인 연구 자료가 무방비 상태로…",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,4f14d6050799887a00d0e29a4f831103bec077e4a9b403b38995abd493a1d6d2
+FILEM_R04.png,문서 PNG 페이지,FILE/FILEM_R04.png,0,en (이미지 OCR),"Becausel
+of that,research
+information
+consldered by Our
+company to be top secret
+LAS
+oeenlmaceavouaole to
+outs1ders.
+GOUnteY - MeRSUYeS IShOU
+taken
+as soon as possIble.
+Finally
+many ofthe
+tsubiects ”
+trom the experiment have
+escaped and are out ot control.","외부에 노출돼 있다. 이 문제는 한시도
+지체하지 말고 대책을 마련해야 한다.
+
+셋째, 두 번째 문제와도 관련되지만 많은
+실험체가 통제를 벗어나 폭주하고 있다.
+연구원 중 실험체에 살해된 것으로 보이는
+사망자가 상당수다.
+시신은 학살이라는 말이 어울릴 정도다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,078ee6ebf5c9dbf69f68ebd8ecf89940eb651bf5098318160af39d495b08203a
+FILEM_R05.png,문서 PNG 페이지,FILE/FILEM_R05.png,0,en (이미지 OCR),"ebelievethat some Yesearchers
+were killed by these
+subiectsi
+ane theIYIDOc1es WeYe
+mut atea
+DV CUYIOUS
+co1nc1dence.
+theSP
+eventsaYe
+proot ot the
+SUcCP9s
+ot OuYrese rC
+However，
+tDPYP
+ISalso a very hlgh rIsk
+that
+thIs news may be leaked to
+press IT we don t act
+1mmedlately.","역설적으로 연구의 성공을 입증하지만,
+언론에 우려할 만한 자료를 제공할
+가능성이 크다.
+
+상황은 전반적으로 매우 심각하다.
+
+이상의 사정을 고려할 때 T-바이러스를",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,5ffa0c70d20bf25747ed5249b469a3b1f665a0895cf32d0b8a9976a50df1e9f4
+FILEM_R06.png,문서 PNG 페이지,FILE/FILEM_R06.png,0,en (이미지 OCR),"hecon ditioniis
+ISPYIOUSI
+Our operatlon to
+uOvErーめe
+t P
+sItuatlon Is dlttlcult to attain，
+however we hope the
+problem
+りp
+solved GUICKIY.
+especldlly concerned
+thentate
+Policeandl Sresare
+1nterven1ng
+too QUICKIY.
+eneeetoacton
+TD1S
+S1tUat10n
+Well：","어설프게 은폐하는 것은 불가능하다.
+근본적이고 신속한 해결책이 필요하다는
+것이 본 위원회의 판단이다.
+
+특히 라쿤 시에서는 주 경찰이나
+S.T.A.R.S.가 신속하게 개입할 것으로
+예상된다.
+이 방면에도 대책을 마련해야 한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_R06.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,86b3501be9ab0fe62bc7efd651ae866e40008013fd6c1382612c61f9f6110ffa
+FILEM_S00.png,문서 PNG 페이지,FILE/FILEM_S00.png,0,en (이미지 OCR),SCRAPBOOK,스크랩북,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,3973287bb972a33820b8c265b891acdaa2311717bd4ef79b1b81fbe59eb20803
+FILEM_S01.png,문서 PNG 페이지,FILE/FILEM_S01.png,0,en (이미지 OCR),"RACCOON TIMES MAY 27.1998
+ANIMAL ATTACK? WOMAN MUTIL ATED
+May 20.
+Around 10 PM a 20-year
+old young woman's body was found
+by a passer-by
+on the left bank
+of Marble River in the Cider
+District of Raccoon City.","맹수의 소행인가?
+여성의 토막 시신 발견
+라쿤 타임스 1998년 5월 27일
+
+20일 22시쯤 라쿤 시 시더 구역 마블 강의
+왼쪽 강둑에서 20세 안팎의 젊은 여성
+시신이 발견됐다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,e08d62173b5b3691e76193b09c8086a3d41c7ac067e0a42e42395aee2615641d
+FILEM_S02.png,문서 PNG 페이지,FILE/FILEM_S02.png,0,en (이미지 OCR),"Kaccoon pollce assume It to be
+YIZZI OY other
+animal's doing
+because
+thereareteethmarks
+along her mutllated arms
+ane
+ett土00tthat
+Show consic era p
+90WPY
+Since she was wearing a
+hlk1ng boot on
+herremaining
+foot.
+1tosbeenlceterminee
+that she Was attacke
+arklay mountains
+and fell into the
+river.
+Ihey are burrying
+identity this woman.","라쿤 경찰은 없어진 양팔과 왼쪽 다리의
+절단면에 강한 힘으로 물어뜯은 이빨
+자국이 있어, 회색곰 같은 맹수의 소행으로
+추정한다.
+남은 오른발의 등산화를 근거로 아크레이
+등산 중 습격당해 강에 추락한 뒤 최근
+불어난 물에 떠내려온 것으로 보고 신원을
+조사 중이다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,ba3550cf639384e23d81385d976103ae11af4c80d1607e85a95f7cf0990da9fd
+FILEM_S03.png,문서 PNG 페이지,FILE/FILEM_S03.png,0,en (이미지 OCR),"RACCOON WEEALY JUNE 1O,193C
+MONSTERSTI ARKLAY MOUNIAIS？
+Some people
+claim they veseen
+monsters in the Arklay
+mountalns.
+The monsters are Supposedly
+about thesame
+sIze aslarge
+dogs and usually run in apack
+CSWOIVeSCO","아크레이 산지에 괴물 출현
+라쿤 위클리 1998년 6월 16일
+
+최근 괴물 목격담이 잇따른다. 외형은 개와
+비슷하고 주로 무리를 지어 다닌다고 한다.
+
+평범한 들개 같지만, 겉모습과 달리 매우",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,c580f887eed65a9aa3bf42d3cea3a062cfeb2fc925a3f65c50f40055e679e071
+FILEM_S04.png,문서 PNG 페이지,FILE/FILEM_S04.png,0,en (이미지 OCR),"This may sound like a group of
+ordinary wild dogs，
+but these
+monsters are
+surprisingly fierce
+and hard to
+hurt.
+They say
+these dogs won't bother
+you unless you wake them.
+so you
+smart readers should stay out of
+the Arklay Mountains for
+the
+time being.
+But if you re looking for
+adventure ，
+check it out.
+You
+wanna try ？","사납고 탐욕스러우며 불사신이라고 한다.
+잠자는 개는 건드리지 말라니, 당분간
+아크레이에는 가지 않는 편이 좋겠다.
+하지만 신종 동물을 발견하면 당신도
+유명해질지 모른다!
+
+아크레이 산의 괴이한 사건!
+산길 폐쇄",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,260d2a727c2a800aa22a4e03d5e44d3e955c3bd5e25544c95ce6fdc9d8f870cb
+FILEM_S05.png,문서 PNG 페이지,FILE/FILEM_S05.png,0,en (이미지 OCR),"RACCOON TIMES JULY 9,1998
+MYSTERY ON ARKLAY MOUNTAINS！
+MOUNTAIN ROAD BLOCKED
+Due to successive disasters in
+the Arklay Mountains ，
+the city
+authorities have decided to
+block the road leading to
+the
+foothills.","라쿤 타임스 1998년 7월 9일
+
+조난 사고가 잇따르자 시 당국은
+아크레이로 향하는 산길을 전면
+폐쇄하기로 했다.
+
+산길 폐쇄와 함께 라쿤 경찰은
+S.T.A.R.S.를 투입해 조난자 수색에",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,56a490cc4f91d53bd19f1c04260dec153c23f12df664f01f4ebc82eba71f7dbd
+FILEM_S06.png,문서 PNG 페이지,FILE/FILEM_S06.png,0,en (이미지 OCR),"+tnersametime.
+Kaccoonpollcel
+Intend to begin
+thesearchtOr
+lost people With the help ot
+STRRSteammembers
+rhey expect
+reat dltticulty because ot the
+vast size of Arklay Mountains
+and the primeval torest that
+COVeYsmostot theareo
+AIso people are stlll reporting
+s1ghtlngs ot protesque monsters
+In the mountains.","본격적으로 나설 방침이다.
+
+그러나 광활한 산지의 상당 부분이
+원시림인 아크레이에서는 수색에 난항이
+예상된다.
+
+무서운 괴물을 봤다는 목격담도 있어
+조난자들의 안전이 우려된다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_S06.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,69b2e5d66ade6e21f5263b1932aaeb868fa44fc23f62502185d10d87e7bd7fda
+FILEM_T00.png,문서 PNG 페이지,FILE/FILEM_T00.png,0,en (이미지 OCR),"SECURITY
+SYSTEM",연구소 경비 시스템 자료,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,2317feef54ccf5263c2a3c9808bf5dac234e1a9f7365391dfffcfe4129ac1798
+FILEM_T01.png,문서 PNG 페이지,FILE/FILEM_T01.png,0,en (이미지 OCR),"- BASEMENIIEVEIIー
+FIIICOPTER PORI
+Fxecutives
+anedGovernment
+Officials only on helicopter
+port.
+This restriction may not apply
+In case ot an accldent.","─지하 1층─
+
+○ 헬기장
+정부 관계자와 경영 간부만 사용할 수 있다.
+단, 사고 발생 시에는 예외로 한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,aebf4cb365c25dc24ce122e230488c30f24ba50190918232af9e4d276eb59b97
+FILEM_T02.png,문서 PNG 페이지,FILE/FILEM_T02.png,0,en (이미지 OCR),"PASSAGE TO THE HELICOPTER
+Tooneiis
+auOweetoenter
+unless they are attended by a
+Kesearch Consultant or becurIty
+Director.
+llothers will lbeshhot on
+sight.","○ 헬기장 탑승 통로
+고문 연구원 또는 경비소장과 동행하지
+않으면 출입할 수 없다. 미확인 침입자는
+즉시 사살한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fb861bd043e3dd5d96695d395c14e4a2c59b97d46f09b0239fa71c33ef95d707
+FILEM_T03.png,문서 PNG 페이지,FILE/FILEM_T03.png,0,en (이미지 OCR),"ELEVATOR
+The elevator stops during
+emergencies.","○ 엘리베이터
+재해 발생 시에는 작동을 중지한다.
+
+─지하 2층─
+○ 영상 자료실",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,1444fd66446280bebafda0064fad7de8ffd0fd78c882947c5e32166efe2d4465
+FILEM_T04.png,문서 PNG 페이지,FILE/FILEM_T04.png,0,en (이미지 OCR),"-BASEMENT LEVEL 2-
+VISUAL DATA ROOM
+is ualD ata Room iis within the
+control Ot speclal Kesearch
+Division.
+helth arving
+the
+Room Manager，
+ISdeslgnated to
+have jurisdiction
+OVerY00m
+usage.","특수 연구부 관할로 설치한다.
+이용에 관한 재량권은 키스 어빙 실장에게
+위임한다.
+
+─지하 3층─",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,69c9f8695f1b2980a7e7ef85e969bcd6a1707b4429c4edd97583b35b32433863
+FILEM_T05.png,문서 PNG 페이지,FILE/FILEM_T05.png,0,en (이미지 OCR),"- BASEMENT LEVEL 3 -
+PPISON
+SanitationDDivision controls the
+us dge ot the prIson.
+Consultant
+Researchers（ E.Smith,3. Ross，
+A.Wesker must be present 1t
+VIYUSISUSPR","○ 감옥
+위생 관리부에서 관리한다.
+실험체에 바이러스를 투여할 때는 고문
+연구원(E. 스미스, S. 로스, A. 웨스커)의",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T05.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,0298ec61decaf622e5a8d4088d195a4c067f2a2184435c747aa48766645ed732
+FILEM_T06.png,문서 PNG 페이지,FILE/FILEM_T06.png,0,en (이미지 OCR),"TRIPLE LOCK DOOR
+No one
+1SQiOweeto
+enter
+unless he presents all pass code
+documents
+CocecocumentslmustDp
+CreateeOn
+theSpecldllzed
+output machine by
+theCh1et
+Kesearcher ot each block.","동행이 필수다.
+
+○ 삼중 잠금문
+모든 패스 코드 문서를 제시하지 않으면
+출입할 수 없다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T06.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9b034ff32762dc41feae0e058f13e3f66b899ac34b65452642fa6e890af8bf4e
+FILEM_T07.png,문서 PNG 페이지,FILE/FILEM_T07.png,0,en (이미지 OCR),"POWER ROOM
+Only Headquarters Supervisors
+may enter.
+This restriction may not apply
+if the Consultant Researcher has
+received special instructions.","각 구역의 연구 주임이 전용 출력 장치로
+작성한 문서만 인정한다.
+
+○ 동력실(동력로)
+본사에서 파견한 감독관만 출입할 수 있다.
+단, 고문 연구원이 특별 지시를 받았을",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T07.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,69d8d9a69e2e254eba93835471dce7c766f0cb38ecdbce392894b472f55f34b3
+FILEM_T08.png,문서 PNG 페이지,FILE/FILEM_T08.png,0,en (이미지 OCR),"PASS CODE OUTPUT MACHINE
+No one is alllowedl to use the
+0GSS
+code Output machine but
+ChiefResearchhers","때는 예외다.
+
+○ 패스 코드 출력 장치
+연구 주임 이외의 조작을 금한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T08.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,07c192a16db9871a46e643dc14b7cd1876dc9e3fa3ebc237646e9df7b51bb9ca
+FILEM_T09.png,문서 PNG 페이지,FILE/FILEM_T09.png,0,en (이미지 OCR),"- BASEMENT LEVEL 4 -
+TOP SECRET
+Regarding the progress of
+""e Tyrant ” after the use of
+t- virus..（Remaining document is
+unreadable ）","─지하 4층─
+○ 최중요 기밀
+ T-바이러스 투여에 따른 타일런트 경과
+보고에 관하여…
+(이하 판독 불가)",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_T09.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,f4096719bce89ad4a1b37cebc6bbf36ff0f9323c3a994ed80d71e5d994847c84
+FILEM_U00.png,문서 PNG 페이지,FILE/FILEM_U00.png,0,en (이미지 OCR),RESEARCHER'S,어느 연구원의 편지,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_U00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,d7650dd644ebd07f0877f75b260b4563c927ac66199518ae2d47bedc1c6a34d3
+FILEM_U01.png,문서 PNG 페이지,FILE/FILEM_U01.png,0,en (이미지 OCR),"June 8，
+bear Adas
+hda .
+by
+the tlme vou read thIs-
+Tll be something.. different
+Today s test turned out to be
+pos1tIve，
+Just asI expected
+IfeelDike
+go1ng Crazy When I
+think about becoming one ot","1998년 6월 8일
+사랑하는 에이다에게
+
+에이다, 이 편지를 읽고 있다면 난 이미
+내가 아닐 거야.
+오늘 검사 결과는 예상대로 양성이었어.
+곧 그런 모습이 된다고 생각하면…",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_U01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,b76fd1499220d6b5ed4a55681d1accadcf939aed4b828efdc5286385f9464de9
+FILEM_U02.png,문서 PNG 페이지,FILE/FILEM_U02.png,0,en (이미지 OCR),"Ada , you re not intected and I
+hope vou never WIll be .
+In case you re
+thP
+astonp
+1pナtっ
+takethematerial
+the
+is ualData Room
+t P
+PowerRoom
+to operate
+t P
+Triggering System before you
+escape.
+and make all this publlc
+thyough
+the medla.","미쳐 버릴 것 같아.
+에이다, 넌 아직 감염되지 않았어.
+혹시 네가 마지막 생존자가 된다면 영상실
+자료를 챙겨 동력실 폭파 장치를 작동시킨
+뒤 탈출해 줘.
+그리고 언론에 모든 것을 알려 줘.
+
+정상 작동 중이라면 보안 시스템으로 모든",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_U02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,62409bc63b8c3b2da565a9b979fdf67005a7984d9c34f3dfbf17cbf4a7381aeb
+FILEM_U03.png,문서 PNG 페이지,FILE/FILEM_U03.png,0,en (이미지 OCR),"teverything
+1sIn order, all
+thP
+1JOCKS
+Can
+be opened by
+t P
+securItysvstem.
+3OUCan
+thesystem はvou
+lopInWItb
+name from
+t P
+teyminalinthe
+smaliab and
+enter
+thP
+I9QSSWOYC
+Ihe password 1S
+To unlock the
+OUN
+nQmp
+oom
+1slocated s
+you ll need to access with our
+names first and then
+enter
+another password.","잠금을 풀 수 있어.
+소실험실 단말기에 내 이름으로
+로그인하고 암호를 입력하면 접속할 수
+있도록 해 뒀어.
+암호는 ADA, 네 이름이야.
+영상실이 있는 지하 2층 잠금은 우리
+이름으로 접속한 뒤 암호 하나를 더
+입력해야 해.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_U03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,a0a38b6e3a94ccb0572aa4bbc21359fb9358cfa2f3366e90393a1a98a8212def
+FILEM_U04.png,문서 PNG 페이지,FILE/FILEM_U04.png,0,en (이미지 OCR),"T've written the code below.
+I'm sure you'1l understand it
+easily.
+And this is my last hope- if
+you find me
+completely changed，
+please kill me yourself.
+PASSWORD=MタトM
+Yours, John","혹시 몰라 아래에 암호로 적어 뒀지만, 너라면 바로 알 수 있을 거야.
+
+이게 내 마지막 부탁이야.
+변해 버린 나를 보게 되면 에이다, 네 손으로 편하게 해 줘.
+
+PASSWORD = [[원본암호]]
+
+너의 존이",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_U04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,51bf57050a0e3638900637730dd7eeedbe577e1b4867e5052d52d1f659a946a0
+FILEM_V00.png,문서 PNG 페이지,FILE/FILEM_V00.png,0,en (이미지 OCR),"""V-JOLT ” REPORT",유기화학 실험 문서,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_V00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,2096c38253ae83c5777fa965011ae3483856687d5b71efb2b9a76fc9aab4c44c
+FILEM_V01.png,문서 PNG 페이지,FILE/FILEM_V01.png,0,en (이미지 OCR),"AsI stated in the
+last report，
+there aresome
+common features
+tound in
+the cells of the plant
+infected by
+the Tyrant virus.
+We also have
+tound
+another
+interesting fact
+through some
+experiments.
+We found an element that
+destroys these plant
+CPUS
+rapidly in
+""E UMB No. 16 39
+one of
+the series of UMB chemicals
+that we used for
++hat","타일런트 바이러스에 감염돼 비정상적으로
+성장한 식물 세포에 몇 가지 공통된 특성이
+있다는 것은 지난 보고서에 기술했다.
+
+그런데 몇 차례 실험에서 흥미로운 사실이
+밝혀졌다.
+우리가 실험에 사용한 UMB 계열 약품 중",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_V01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,79db7a616306beed651caa21e03940a5be7f948d2cafb1399a2f75bb37250d17
+FILEM_V02.png,문서 PNG 페이지,FILE/FILEM_V02.png,0,en (이미지 OCR),"experiment.
+enamee th1s
+V-JOLT.
+ouycaiculatlOn
+IPSS
+SeConQs
+Plant 42 lif we put
+dlrectly on the
+Yoot.
+0MB To.162ms
+tW Utake
+to destroy
+V-JOLT","하나인…
+
+UMB No.16에 이 식물의 세포를 급속히
+죽이는 성분이 들어 있었다.
+우리는 이를 V-JOLT라 명명했다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_V02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9845aa60ae8041c0b0ff618c6cf7bfd08fda694d610695ba1ffad8f0cbc31001
+FILEM_V03.png,문서 PNG 페이지,FILE/FILEM_V03.png,0,en (이미지 OCR),"You need to mix some of the UMB
+series chemicals in a specific
+order to
+create
+""V-JOLT3.
+But
+the UMB series chemicals may
+generate a poisonous gas which
+is harmful to the human body.
+Extreme caution should be taken
+when handling
+these chemicals.
+Following are the
+types of UMB
+series chemicals and their brief
+characteristics.","계산상 식물 42의 뿌리에 직접 투여하면
+5초 이내에 전체가 사멸한다.
+
+UMB 계열 약품을 정해진 순서로
+혼합하면 생성할 수 있다.
+단, 인체에 유해한 가스를 발생시킬 위험이
+있으므로 취급에 주의해야 한다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_V03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,fa790a8461b65425cf2698afbbcd45e5e26d25d03493fbaba74a1844a4067adf
+FILEM_V04.png,문서 PNG 페이지,FILE/FILEM_V04.png,0,en (이미지 OCR),"UMB No. 2
+PRed
+UMB No. 4
+GYeen
+NPEOOK
+Purple
+Yellow-6Yellos
+UMB No..7
+White
+UMB No.13
+Blue lstimulating smell）
+V-JOLT （UMB No.16）
+TDYOWT","UMB 계열 약품의 종류와 특징
+
+UMB No.2     적색
+NP-003       보라색
+UMB No.4     녹색
+Yellow-6     황색
+UMB No.7     백색
+UMB No.13    청색
+V-JOLT
+(UMB No.16)  갈색",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_V04.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,8f587c769a1ce5fa135bfa6240838fe19db6bec51ed7ba4540ee38c4c1a2017e
+FILEM_W00.png,문서 PNG 페이지,FILE/FILEM_W00.png,0,en (이미지 OCR),BARRY'S PICTURE,배리의 사진,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_W00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,311e408c66f49f43f15df8e64672f2b7c0b019ab73b7f04d776e0f499d2c86f1
+FILEM_W01.png,문서 PNG 페이지,FILE/FILEM_W01.png,0,en (이미지 OCR),,,원문 없음/제어 슬롯,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_W01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,bd838f53d3e4bad25e34799019815be565a8e09b3742391e8cfcb8e700521786
+FILEM_W02.png,문서 PNG 페이지,FILE/FILEM_W02.png,0,en (이미지 OCR),"Barry's Picture
+something Is Written on
+ot the plcture.
+theっack","배리에게 받은 사진이다.
+뒤에 뭔가 적혀 있다.",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_W02.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,2679a3021d5c7bde59902718ac79f4224a62f3e13e80e998b91369fcae37364e
+FILEM_W03.png,문서 PNG 페이지,FILE/FILEM_W03.png,0,en (이미지 OCR),"""My dearest Moira and Polly
+I hope you will grow up to be
+str ong and beautiful women and
+help to cheer up mother.
+Your father will watching you
+all from heaven.
+Dad","사랑하는 모이라와 폴리에게
+
+건강하고 밝게 자라서 엄마에게 힘이 되어 주렴.
+아빠는 언제나 하늘에서 너희를 지켜보고 있을 거야.
+
+배리 버튼",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_W03.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,f6c56704748526f6daa36bc86967c2146ac309dbc53fa03b75a511f7fb3bfe6b
+FILEM_X00.png,문서 PNG 페이지,FILE/FILEM_X00.png,0,en (이미지 OCR),PASS CODE 01,패스 코드 01,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_X00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,75548f4041620eb4b1099018e0d590ea62373dcb5b0fa5f2166a0d7a512ff921
+FILEM_X01.png,문서 PNG 페이지,FILE/FILEM_X01.png,0,en (이미지 OCR),"""I swear by myself ”，
+declares
+the Lord，
+"" that because you have
+done this and have not withheld
+your son, your only
+（Genesis 22:16）","네가 이렇게 행하여 네 아들, 네
+외아들까지도 아끼지 않았으므로…
+
+(창세기 22:16)",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_X01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,0e5f6649c790766a24b9a9e52edb02e7e469d56361c93f00417f864f77e62b1e
+FILEM_Y00.png,문서 PNG 페이지,FILE/FILEM_Y00.png,0,en (이미지 OCR),PASS CODE 02,패스 코드 02,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Y00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,194b6b373b4ddfd5241ad5e1832655592c7744246499e8ec442b849bf4762cf9
+FILEM_Y01.png,문서 PNG 페이지,FILE/FILEM_Y01.png,0,en (이미지 OCR),"I will surely bless you and make
+your descendants as numerous as
+the stars in the sky, and
+asthe
+sand on the
+seashore.
+Your descendants will take
+possession
+of the
+cities of
+their enemies，
+（Genesis 22:17）","내가 너에게 복을 주고 네 자손을 하늘의
+별처럼, 바닷가의 모래알처럼 많아지게
+하리라.
+네 자손은 원수의 성문을 차지하리라.
+
+(창세기 22:17)",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Y01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,9757dec1817f7b170451e11151597b6ba98deba6f31c3a3f35cc682100b0bbb4
+FILEM_Z00.png,문서 PNG 페이지,FILE/FILEM_Z00.png,0,en (이미지 OCR),PASS CODE 03,패스 코드 03,페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Z00.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,479765fb3fcca7b5bc2ebe50594a644f7f0ff78aa3ef3ead614cf48e1144d5c2
+FILEM_Z01.png,문서 PNG 페이지,FILE/FILEM_Z01.png,0,en (이미지 OCR),"and through youy oftspring all
+natlons on earth Wlll be blessed，
+because you have obeyed me.
+lGenesis
+22:18 ）","네 자손을 통해 땅 위의 모든 민족이 복을
+받을 것이다.
+네가 내 말에 순종했기 때문이다.
+
+(창세기 22:18)",페이지 배분 초안 · 원문/실게임 대조 필요,REbirth 1.1.4 영어 모드 FILE/ PNG,원본: local/rebirth-default-assets/FILE/FILEM_Z01.png; 내장 DATA/107에서 추출. 원문 OCR 오류 가능. 일본어 TIM 번역을 영문 모드 페이지 수에 맞춰 재배분; 경계 검수 필요.,09b0b35affbe343fb84cfb21398a3b81c700db35de4e706f9f801a59bf9dddd6
+config.xml:10,조작 설정,config.xml,10,en,Change Target,조준 대상 변경,초안,R7 문장 렌더러 · 표시 미검증,REbirth 1.1.4에서 추가된 실제 항목; 이전 10개 XML의 누락 수정,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:11,조작 설정,config.xml,11,en,Exit,나가기,초안,R7 문장 렌더러 · 표시 미검증,REbirth 1.1.4에서 추가된 실제 항목; 이전 10개 XML의 누락 수정,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:12,조작 설정,config.xml,12,en,Confirm changes,변경 사항 적용,초안,R7 문장 렌더러 · 표시 미검증,REbirth 1.1.4에서 추가된 실제 항목; 이전 10개 XML의 누락 수정,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d
+config.xml:13,조작 설정,config.xml,13,en,Leave,돌아가기,초안,R7 문장 렌더러 · 표시 미검증,REbirth 1.1.4에서 추가된 실제 항목; 이전 10개 XML의 누락 수정,a59e8e0ec9584a6f251f410ce3573bf89a1008611ea70f0f4c8245865ca0de1d

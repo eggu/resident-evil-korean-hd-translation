@@ -1,0 +1,205 @@
+{
+  "ciphertext_sha256": "65e180c0562f37512348a44c5f50de987446f7d78ff16c59e8ec49253aac32b5",
+  "files": {
+    "build-font.ttf": {
+      "sha256": "f2017df4b5dd45cd790567f318791045b0379f6fda6e0348997d36edfdbcc70c",
+      "size": 18760352
+    },
+    "game/Biohazard.exe": {
+      "sha256": "9fd220aa2e8f336629edb1545cd172a5229b6c73d57e3f900e91e17785e8aad8",
+      "size": 962560
+    },
+    "game/bio1hd.asi": {
+      "sha256": "5cdc4ed20822b4e6619d870f57acead6026bc186a15503b96014a61fc0926f99",
+      "size": 15872
+    },
+    "game/ddraw.dll": {
+      "sha256": "144764bf113d0f19767a9f2e35927b30ccfbb978790a427189583544b6c52889",
+      "size": 5012992
+    },
+    "game/jpn/Data/EN05.TIM": {
+      "sha256": "860bfb4920abf411fd198879e7227b34b73fbc7adda0d6f74c074c717d329058",
+      "size": 32832
+    },
+    "game/jpn/Data/EN07.TIM": {
+      "sha256": "0e903f2488145ef0bb41f15feddc36595a09ca4dc60e3ee02a8894f076e5dae3",
+      "size": 21568
+    },
+    "game/jpn/Data/PBFONT1.TIM": {
+      "sha256": "a39121cee84b60cc404ce45fe6a3f202680e6c488eafe01a39591c8a4b49dd0f",
+      "size": 32896
+    },
+    "game/jpn/Item_m2/TEXTM_00.TIM": {
+      "sha256": "b77275874aff5f02b707a4fd6c72edb844681e30d8f46ffa5061f2fed8b852ef",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_01.TIM": {
+      "sha256": "b65fc4aaf0dee62e321aaa83edda1f0600ebac81890d1e14fcf3c44d005ba933",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_02.TIM": {
+      "sha256": "391f62db5eaf34f950ae0e7e81eb837233f452855bcfd678c6e0e0d2a68bcf68",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_L0.TIM": {
+      "sha256": "57e3c8fae4ea05cf8f0ea7556eb978d7bd30790e1d9776eb83cd4d93c067ce9d",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_L1.TIM": {
+      "sha256": "063fa681db4319c32fd645be5c61c3803abe20a06246188c3cc28d1bd4bb0329",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_M0.TIM": {
+      "sha256": "f5f515a56789aaf3f17de9b64cbf8efdc84c88d6fd16b0cbe2c277b0e6ac8bf1",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_M1.TIM": {
+      "sha256": "593c63ae002e4c9263e02edd188179e7e5922d0629592ccb0b61cd5a89140be0",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_M2.TIM": {
+      "sha256": "3057c69786040da55d9d7638a100b52fcc129a7d21d6111406aefafd3d124ec1",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N0.TIM": {
+      "sha256": "f2eb887a77a7411da35023bc14e17d7c7b2edf1b32f8aca239151aa3d973c12d",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N1.TIM": {
+      "sha256": "8ea5e7521ce7abb35871b281026a02df4caf573a5305e8ebab295e0ef2657b5a",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N2.TIM": {
+      "sha256": "2203aa431e90ccdc49f0fee89d8a265b0409f6fcf6f184f9033cafdba09e3a08",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N3.TIM": {
+      "sha256": "4f6b18583a349e1e5c49e85dd3553fbd09c8aee0c20d26e8155a0d72d73cdd76",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N4.TIM": {
+      "sha256": "4201b5cd5fbcf00ae28d9283f63cd60711725755324c841361b7ce5cee3e7704",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_N5.TIM": {
+      "sha256": "36e110a46718116cf5103dc3ed7d81aa239f8cb5f58e21b19928b15bd4f239bc",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_O0.TIM": {
+      "sha256": "19b2c241d30fc3f1283cfeaa91051a5b4bb2502c576c3e6fdef17bd4bf767274",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_O1.TIM": {
+      "sha256": "b47bd0c39f796e80dbaf80825743594ddb4b15447707c10838d8e9f51089df0a",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_P0.TIM": {
+      "sha256": "cd169452cfe2fd0d40cf73cdcc98f3751ffefbe408f7b0334cab7bed16d35e5f",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_Q0.TIM": {
+      "sha256": "0d258b8372f34af234371894caf7455b0be7ada76b03e1c71d6d8feb3dc6dbc5",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_Q1.TIM": {
+      "sha256": "952617dee107f58bd721c2c1eda487c19b65a53d0e203f16897217689a39f6bf",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_Q2.TIM": {
+      "sha256": "8803f8c7dea90c9c84a7da52df61d70c56dd8ed080e162bd637d87288cc94662",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_R0.TIM": {
+      "sha256": "bcaa517a5d65257e3e67f988ba8cd4275af84ce2b76b85bc2265b4bcb67989e1",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_R1.TIM": {
+      "sha256": "67ee2e58fb8f14dbdf88405c1b777044ecc82d7ab8fdb91fffbc96dd4e240244",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_R2.TIM": {
+      "sha256": "680a0faf806a18aaf47caab6929f20faf518b96909daff1e9ef905eaaf021b7c",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_R3.TIM": {
+      "sha256": "cdaef16f70022e78118a1d42655f5abd18d4e7fd62c6cb5e6f0b3a6516309485",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_S0.TIM": {
+      "sha256": "718f83de05b402455bf686e6ad98759eeba2d7c716fbba15e95a17c252fd3331",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_S1.TIM": {
+      "sha256": "1222e08c42a037d6c609f4ba727e27013d153bb23176aa37d543ed8e48f023cf",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_S2.TIM": {
+      "sha256": "2d3ac0025a66dbec422f1c641d9b42c8c68cbb61f20fcda94f07726bf5685da4",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_S3.TIM": {
+      "sha256": "a2ca714b7e41664d631ac49c8287b9dee73ab7e0159e1607968aa704ae0e621e",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_T0.TIM": {
+      "sha256": "5f472f269f6d6b7628c145ad4809a9e6517b66dce539f81737640e6cd9835cb0",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_T1.TIM": {
+      "sha256": "866c3e768fae47182c9ae4bb617735c174d1dc5b78390e605bc8d2a6f9950707",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_T2.TIM": {
+      "sha256": "0a092fa7818722b63706dd99bc7a36dd19a8ddb732953ad22501b176c52e9bce",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_T3.TIM": {
+      "sha256": "a9d938c828e13fb1ba175dc9bf60ccafa0982a8d8de89468d27f22d64fd9e267",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_U0.TIM": {
+      "sha256": "4862013a51ba86a9640f6f656d2818473760e1a065aeae36de9caf7d04be2ae8",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_U1.TIM": {
+      "sha256": "5d462c9b06a5bb129fb456629df3bf96bb0dc855a9469e552abfd07b2bbe2ccb",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_U2.TIM": {
+      "sha256": "3aedb2ddd88c1a70c88fb2217ed8a5dd52086625b9b4f51c8f10821f62d42647",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_V0.TIM": {
+      "sha256": "a5f63e58f3fd00bb26c9ea1c29b656e0fa2b41f7b6dc1c9345e0de7198031e34",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_V1.TIM": {
+      "sha256": "8875b6e0e70b67bd08e3ec3026a8dc0453aa80ece6759f146f644695d3d677e2",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_V2.TIM": {
+      "sha256": "1acedba63771de64b128c9d3d9bcb95a46aaa91a0f77aa6fe6e110e5da0a3a4c",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_W0.TIM": {
+      "sha256": "3f53f8cc89cd2365f2635b76bbf2ef66717d92997b9d256eb9a35ce7ef8accd9",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_W1.TIM": {
+      "sha256": "b98e88b7d4e17396bc32d15be104d5955b118a697467d859f771229c327ebbb4",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_X0.TIM": {
+      "sha256": "094494c5ea7732abed702056783f9d8fd2ab59f121deec94def7dee3f16c3547",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_Y0.TIM": {
+      "sha256": "e860affd33a68a6425f2c0b7acaf6a94f87d662776472e74c328c9677f149919",
+      "size": 66080
+    },
+    "game/jpn/Item_m2/TEXTM_Z0.TIM": {
+      "sha256": "5c4d77e3b68559ff6f6503d82c52673e48bd19601fffb85e1819f9afd80fe3e6",
+      "size": 66080
+    }
+  }
+}
