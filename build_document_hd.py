@@ -1,5 +1,5 @@
 """Build all document HD replacements for REbirth 1.1.4's texture lookup."""
-import argparse, hashlib, json, zlib
+import argparse, json, zlib
 from pathlib import Path
 from PIL import Image
 from build_resources import load_resources
@@ -17,10 +17,10 @@ def texture_key(page):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--source',type=Path,default=ROOT/'build/mod_korean_serif');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--source',type=Path,default=ROOT/'build/mod_korean_translation');args=ap.parse_args()
     rows = [r for r in load_resources() if r['종류'] == '문서 PNG 페이지']
     out = ROOT / 'build/document-hd-trial'
-    pages = []; assets = {}
+    pages = []; assets = set()
     for row in rows:
         base, _ = render_page(row)
         installed = Image.open(args.source / row['파일']).convert('RGBA')
@@ -28,6 +28,7 @@ def main():
         high, info = render_page(row, 4)
         # Pass Number P01 is transparent so its underlying numbered background shows through.
         blank = info.get('blank')
+        # Pad 256x192 pages to the loader's 256x256 UV allocation, scaled 4x.
         canvas = Image.new('RGBA', (1024, 1024), (0, 0, 0, 0) if blank else (0, 0, 0, 255))
         if not blank: canvas.paste(high, (0, 0))
         relative = 'hires/misc/' + texture_key(base) + '.webp'
@@ -38,9 +39,9 @@ def main():
         else:
             canvas.save(target, lossless=True, exact=True)
             assert Image.open(target).convert('RGBA').tobytes() == canvas.tobytes()
-            assets[relative] = hashlib.sha256(target.read_bytes()).hexdigest()
+            assets.add(relative)
         pages.append({'page': row['파일'], 'texture': relative, 'layout': info})
-    report = {'pages': pages, 'assets': assets, 'page_resolution': [1024, 768], 'physical_texture': [1024, 1024]}
+    report = {'pages': pages, 'assets': sorted(assets), 'page_resolution': [1024, 768], 'physical_texture': [1024, 1024]}
     (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'pages': len(pages), 'unique_assets': len(assets)},ensure_ascii=False))
 

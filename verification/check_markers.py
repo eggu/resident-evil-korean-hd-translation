@@ -38,7 +38,7 @@ class Markers(Engine):
             assert len(out)<size;self.u.mem_write(dst,out+b'\0');self.ret(len(out))
         elif a==END+0xe00:
             path=self.cstr(self.rd(sp+4));assert path.startswith(('sentences/','sentences-sd/')) and '..' not in path
-            data=(ROOT/'build/mod_korean_serif'/path).read_bytes();address=self.heap;self.heap+=(len(data)+31)&~15
+            data=(ROOT/'build/mod_korean_translation'/path).read_bytes();address=self.heap;self.heap+=(len(data)+31)&~15
             self.u.mem_write(address,data);self.put(self.rd(sp+8),len(data));self.ret(address,8)
         elif a==0x100f1d99:self.ret()
         elif a in self.apis and self.apis[a]=='fopen':self.ret(0)
@@ -140,7 +140,7 @@ def main():
         assert all(c[1]==218 and c[3]<236 for c in choices)
         assert choices[0][2]<244 and choices[1][2]<312
         cases.append({'case':'yes-no','xy_uv':choices,'pass':True})
-    coverage=json.loads((ROOT/'build/mod_korean_serif/coverage.json').read_text(encoding='utf-8'))
+    coverage=json.loads((ROOT/'build/mod_korean_translation/coverage.json').read_text(encoding='utf-8'))
     font=ImageFont.truetype(str(FONT),coverage['font_size'],layout_engine=ImageFont.Layout.BASIC)
     widths={s:font.getlength(s)/coverage['render_scale'] for s in ['엄청난 저택이군.']}
     assert widths['엄청난 저택이군.']<=236

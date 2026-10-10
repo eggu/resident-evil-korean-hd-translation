@@ -22,8 +22,8 @@ def main():
     for sid,(width,height,last,size,newline,line_height) in enumerate(records):
         for tile in range(((width+63)//64)*((height+63)//64)):
             path=f'{sid:05d}-{tile:02d}.tim'
-            hd=(ROOT/'build/mod_korean_serif/sentences'/path).read_bytes()
-            sd=(ROOT/'build/mod_korean_serif/sentences-sd'/path).read_bytes()
+            hd=(ROOT/'build/mod_korean_translation/sentences'/path).read_bytes()
+            sd=(ROOT/'build/mod_korean_translation/sentences-sd'/path).read_bytes()
             assert len(sd)==len(hd)==size and sd[:8]==hd[:8]
             start=8+struct.unpack_from('<I',sd,8)[0]+12
             pixels=sd[start:];assert len(pixels)==32768

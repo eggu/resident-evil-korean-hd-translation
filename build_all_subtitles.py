@@ -30,7 +30,7 @@ def main():
     if not 12<=args.font_size<=96 or args.font_size%args.render_scale: ap.error('font size must be 12..96 and divisible by render scale')
     scale=args.render_scale; logical_size=args.font_size//scale; texwidth=256*scale
     subprocess.run([sys.executable,str(ROOT/'build_full_text.py'),'--no-wrap','--no-index'],check=True)
-    source=ROOT/'build/full-text-renderer'; out=ROOT/'build/mod_korean_serif'
+    source=ROOT/'build/full-text-renderer'; out=ROOT/'build/mod_korean_translation'
     (out/'sentences').mkdir(parents=True,exist_ok=True)
     (out/'sentences-sd').mkdir(parents=True,exist_ok=True)
     opening=ET.parse(source/'text/ROOM_106_0.xml').getroot()

@@ -191,4 +191,4 @@ def build_documents(out, rows=None):
 
 if __name__ == '__main__':
     rows = build_xml(ROOT / 'build/resource-text')
-    print(json.dumps(build_documents(ROOT / 'build/mod_korean_serif', rows), ensure_ascii=False))
+    print(json.dumps(build_documents(ROOT / 'build/mod_korean_translation', rows), ensure_ascii=False))

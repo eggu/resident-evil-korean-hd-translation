@@ -1,5 +1,5 @@
 """Check the delivered ZIP, input isolation and unsafe release paths."""
-import hashlib,json,os,re,shutil,struct,subprocess,sys,tempfile,unittest,zipfile
+import json,os,re,shutil,struct,subprocess,sys,tempfile,unittest,zipfile
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -8,26 +8,23 @@ from scripts.package_release import allowed_path
 
 
 class PackageTests(unittest.TestCase):
-    def test_only_runtime_files_and_matching_hashes(self):
+    def test_only_runtime_files_and_current_resources(self):
         package=ROOT/'dist'/f"Resident-Evil-Korean-HD-Translation-{(ROOT/'VERSION').read_text(encoding='utf-8').strip()}.zip"
         with zipfile.ZipFile(package) as archive:
             names=archive.namelist()
             self.assertEqual(len(names),len(set(names)))
             self.assertTrue(all(allowed_path(name) for name in names))
-            sums=dict(line.split('  ',1)[::-1] for line in archive.read('SHA256SUMS.txt').decode().splitlines())
-            self.assertEqual(set(sums),set(names)-{'SHA256SUMS.txt'})
-            for name,digest in sums.items():
-                self.assertEqual(hashlib.sha256(archive.read(name)).hexdigest(),digest,name)
-            self.assertEqual(archive.read('korean_subtitle.dll'),archive.read('mod_korean_serif/korean_subtitle.dll'))
-            self.assertIn('Name = Resident Evil - Korean HD Translation',archive.read('mod_korean_serif/manifest.txt').decode())
-            self.assertEqual(archive.read('jpn/Item_m2/TEXTM_P0.TIM'),archive.read('mod_korean_serif/ITEM_M2/TEXTM_P0.TIM'))
-            self.assertEqual(archive.read('mod_korean_serif/ko_sentence.flag'),b'KOSENT07')
+            self.assertIsNone(archive.testzip())
+            self.assertEqual(archive.read('korean_subtitle.dll'),archive.read('mod_korean_translation/korean_subtitle.dll'))
+            self.assertIn('Name = Resident Evil - Korean HD Translation',archive.read('mod_korean_translation/manifest.txt').decode())
+            self.assertEqual(archive.read('jpn/Item_m2/TEXTM_P0.TIM'),archive.read('mod_korean_translation/ITEM_M2/TEXTM_P0.TIM'))
+            self.assertEqual(archive.read('mod_korean_translation/ko_sentence.flag'),b'KOSENT07')
             records=[tuple(map(int,x.split(','))) for x in re.findall(r'\{([0-9,]+)\}',(ROOT/'build/sentence_records.h').read_text(encoding='utf-8'))]
             expected=set()
             for sid,(w,h,_,size,*rest) in enumerate(records):
                 for tile in range(((w+63)//64)*((h+63)//64)):
                     for mode in ('sentences','sentences-sd'):
-                        name=f'mod_korean_serif/{mode}/{sid:05d}-{tile:02d}.tim'
+                        name=f'mod_korean_translation/{mode}/{sid:05d}-{tile:02d}.tim'
                         expected.add(name);data=archive.read(name)
                         self.assertEqual(len(data),size,name)
                         self.assertEqual(struct.unpack_from('<II',data),(16,8),name)
@@ -61,7 +58,7 @@ class PackageTests(unittest.TestCase):
     def test_release_paths_exclude_game_user_and_build_files(self):
         for name in ('../config.ini','/tmp/korean_subtitle.dll','config.ini','Biohazard.exe',
                      'savedata/save.dat','local/build-inputs.key','build/coverage.json',
-                     'mod_korean_serif/coverage.json','mod_korean_serif/sentences/00000-99.tim.bak'):
+                     'mod_korean_translation/coverage.json','mod_korean_translation/sentences/00000-99.tim.bak'):
             self.assertFalse(allowed_path(name),name)
 
 

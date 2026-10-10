@@ -6,10 +6,10 @@ from check_markers import Markers
 from verify_renderer import ROOT,STACK
 
 def main():
-    original=json.loads((ROOT/'translation/resource_layout.json').read_text(encoding='utf-8'))['config.xml']['entries'];built=ET.parse(ROOT/'build/mod_korean_serif/config.xml').getroot()
+    original=json.loads((ROOT/'translation/resource_layout.json').read_text(encoding='utf-8'))['config.xml']['entries'];built=ET.parse(ROOT/'build/mod_korean_translation/config.xml').getroot()
     assert len(original)==len(built)==14
     assert [original[i] for i in (10,11,12,13)]==['Change Target','Exit','Confirm changes','Leave']
-    mapping=sorted((ord(e.attrib['Char']),int(e.attrib['Encode'],0)) for e in ET.parse(ROOT/'build/mod_korean_serif/encoding.xml').getroot())
+    mapping=sorted((ord(e.attrib['Char']),int(e.attrib['Encode'],0)) for e in ET.parse(ROOT/'build/mod_korean_translation/encoding.xml').getroot())
     with tempfile.TemporaryDirectory() as tmp:
         dll=Path(tmp)/'config-check.dll';subprocess.run([sys.executable,'-m','ziglang','cc','-target','x86-windows-gnu','-shared','-Os','-I',str(ROOT/'build'),'-I',str(ROOT/'src'),'-o',str(dll),str(ROOT/'verification/renderer_shim.c')],check=True)
         for kind,expected in [('target',10),('exit',11)]:
