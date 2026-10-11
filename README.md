@@ -85,7 +85,8 @@ Steam 루트 폴더
 
 ```text
 게임 폴더/                   ← Biohazard.exe가 있는 곳
-  ddraw.dll                  ← 한글패치의 DLL로 바뀜
+  ddraw.dll                  ← 앞에서 설치한 REbirth 1.1.4
+  korean_subtitle.dll        ← 한글패치의 렌더러
   korean_subtitle.ini
   mod_korean_translation/
   hires/
@@ -106,7 +107,7 @@ Steam 루트 폴더
 
 - **모드 이름이 안 보임:** `mod_korean_translation`이 `Biohazard.exe` 바로 옆에 있는지 확인합니다. `게임 폴더/압축을 푼 폴더/mod_korean_translation`처럼 한 단계 더 안에 넣었다면 내용물을 게임 폴더로 옮깁니다.
 - **문서가 원문이거나 작게 보임:** `Enable HD loader`를 켜고 `Retro Mode`를 끈 뒤 다시 실행합니다.
-- **대사가 원문으로 나옴:** 한글 모드가 체크되어 있는지 확인하고, 한글패치의 `ddraw.dll`을 마지막에 복사했는지 확인합니다.
+- **대사가 원문으로 나옴:** 한글 모드가 체크되어 있는지 확인하고, 한글패치의 `korean_subtitle.dll`과 모드 폴더를 모두 복사했는지 확인합니다.
 - **영상 자막 글꼴이 이상함:** 아래 ‘영상 자막 폰트’ 안내를 확인합니다. 설정을 바꾼 다음에는 게임을 완전히 종료하고 다시 실행합니다.
 - **Steam에서 실행되지 않음:** 루트의 런처와 `japanese` 안의 DLL 위치를 위 그림과 비교합니다. 위치가 맞아도 문제가 남으면 사용한 버전과 오류를 알려주세요.
 
