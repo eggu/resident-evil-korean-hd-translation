@@ -78,10 +78,10 @@ Steam 루트 폴더
 
 ### 마지막 단계. 한글패치 설치 — 두 방법 공통
 
-1. [한글패치 다운로드가 있는 GitHub 빌드 페이지](https://github.com/eggu/resident-evil-korean-hd-translation/actions/runs/38023851117)를 엽니다. GitHub 계정으로 로그인해야 파일을 받을 수 있습니다. 현재 공개 Releases 다운로드는 없으며, 빌드 결과 파일을 사용합니다.
-2. 페이지 아래 **Artifacts**에서 `Resident-Evil-Korean-HD-Translation-`으로 시작하는 파일을 클릭해 다운로드합니다. 빌드 파일은 보관 기간이 있으므로 만료되었다면 [빌드 목록](https://github.com/eggu/resident-evil-korean-hd-translation/actions/workflows/package.yml)에서 성공한 최신 빌드를 확인하세요.
-3. 받은 ZIP을 압축 해제합니다. 그 안의 `Resident-Evil-Korean-HD-Translation-R9.zip`도 **한 번 더** 압축 해제합니다.
-4. 마지막 ZIP 안에 다음 항목이 보이면 맞게 연 것입니다. **이 항목 전체**를 게임 폴더에 복사하고 덮어씁니다.
+1. [한글패치 최신 Release 다운로드 페이지](https://github.com/eggu/resident-evil-korean-hd-translation/releases/latest)를 엽니다.
+2. 페이지 아래 **Assets**에서 `Resident-Evil-Korean-HD-Translation-R9.zip`을 클릭해 다운로드합니다. GitHub 로그인은 필요하지 않습니다. `Source code`는 설치용 한글패치가 아니므로 선택하지 마세요.
+3. 받은 ZIP을 마우스 오른쪽 버튼으로 눌러 **모두 압축 풀기**를 선택합니다.
+4. 압축을 푼 폴더 안에 다음 항목이 보이면 맞게 연 것입니다. **이 항목 전체**를 게임 폴더에 복사하고 덮어씁니다.
 
 ```text
 게임 폴더/                   ← Biohazard.exe가 있는 곳
