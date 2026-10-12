@@ -46,7 +46,8 @@ def render_page(row, scale=1):
     if not row['번역문'].strip():
         if original.getchannel('A').getbbox():
             raise ValueError(f"Nonblank page has no translation: {row['id']}")
-        return original.resize((256*scale,192*scale)), {'file': row['파일'], 'blank': True}
+        # REbirth treats hidden nonblack RGB as opaque despite the PNG's zero alpha.
+        return Image.new('RGBA', (256*scale,192*scale)), {'file': row['파일'], 'blank': True}
     for size in (12, 11, 10, 9):
         font = ImageFont.truetype(str(FONT), size, layout_engine=ImageFont.Layout.BASIC)
         lines = wrap_document(row['번역문'], font)

@@ -43,6 +43,7 @@ jobs:
           python verification/check_hd_sd.py
           python verification/check_config_screen.py
           python verification/check_empty_box.py
+          python verification/check_document_transparency.py
           python verification/check_movie_outline.py
           python verification/check_movie_font.py
       - name: Upload copy-only package

@@ -1,6 +1,7 @@
 """Check the delivered ZIP, input isolation and unsafe release paths."""
-import json,os,re,shutil,struct,subprocess,sys,tempfile,unittest,zipfile
+import io,json,os,re,shutil,struct,subprocess,sys,tempfile,unittest,zipfile
 from pathlib import Path
+from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
@@ -19,6 +20,9 @@ class PackageTests(unittest.TestCase):
             self.assertIn('Name = Resident Evil - Korean HD Translation',archive.read('mod_korean_translation/manifest.txt').decode())
             self.assertEqual(archive.read('jpn/Item_m2/TEXTM_P0.TIM'),archive.read('mod_korean_translation/ITEM_M2/TEXTM_P0.TIM'))
             self.assertEqual(archive.read('mod_korean_translation/ko_sentence.flag'),b'KOSENT07')
+            for page in ('FILEM_P01.png','FILEM_W01.png'):
+                image=Image.open(io.BytesIO(archive.read('mod_korean_translation/FILE/'+page))).convert('RGBA')
+                self.assertEqual(image.tobytes(),bytes(256*192*4),page)
             records=[tuple(map(int,x.split(','))) for x in re.findall(r'\{([0-9,]+)\}',(ROOT/'build/sentence_records.h').read_text(encoding='utf-8'))]
             expected=set()
             for sid,(w,h,_,size,*rest) in enumerate(records):
