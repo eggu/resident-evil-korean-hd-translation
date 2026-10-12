@@ -1,4 +1,4 @@
-Resident Evil - Korean HD Translation (R9)
+Resident Evil - Korean HD Translation (R9.1)
 
 지원: GOG 일본어판 Resident Evil + Classic REbirth 1.1.4.
 REbirth 1.1.3은 지원하지 않습니다.
