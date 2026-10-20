@@ -79,7 +79,7 @@ Steam 루트 폴더
 ### 마지막 단계. 한글패치 설치 — 두 방법 공통
 
 1. [한글패치 최신 Release 다운로드 페이지](https://github.com/eggu/resident-evil-korean-hd-translation/releases/latest)를 엽니다.
-2. 페이지 아래 **Assets**에서 `Resident-Evil-Korean-HD-Translation-1.0.1.zip`을 클릭해 다운로드합니다. GitHub 로그인은 필요하지 않습니다. `Source code`는 설치용 한글패치가 아니므로 선택하지 마세요.
+2. 페이지 아래 **Assets**에서 `Resident-Evil-Korean-HD-Translation-1.0.2.zip`을 클릭해 다운로드합니다. GitHub 로그인은 필요하지 않습니다. `Source code`는 설치용 한글패치가 아니므로 선택하지 마세요.
 3. 받은 ZIP을 마우스 오른쪽 버튼으로 눌러 **모두 압축 풀기**를 선택합니다.
 4. 압축을 푼 폴더 안에 다음 항목이 보이면 맞게 연 것입니다. **이 항목 전체**를 게임 폴더에 복사하고 덮어씁니다.
 
@@ -150,7 +150,7 @@ $env:RE1_BUILD_FONT = 'C:\Windows\Fonts\batang.ttc'
 
 `RE1_GAME_ORIGINAL_DIR`는 필수이며 설치 폴더를 자동 추측하지 않습니다. `RE1_BUILD_FONT`는 TTF/OTF/TTC 파일 경로입니다. 기본값은 macOS의 AppleMyungjo, Windows의 Batang이고 Linux에서는 직접 지정해야 합니다. TTC는 첫 번째 face를 사용합니다. 다른 폰트의 글리프 누락·넘침은 생성 단계에서 검사하며 이미지 배치는 달라질 수 있습니다.
 
-결과: `dist/Resident-Evil-Korean-HD-Translation-1.0.1.zip`. 버전은 `VERSION`에서 관리합니다.
+결과: `dist/Resident-Evil-Korean-HD-Translation-1.0.2.zip`. 버전은 `VERSION`에서 관리합니다.
 
 ## 번역과 생성 코드
 

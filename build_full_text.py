@@ -49,7 +49,7 @@ def load_translations(directory=ROOT / 'translation'):
                 if key not in layout or slot * 2 not in layout[key]['slots']:
                     raise ValueError(f"Unknown PC display slot: {row['id']}")
                 original = TAG.split(layout[key]['source'])[slot * 2]
-                if row['PC원문'] != original:
+                if 'PC원문' in row and row['PC원문'] != original:   # dialogue.csv dropped the column; id + layout slot still pin the row
                     raise ValueError(f"PC source changed: {row['id']}")
                 text = row['번역문'].replace('\r\n', '\n').replace('\r', '\n').replace('\n', r'\n')
                 if any(c in text for c in '{}') or any(0xe000 <= ord(c) <= 0xf8ff for c in text):
