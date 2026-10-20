@@ -165,3 +165,7 @@ $env:RE1_BUILD_FONT = 'C:\Windows\Fonts\batang.ttc'
 ## 영상 자막 폰트
 
 게임 루트의 `korean_subtitle.ini`에서 `[MovieSubtitles] Fonts`를 편집합니다. 세미콜론으로 구분한 파일을 왼쪽부터 시도하며 기본 첫 후보는 Windows 바탕 `batang.ttc`입니다. 파일명만 쓰면 Windows Fonts 폴더에서, 경로를 쓰면 해당 위치에서 찾습니다. 변경 뒤 게임을 재시작합니다. 이 설정은 영상 SRT에만 적용되며 이미지로 생성된 게임 대사와 문서에는 적용되지 않습니다.
+
+## 라이선스
+
+소스 코드와 번역 CSV는 [MIT License](LICENSE)입니다. 비공식 팬 번역이며 Capcom 및 Classic REbirth와 관련이 없습니다. Resident Evil / Biohazard와 원본 게임 파일·텍스트의 권리는 Capcom에 있으며, 이 저장소와 배포 ZIP에는 원본 게임 파일이 포함되지 않습니다.
