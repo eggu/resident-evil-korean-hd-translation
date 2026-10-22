@@ -1,22 +1,233 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resident Evil (1996) 한글 HD 번역 모드</title>
-    <meta name="description" content="Resident Evil (1996) PC판 한국어 번역 모드. 최신 다운로드와 GOG·Steam 설치 안내를 확인하세요.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Resident Evil (1996) 한글 HD 번역 모드">
-    <meta property="og:description" content="GOG 및 Steam용 한글 모드 최신 다운로드와 설치 안내">
-    <meta property="og:url" content="https://eggu.github.io/resident-evil-korean-hd-translation/">
-    <link rel="canonical" href="https://eggu.github.io/resident-evil-korean-hd-translation/">
-  </head>
-  <body>
-    <main>
-      <h1>Resident Evil (1996) 한글 HD 번역 모드</h1>
-      <p>GOG 일본어판과 Steam판 Resident Evil (1996), Classic REbirth 1.1.4용 한국어 번역 모드입니다.</p>
-      <p><a href="https://github.com/eggu/resident-evil-korean-hd-translation/releases/latest">최신 한글패치 다운로드</a></p>
-      <p><a href="https://github.com/eggu/resident-evil-korean-hd-translation#처음-설치하는-분을-위한-안내">설치 안내 보기</a></p>
-    </main>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resident Evil PC 모드 — 한글 HD 번역 · 주석 지도</title>
+<meta name="description" content="Resident Evil (1996) PC판용 한글 HD 번역 모드와 주석 지도 모드. 기능, 스크린샷, 최신 버전 다운로드.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Resident Evil PC 모드 — 한글 HD 번역 · 주석 지도">
+<meta property="og:description" content="Resident Evil (1996) 한글 HD 번역 모드와 주석 지도 모드 다운로드">
+<meta property="og:url" content="https://eggu.github.io/resident-evil-korean-hd-translation/">
+<meta property="og:image" content="https://eggu.github.io/resident-evil-korean-hd-translation/docs/screenshots/main-hall.jpg">
+<link rel="canonical" href="https://eggu.github.io/resident-evil-korean-hd-translation/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --bg: #0d0f12; --panel: #15181d; --line: #262b33; --text: #e7e9ec; --muted: #9aa3ad;
+    --accent: #c9302c; --accent-2: #e8b44a; --radius: 14px;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text); line-height: 1.65;
+    font: 16px/1.65 Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    word-break: keep-all;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+  header.hero { border-bottom: 1px solid var(--line); background:
+      radial-gradient(1200px 400px at 20% -10%, rgba(201,48,44,.18), transparent 60%), var(--bg); }
+  .hero .wrap { padding-block: 56px 40px; }
+  .eyebrow { color: var(--accent-2); font-weight: 600; letter-spacing: .08em; font-size: 13px; text-transform: uppercase; }
+  h1 { font-size: clamp(28px, 4.5vw, 44px); line-height: 1.2; margin: 10px 0 14px; letter-spacing: -.01em; }
+  .lead { color: var(--muted); max-width: 680px; margin: 0; }
+  nav.mods { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  nav.mods a {
+    text-decoration: none; padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px;
+    background: var(--panel); font-weight: 600; font-size: 15px;
+  }
+  nav.mods a:hover { border-color: var(--muted); }
+
+  section.mod { padding-block: 56px; border-bottom: 1px solid var(--line); }
+  .mod-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; }
+  .mod-head h2 { font-size: clamp(24px, 3.4vw, 32px); margin: 6px 0 8px; line-height: 1.25; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 600; color: var(--muted);
+         border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; margin-right: 6px; }
+  .summary { color: var(--muted); margin: 0; max-width: 640px; }
+  .actions { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700;
+    background: var(--accent); color: #fff; padding: 13px 22px; border-radius: 10px; white-space: nowrap;
+  }
+  .btn:hover { filter: brightness(1.1); }
+  .btn svg { width: 18px; height: 18px; }
+  .meta { color: var(--muted); font-size: 13px; min-height: 1.2em; overflow-wrap: anywhere; text-align: right; }
+
+  .gallery { margin-top: 30px; display: grid; gap: 12px; grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .gallery button {
+    padding: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #000;
+    cursor: zoom-in; aspect-ratio: 4 / 3; grid-column: span 2;
+  }
+  .gallery button.wide { grid-column: span 4; grid-row: span 2; }
+  .gallery img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s; }
+  .gallery button:hover img { transform: scale(1.03); }
+  .gallery figcaption { display: none; }
+
+  .features { margin-top: 34px; display: grid; gap: 14px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  @media (max-width: 960px) { .features { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 520px) { .features { grid-template-columns: minmax(0, 1fr); } }
+  .feature { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+  .feature h3 { margin: 0 0 6px; font-size: 16px; }
+  .feature p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  .links { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 15px; }
+  .links a { color: var(--muted); text-underline-offset: 3px; }
+  .links a:hover { color: var(--text); }
+
+  .note { margin-top: 18px; font-size: 14px; color: var(--muted); }
+  .note b { color: var(--text); font-weight: 600; }
+  code { font-size: .92em; overflow-wrap: anywhere; }
+
+  footer { padding-block: 36px 56px; color: var(--muted); font-size: 13px; }
+  footer p { margin: 4px 0; }
+
+  dialog { border: 0; padding: 0; background: transparent; max-width: min(96vw, 1600px); }
+  dialog::backdrop { background: rgba(0,0,0,.85); }
+  dialog img { display: block; max-width: 100%; max-height: 88vh; border-radius: 8px; }
+  dialog p { color: #ddd; text-align: center; margin: 10px 0 0; font-size: 14px; }
+
+  @media (max-width: 720px) {
+    .mod-head { grid-template-columns: minmax(0, 1fr); }
+    .meta { text-align: left; }
+    .actions { align-items: stretch; }
+    .btn { justify-content: center; }
+    .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .gallery button, .gallery button.wide { grid-column: span 1; grid-row: auto; }
+    .gallery button.wide, .gallery button:not(.wide):last-child:nth-child(even) { grid-column: span 2; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Resident Evil · PC</div>
+    <h1>Resident Evil PC 모드</h1>
+    <p class="lead">원작 Resident Evil(1996) PC판을 위한 비공식 모드입니다. 두 모드를 함께 사용할 수 있습니다.</p>
+    <nav class="mods" aria-label="모드 목록">
+      <a href="#korean-hd-translation">한글 HD 번역</a>
+      <a href="#annotated-map">주석 지도 (RE1)</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Each mod is one <section class="mod">; data-repo drives the download button. -->
+  <section class="mod" id="korean-hd-translation" data-repo="eggu/resident-evil-korean-hd-translation">
+    <div class="wrap">
+      <div class="mod-head">
+        <div>
+          <span class="tag">Resident Evil (1996)</span><span class="tag">GOG · Steam</span><span class="tag">Classic REbirth 1.1.4</span>
+          <h2>한글 HD 번역 모드</h2>
+          <p class="summary">Resident Evil을 처음부터 끝까지 한국어로 플레이할 수 있게 해 주는 번역 모드입니다.</p>
+        </div>
+        <div class="actions">
+          <a class="btn" href="https://github.com/eggu/resident-evil-korean-hd-translation/releases/latest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+            <span>최신 버전 다운로드</span>
+          </a>
+          <span class="meta"></span>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <button class="wide"><img src="docs/screenshots/main-hall.jpg" alt="중앙 홀 대사 “엄청난 저택이군.”" loading="lazy"></button>
+        <button><img src="docs/screenshots/tiger-statue.jpg" alt="호랑이 석상 조사 메시지" loading="lazy"></button>
+        <button><img src="docs/screenshots/keepers-diary-1.jpg" alt="문서 — 사육사의 일지" loading="lazy"></button>
+        <button><img src="docs/screenshots/keepers-diary-2.jpg" alt="문서 — 사육사의 일지 마지막 페이지" loading="lazy"></button>
+        <button><img src="docs/screenshots/intro-movie-1.jpg" alt="인트로 영상 한글 자막" loading="lazy"></button>
+        <button><img src="docs/screenshots/intro-movie-2.jpg" alt="인트로 영상 한글 자막" loading="lazy"></button>
+      </div>
+
+      <div class="features">
+        <div class="feature"><h3>대사와 메시지</h3><p>등장인물의 대사와 조사할 때 나오는 메시지를 한국어로 보여 줍니다.</p></div>
+        <div class="feature"><h3>메뉴와 아이템</h3><p>상태 화면, 설정 메뉴, 아이템 이름과 설명이 한국어로 나옵니다.</p></div>
+        <div class="feature"><h3>문서</h3><p>게임 속 파일과 일지를 선명한 고해상도 한글로 읽을 수 있습니다.</p></div>
+        <div class="feature"><h3>영상 자막</h3><p>인트로와 엔딩 영상에 한국어 자막이 나옵니다.</p></div>
+      </div>
+      <div class="links">
+        <a href="https://github.com/eggu/resident-evil-korean-hd-translation#처음-설치하는-분을-위한-안내">설치 방법</a>
+        <a href="https://github.com/eggu/resident-evil-korean-hd-translation/releases">업데이트 내역</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mod" id="annotated-map" data-repo="eggu/resident-evil-annotated-map">
+    <div class="wrap">
+      <div class="mod-head">
+        <div>
+          <span class="tag">Resident Evil (1996)</span><span class="tag">GOG 일본어판</span><span class="tag">Classic REbirth 1.1.4</span>
+          <h2>주석 지도: 생존자의 메모</h2>
+          <p class="summary">어디에 무엇이 있고 어느 문에 어떤 열쇠가 필요한지 지도에서 바로 확인할 수 있게 해 주는 지도 모드입니다. 한국어와 영어를 지원합니다.</p>
+        </div>
+        <div class="actions">
+          <a class="btn" href="https://github.com/eggu/resident-evil-annotated-map/releases/latest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+            <span>최신 버전 다운로드</span>
+          </a>
+          <span class="meta"></span>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <button class="wide"><img src="docs/screenshots/annotated-map/full-screen-map-all.jpg" alt="전체 화면 지도 — 모든 표시" loading="lazy"></button>
+        <button><img src="docs/screenshots/annotated-map/full-screen-map-visited.jpg" alt="전체 화면 지도 — 방문한 방" loading="lazy"></button>
+        <button><img src="docs/screenshots/annotated-map/in-status-screen-map.jpg" alt="상태 화면 지도" loading="lazy"></button>
+      </div>
+
+      <div class="features">
+        <div class="feature"><h3>아이템과 퍼즐 위치</h3><p>열쇠·문서 같은 중요 아이템, 퍼즐, 탄약과 회복 아이템, 타자기 위치를 지도에 표시합니다.</p></div>
+        <div class="feature"><h3>잠긴 문과 열쇠</h3><p>잠긴 문마다 열 때 필요한 열쇠를 알려 줍니다.</p></div>
+        <div class="feature"><h3>진행 상황 반영</h3><p>주운 아이템, 연 문, 푼 퍼즐은 지도에서 사라져 남은 일만 보입니다.</p></div>
+        <div class="feature"><h3>전체 화면 지도</h3><p>플레이 중 <b>M</b>(패드 <b>RB</b>)으로 큰 지도를 열어 현재 위치와 방향을 확인합니다.</p></div>
+      </div>
+      <div class="links">
+        <a href="https://github.com/eggu/resident-evil-annotated-map#설치">설치 방법</a>
+        <a href="https://github.com/eggu/resident-evil-annotated-map#단축키">단축키</a>
+        <a href="https://github.com/eggu/resident-evil-annotated-map/releases">업데이트 내역</a>
+        <a href="https://github.com/eggu/resident-evil-annotated-map/blob/main/README.en.md">English</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>비공식 팬 모드입니다. Capcom과 관련이 없으며 게임 파일은 포함하지 않습니다.</p>
+  </div>
+</footer>
+
+<dialog id="viewer" aria-label="스크린샷 크게 보기"><img alt=""><p></p></dialog>
+
+<script>
+  // Download buttons: point at the latest release's ZIP and show its version and size (falls back to the release page).
+  document.querySelectorAll('section.mod[data-repo]').forEach(async (section) => {
+    const repo = section.dataset.repo;
+    const btn = section.querySelector('.btn'), meta = section.querySelector('.meta');
+    try {
+      const res = await fetch(`https://api.github.com/repos/${repo}/releases/latest`);
+      if (!res.ok) return;
+      const rel = await res.json();
+      const zip = (rel.assets || []).find((a) => a.name.endsWith('.zip'));
+      if (!zip) return;
+      btn.href = zip.browser_download_url;
+      btn.querySelector('span').textContent = `${rel.tag_name} 다운로드`;
+      meta.textContent = `${(zip.size / 1048576).toFixed(1)} MB`;
+    } catch (e) { /* keep the release-page link */ }
+  });
+
+  // Screenshot viewer
+  const viewer = document.getElementById('viewer');
+  document.querySelectorAll('.gallery button').forEach((b) => b.addEventListener('click', () => {
+    const img = b.querySelector('img');
+    viewer.querySelector('img').src = img.src;
+    viewer.querySelector('img').alt = img.alt;
+    viewer.querySelector('p').textContent = img.alt;
+    viewer.showModal();
+  }));
+  viewer.addEventListener('click', () => viewer.close());
+</script>
+</body>
 </html>

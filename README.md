@@ -4,6 +4,19 @@ GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth
 
 배포 ZIP은 게임 폴더에 그대로 복사하는 형식입니다. HD 문서에는 REbirth의 HD Loader가 필요합니다. 모드 표시 이름은 **Resident Evil - Korean HD Translation**입니다. 모드 폴더 이름은 `mod_korean_translation`입니다.
 
+## 스크린샷
+
+| 대사 | 문서 |
+|---|---|
+| ![중앙 홀 대사 "엄청난 저택이군."](docs/screenshots/main-hall.jpg) | ![사육사의 일지](docs/screenshots/keepers-diary-1.jpg) |
+| ![호랑이 석상 조사 메시지](docs/screenshots/tiger-statue.jpg) | ![사육사의 일지 마지막 페이지](docs/screenshots/keepers-diary-2.jpg) |
+
+| 인트로 영상 자막 | |
+|---|---|
+| ![인트로 영상 자막 1](docs/screenshots/intro-movie-1.jpg) | ![인트로 영상 자막 2](docs/screenshots/intro-movie-2.jpg) |
+
+함께 쓸 수 있는 지도 모드: [Annotated Map: Survivor's Notes](https://github.com/eggu/resident-evil-annotated-map) — 지도에 방 이름, 잠긴 문과 열쇠, 아이템, 퍼즐을 표시합니다.
+
 ## 처음 설치하는 분을 위한 안내
 
 아래 순서대로 진행하세요. **추천은 방법 2(RE:Enhance + REbirth 1.1.4)**입니다. 그림과 영상 품질도 함께 개선됩니다. 방법 1은 원래 게임 화면을 유지하면서 한글패치를 설치하는 방법입니다.
