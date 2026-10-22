@@ -15,7 +15,7 @@ GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth
 |---|---|
 | ![인트로 영상 자막 1](docs/screenshots/intro-movie-1.jpg) | ![인트로 영상 자막 2](docs/screenshots/intro-movie-2.jpg) |
 
-함께 쓸 수 있는 지도 모드: [Annotated Map: Survivor's Notes](https://github.com/eggu/resident-evil-annotated-map) — 지도에 방 이름, 잠긴 문과 열쇠, 아이템, 퍼즐을 표시합니다.
+함께 쓸 수 있는 지도 모드: [상세 지도: 생존자의 메모](https://github.com/eggu/resident-evil-annotated-map) — 지도에 방 이름, 잠긴 문과 열쇠, 아이템, 퍼즐을 표시합니다.
 
 ## 처음 설치하는 분을 위한 안내
 
