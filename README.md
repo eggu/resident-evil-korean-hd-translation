@@ -8,14 +8,12 @@
 
 ## 스크린샷
 
-| 대사 | 문서 |
+| | |
 |---|---|
-| ![중앙 홀 대사 "엄청난 저택이군."](docs/screenshots/main-hall.jpg) | ![사육사의 일지](docs/screenshots/keepers-diary-1.jpg) |
-| ![호랑이 석상 조사 메시지](docs/screenshots/tiger-statue.jpg) | ![사육사의 일지 마지막 페이지](docs/screenshots/keepers-diary-2.jpg) |
-
-| 인트로 영상 자막 | |
-|---|---|
-| ![인트로 영상 자막 1](docs/screenshots/intro-movie-1.jpg) | ![인트로 영상 자막 2](docs/screenshots/intro-movie-2.jpg) |
+| ![문서 — 식물 42 보고서](docs/screenshots/plant-42-report.jpg) | ![인트로 영상 자막 "1998년 7월 라쿤 숲 지대"](docs/screenshots/intro-movie.jpg) |
+| ![중앙 홀 대사 "엄청난 저택이군."](docs/screenshots/main-hall.jpg) | ![아이템 화면](docs/screenshots/inventory.jpg) |
+| ![문서 — 사육사의 일지 날짜별 페이지](docs/screenshots/keepers-diary-page.jpg) | ![문서 — 사육사의 일지 표지](docs/screenshots/keepers-diary-cover.jpg) |
+| ![문서 — 사육사의 일지 마지막 페이지](docs/screenshots/keepers-diary-last.jpg) | ![문서 — V-JOLT 보고서](docs/screenshots/v-jolt-report.jpg) |
 
 함께 쓰면 좋은 모드: [상세 지도: 생존자의 메모](https://github.com/eggu/resident-evil-annotated-map). 지도에 방 이름, 잠긴 문과 필요한 열쇠, 아이템, 퍼즐 위치를 보여 줍니다.
 
