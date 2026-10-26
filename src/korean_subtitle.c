@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "sentence_records.h"
+#include "document_pagination.h"
 #include "subtitle_position.h"
 static uintptr_t rebirth;
 #include "rebirth_discover.h"
@@ -45,6 +46,7 @@ static struct Cached cache[CACHE_SIZE];
 static unsigned frame=1,position_reports;
 /* Game call targets; replaced by another mod's hook when one already owns the call (we chain to it). */
 __attribute__((used)) static uintptr_t next_submit=0x47a9b0,next_choices=0x491830,next_reset=0x47aa20,next_empty=0x491830;
+static uintptr_t next_document=0x42bf30;
 static int __thiscall reset_draw_commands(void *owner) {
     int result=((int (__thiscall *)(void *))next_reset)(owner);
     frame++;return result;
@@ -79,6 +81,13 @@ static int selected(void) {
         log_line(mode==3 ? "Korean HD Translation renderer enabled" : "Original renderer");
     }
     return mode;
+}
+static void __cdecl draw_document(void *state) {
+    static int reported;
+    int result=apply_document_counts((unsigned char *)0x4af1e8,selected()==3);
+    if(result==1) log_line("Document page limits updated");
+    if(!result && !reported++) log_line("Document page limits unchanged: unexpected table");
+    ((void (__cdecl *)(void *))next_document)(state);
 }
 static void release_slot(void) {
     unsigned count=*(unsigned *)(slot+0x1e0);
@@ -225,10 +234,10 @@ BOOL WINAPI DllMain(HINSTANCE instance,DWORD reason,void *unused) {
     if(game_nt->FileHeader.TimeDateStamp!=0x3642d468 || game_nt->OptionalHeader.SizeOfImage!=0x990000) { log_line("Unsupported game image");return TRUE; }
     uintptr_t target=rebirth+version->sprite;sprite=(void *)target;
     const uintptr_t width_target=rebirth+version->width;
-    uintptr_t sites[6+3+MAX_WIDTH_SITES+2]={0x441457,0x491e2b,0x416f96,0x417232,0x4172a8,0x44aa3c};
-    void *targets[6+3+MAX_WIDTH_SITES+2]={submit_tile,draw_choices,reset_draw_commands,reset_draw_commands,reset_draw_commands,draw_empty_box};
-    uintptr_t expected[6+3+MAX_WIDTH_SITES+2]={0x47a9b0,0x491830,0x47aa20,0x47aa20,0x47aa20,0x491830};
-    unsigned count=6;
+    uintptr_t sites[7+3+MAX_WIDTH_SITES+2]={0x441457,0x491e2b,0x416f96,0x417232,0x4172a8,0x44aa3c,0x42b70f};
+    void *targets[7+3+MAX_WIDTH_SITES+2]={submit_tile,draw_choices,reset_draw_commands,reset_draw_commands,reset_draw_commands,draw_empty_box,draw_document};
+    uintptr_t expected[7+3+MAX_WIDTH_SITES+2]={0x47a9b0,0x491830,0x47aa20,0x47aa20,0x47aa20,0x491830,0x42bf30};
+    unsigned count=7;
     void *const message_targets[3]={draw_insert,draw_message,draw_message};
     for(unsigned i=0;i<3;i++) { sites[count]=rebirth+version->sprite_sites[i];targets[count]=message_targets[i];expected[count++]=target; }
     for(unsigned i=0;i<version->width_count;i++) { sites[count]=rebirth+version->width_sites[i];targets[count]=text_width;expected[count++]=width_target; }
@@ -236,12 +245,12 @@ BOOL WINAPI DllMain(HINSTANCE instance,DWORD reason,void *unused) {
         sites[count]=rebirth+version->movie_sites[0];targets[count]=movie_subtitle_update;expected[count++]=rebirth+version->movie_update;
         sites[count]=rebirth+version->movie_sites[1];targets[count]=movie_font_face;expected[count++]=rebirth+version->movie_font;
     }
-    uintptr_t *const next[6]={&next_submit,&next_choices,&next_reset,&next_reset,&next_reset,&next_empty};
+    uintptr_t *const next[7]={&next_submit,&next_choices,&next_reset,&next_reset,&next_reset,&next_empty,&next_document};
     for(unsigned i=0;i<count;i++) {
         uintptr_t at=sites[i],actual=*(unsigned char *)at==0xe8 ? at+5+*(int32_t *)(at+1) : 0;
-        if(actual && actual==expected[i] && (i>=6 || *next[i]==expected[i])) continue;
+        if(actual && actual==expected[i] && (i>=7 || *next[i]==expected[i])) continue;
         HMODULE owner;char module[MAX_PATH];
-        if(i<6 && actual && (*next[i]==expected[i] || *next[i]==actual)
+        if(i<7 && actual && (*next[i]==expected[i] || *next[i]==actual)
            && GetModuleHandleExA(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS|GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,(LPCSTR)actual,&owner)
            && owner!=GetModuleHandleA(NULL) && GetModuleFileNameA(owner,module,sizeof(module))) {
             char line[MAX_PATH+96];snprintf(line,sizeof(line),"Game call %08lx already hooked by %s; chaining",(unsigned long)at,module);

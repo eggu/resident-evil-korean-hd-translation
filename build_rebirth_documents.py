@@ -1,12 +1,35 @@
-"""REbirth 1.1.4 English-mode FILE/ PNG pages, edited in resources.csv."""
+"""REbirth 1.1.3/1.1.4 English-mode FILE/ PNG pages, edited in resources.csv."""
 from pathlib import Path
 import hashlib
+import json
+import re
 import struct
 from PIL import Image, ImageDraw, ImageFont
 
 from build_paths import ROOT, GAME
 DEFAULTS = ROOT / 'build/rebirth-default-assets'
 DDRAW_HASH = '144764bf113d0f19767a9f2e35927b30ccfbb978790a427189583544b6c52889'
+DOCUMENT_GROUPS = 'LMNOPQRSTUVWXYZ0'
+ORIGINAL_PAGE_COUNTS = (4, 6, 11, 4, 2, 6, 7, 7, 10, 5, 5, 4, 2, 2, 2, 4)
+
+
+def optimize_pages(rows, directory):
+    layout = json.loads((directory / 'document-pages.json').read_text(encoding='utf-8'))
+    result = list(rows)
+    for group, pages in layout.items():
+        if group not in DOCUMENT_GROUPS or group in 'NPWXYZ':
+            raise ValueError(f'Protected or unknown document group: {group}')
+        source = sorted((r for r in rows if r['종류'] == '문서 PNG 페이지'
+                         and r['id'].startswith('FILEM_' + group) and not r['id'].endswith('00.png')),
+                        key=lambda r: r['id'])
+        if not pages or len(pages) > len(source) or any(not p.strip() for p in pages):
+            raise ValueError(f'Invalid document page count: {group}')
+        normalize = lambda text: re.sub(r'\s+', '', text)
+        if normalize(''.join(pages)) != normalize(''.join(r['번역문'] for r in source)):
+            raise ValueError(f'Document layout changes source text: {group}')
+        result = [r for r in result if r not in source]
+        result.extend(dict(row, 번역문=text) for row, text in zip(source, pages))
+    return sorted(result, key=lambda r: r['id'])
 
 
 def default_documents():
@@ -52,7 +75,9 @@ def render_page(row, scale=1):
         font = ImageFont.truetype(str(FONT), size, layout_engine=ImageFont.Layout.BASIC)
         lines = wrap_document(row['번역문'], font)
         step = size + 3
-        if sum(24 if CIPHER_TOKEN in line else step for line in lines) <= 176:
+        height = sum(24 if CIPHER_TOKEN in line else step for line in lines)
+        ascent, descent = font.getmetrics()
+        if height <= 176 and 8 + height - step + ascent + descent + 1 <= 192:
             break
     else:
         raise ValueError(f"PNG page does not fit; shorten/repage CSV: {row['id']}")
@@ -68,9 +93,13 @@ def render_page(row, scale=1):
         for char in label:
             if not char.isspace():
                 position = (round(x)*scale, (y + font.getmetrics()[0])*scale)
-                bounds = draw.textbbox(position, char, font=draw_font, anchor='ls')
+                bounds = draw.textbbox(position, char, font=draw_font, anchor='ls',
+                                       stroke_width=2 if scale > 1 else 0)
                 if bounds[0] < 0 or bounds[2] > 248*scale or bounds[3] > 192*scale:
                     raise ValueError(f"PNG glyph out of bounds: {row['id']}")
+                if scale > 1:
+                    draw.text(position, char, font=draw_font, fill=(0, 0, 0, 255), anchor='ls',
+                              stroke_width=2, stroke_fill=(0, 0, 0, 255))
                 draw.text(position, char, font=draw_font, fill=(230, 230, 218, 255), anchor='ls')
             x += font.getlength(char)
         if CIPHER_TOKEN in line:
@@ -103,4 +132,12 @@ def build_pages(out, rows):
         preview.resize((512, 384)).save(previews / row['id'])
         report['sha256'] = hashlib.sha256(target.read_bytes()).hexdigest()
         reports.append(report)
+    counts = [sum(r['종류'] == '문서 PNG 페이지' and r['id'].startswith('FILEM_' + group)
+                  for r in rows) for group in DOCUMENT_GROUPS]
+    assert all(1 <= n <= old for n, old in zip(counts, ORIGINAL_PAGE_COUNTS))
+    header = '/* Generated document page limits, including covers and special blank pages. */\n'
+    for name, values in [('original_document_counts', ORIGINAL_PAGE_COUNTS), ('document_page_counts', counts)]:
+        header += 'static const unsigned char ' + name + '[16]={' + ','.join(map(str, values)) + '};\n'
+    (ROOT / 'build/document_counts.h').write_text(header)
+    (previews / 'page-counts.json').write_text(json.dumps(dict(zip(DOCUMENT_GROUPS, counts)), indent=2) + '\n')
     return reports

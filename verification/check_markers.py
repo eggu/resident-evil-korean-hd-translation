@@ -18,7 +18,7 @@ class Markers(Engine):
                 self.apis[at]=imp.name.decode() if imp.name else str(imp.ordinal);self.put(imp.address,at)
         return {s.name.decode():base+s.address for s in p.DIRECTORY_ENTRY_EXPORT.symbols if s.name}
     def __init__(self,dll):
-        self.exports={};super().__init__()
+        self.exports={};self.document_calls=[];super().__init__()
         assert hashlib.sha256((GAME/'ddraw.dll').read_bytes()).hexdigest()==DDHASH
         self.module(GAME/'ddraw.dll',0x10000000);self.exports=self.module(dll,0x14000000)
         obj=0x2201000;vtable=0x2201100;mod_list=0x2201200
@@ -41,6 +41,8 @@ class Markers(Engine):
             data=(ROOT/'build/mod_korean_translation'/path).read_bytes();address=self.heap;self.heap+=(len(data)+31)&~15
             self.u.mem_write(address,data);self.put(self.rd(sp+8),len(data));self.ret(address,8)
         elif a==0x100f1d99:self.ret()
+        elif a==0x42bf30:self.document_calls.append(self.rd(sp+4));self.ret()
+        elif a in self.apis and self.apis[a]=='GetProcessHeap':self.ret(1)
         elif a in self.apis and self.apis[a]=='fopen':self.ret(0)
         elif 0x10000000<=a<0x12500000 or 0x14000000<=a<0x14100000:pass
         else:super().hook(uc,a,n,_)
@@ -69,7 +71,13 @@ def main():
         for candidate,label in [(dll,'file-reader-stdcall'),(wrong_dll,'wrong-cdecl-regression')]:
             e=Markers(candidate);path=0x2202000;size=0x2202100
             e.u.mem_write(path,f'sentences/{sid:05d}-00.tim'.encode()+b'\0')
-            e.call(e.exports['verify_read_file'],(path,size))
+            try:
+                e.call(e.exports['verify_read_file'],(path,size))
+            except AssertionError:
+                # The wrong ABI can pop the output-size pointer as its return address.
+                if candidate==dll or e.u.reg_read(UC_X86_REG_EIP)!=size: raise
+                cases.append({'case':label,'corrupt_return_address':size,'known_failure_reproduced':True,'pass':True})
+                continue
             stack_delta=e.u.reg_read(UC_X86_REG_ESP)-STACK
             assert e.u.reg_read(UC_X86_REG_EAX)!=0 and e.rd(size)==records[sid][3]
             assert (stack_delta==4)==(candidate==dll),(label,stack_delta)
@@ -140,6 +148,19 @@ def main():
         assert all(c[1]==218 and c[3]<236 for c in choices)
         assert choices[0][2]<244 and choices[1][2]<312
         cases.append({'case':'yes-no','xy_uv':choices,'pass':True})
+        # Execute the production document wrapper; only the original viewer/GPU boundary is stubbed.
+        from build_rebirth_documents import DOCUMENT_GROUPS, ORIGINAL_PAGE_COUNTS
+        counts=json.loads((ROOT/'build/document-preview/page-counts.json').read_text())
+        original=bytes(ORIGINAL_PAGE_COUNTS);optimized=bytes(counts[g] for g in DOCUMENT_GROUPS)
+        e=Markers(dll);state=0x2203000;e.u.mem_write(0x4af1e8,original)
+        e.call(e.exports['verify_document'],(state,))
+        assert bytes(e.u.mem_read(0x4af1e8,16))==optimized and e.document_calls==[state]
+        e.call(e.exports['verify_init'],(0x10000000,0));e.call(e.exports['verify_document'],(state,))
+        assert bytes(e.u.mem_read(0x4af1e8,16))==original and e.document_calls==[state,state]
+        other=bytes([99])+original[1:];e.u.mem_write(0x4af1e8,other)
+        e.call(e.exports['verify_init'],(0x10000000,3));e.call(e.exports['verify_document'],(state,))
+        assert bytes(e.u.mem_read(0x4af1e8,16))==other and e.document_calls==[state]*3
+        cases.append({'case':'document-page-limits','pages':sum(optimized),'restore':True,'preserve_other_mod':True,'pass':True})
     coverage=json.loads((ROOT/'build/mod_korean_translation/coverage.json').read_text(encoding='utf-8'))
     font=ImageFont.truetype(str(FONT),coverage['font_size'],layout_engine=ImageFont.Layout.BASIC)
     widths={s:font.getlength(s)/coverage['render_scale'] for s in ['엄청난 저택이군.']}

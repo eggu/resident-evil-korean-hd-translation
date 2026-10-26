@@ -8,7 +8,7 @@ import re
 import struct
 import xml.etree.ElementTree as ET
 
-from build_paths import ROOT, GAME, FONT
+from build_paths import ROOT, GAME, DOCUMENT_FONT as FONT
 XML_FILES = ('item_simple.xml', 'desc.xml', 'save2.xml', 'config.xml')
 CIPHER_TOKEN = '[[원본암호]]'
 CIPHER_RECT = (132, 80, 196, 104)
@@ -61,7 +61,8 @@ def load_resources(directory=ROOT / 'translation'):
         if row['종류'] in ('문서 페이지','문서 PNG 페이지'):
             missing={c for c in row['번역문'] if not c.isspace() and ord(c) not in cmap}
             if missing: raise ValueError(f"Document font missing glyphs: {row['id']} {sorted(missing)}")
-    return rows
+    from build_rebirth_documents import optimize_pages
+    return optimize_pages(rows, directory)
 
 
 def build_xml(out, rows=None):
@@ -123,7 +124,8 @@ def render_document(row):
         lines = wrap_document(text, font)
         step = size + 3
         height = sum(24 if CIPHER_TOKEN in line else step for line in lines)
-        if height <= 240:
+        ascent, descent = font.getmetrics()
+        if height <= 240 and 8 + height - step + ascent + descent <= 248:
             break
     else:
         raise ValueError(f"Document page does not fit, shorten the CSV translation: {row['id']}")

@@ -1,6 +1,6 @@
 # Resident Evil - Korean HD Translation
 
-GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth.com/index.php/re1cb-changelog/)용 한글 HD 번역 모드입니다. 게임 대사·메뉴·문서·영상 자막을 포함합니다. REbirth 1.1.3에서도 대사와 메뉴가 한글로 나오지만, 영상 자막은 원래대로 나오고 자막 크기는 HD로 고정됩니다.
+GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth.com/index.php/re1cb-changelog/)용 한글 HD 번역 모드입니다. GOG의 REbirth 1.1.3도 지원합니다. 게임 대사·메뉴·문서·영상 자막을 포함하며, 1.1.3에서는 영상 자막이 원래대로 나오고 대사 자막 크기는 HD로 고정됩니다.
 
 배포 ZIP은 게임 폴더에 그대로 복사하는 형식입니다. HD 문서에는 REbirth의 HD Loader가 필요합니다. 모드 표시 이름은 **Resident Evil - Korean HD Translation**입니다. 모드 폴더 이름은 `mod_korean_translation`입니다.
 
@@ -58,19 +58,19 @@ Steam 루트 폴더
     jpn/
 ```
 
-### 방법 1. Classic REbirth 1.1.4만 설치하기
+### 방법 1. Classic REbirth만 설치하기
 
 #### GOG
 
 1. [공식 Biohazard PC CD-ROM 1.01 패치 페이지](https://classicrebirth.com/index.php/download/biohazard-pc-cd-rom-patch-version-1-01/)에서 패치를 다운로드하고 압축을 풉니다. REbirth가 사용하는 일본어 1.01 실행 파일을 준비하는 단계입니다.
 2. 압축 안의 `Biohazard.exe`를 **게임 폴더**에 복사하고 기존 파일을 바꿉니다.
-3. [Classic REbirth 공식 다운로드 페이지](https://classicrebirth.com/index.php/download/resident-evil-dll-fix-for-classic-edition/)에서 **Resident Evil Classic REbirth 1.1.4** 일반 패키지를 다운로드합니다. Steam 전용 파일은 이 경우 선택하지 않습니다.
+3. [Classic REbirth 공식 다운로드 페이지](https://classicrebirth.com/index.php/download/resident-evil-dll-fix-for-classic-edition/)에서 **1.1.4(권장)** 또는 **1.1.3** 일반 패키지를 다운로드합니다. Steam 전용 파일은 이 경우 선택하지 않습니다. 1.1.3에서는 영상 자막이 원래대로 나오고 대사 자막 크기는 HD로 고정됩니다.
 4. 압축 안의 `ddraw.dll`, `SDL3.dll`, `gamecontrollerdb.txt` 등 **내용물 전체**를 게임 폴더에 복사합니다. 다운로드 폴더 자체를 통째로 넣으면 안 됩니다. `Biohazard.exe` 바로 옆에 `ddraw.dll`이 있어야 합니다.
 5. 아래 **‘마지막 단계. 한글패치 설치’**로 이동합니다.
 
 #### Steam
 
-1. [Classic REbirth 공식 다운로드 페이지](https://classicrebirth.com/index.php/download/resident-evil-dll-fix-for-classic-edition/)에서 **1.1.4의 Steam 전용 패키지**를 다운로드합니다.
+1. [Classic REbirth 공식 다운로드 페이지](https://classicrebirth.com/index.php/download/resident-evil-dll-fix-for-classic-edition/)에서 **1.1.4 Steam 전용 패키지**를 다운로드합니다.
 2. 압축을 풀면 `4249100_Launcher.exe`와 `japanese` 폴더가 나옵니다.
 3. 이 두 항목을 **Steam 루트 폴더**에 복사하고 덮어씁니다. 패키지의 `japanese` 폴더가 게임의 `japanese` 폴더와 합쳐져야 합니다.
 4. 확인: Steam 루트에는 새 `4249100_Launcher.exe`, 그 안의 `japanese`에는 `ddraw.dll`, `SDL3.dll`, `gamecontrollerdb.txt`가 있어야 합니다.
@@ -92,13 +92,13 @@ Steam 루트 폴더
 ### 마지막 단계. 한글패치 설치 — 두 방법 공통
 
 1. [한글패치 최신 Release 다운로드 페이지](https://github.com/eggu/resident-evil-korean-hd-translation/releases/latest)를 엽니다.
-2. 페이지 아래 **Assets**에서 `Resident-Evil-Korean-HD-Translation-1.0.2.zip`을 클릭해 다운로드합니다. GitHub 로그인은 필요하지 않습니다. `Source code`는 설치용 한글패치가 아니므로 선택하지 마세요.
+2. 페이지 아래 **Assets**에서 `Resident-Evil-Korean-HD-Translation-1.1.0.zip`을 클릭해 다운로드합니다. GitHub 로그인은 필요하지 않습니다. `Source code`는 설치용 한글패치가 아니므로 선택하지 마세요.
 3. 받은 ZIP을 마우스 오른쪽 버튼으로 눌러 **모두 압축 풀기**를 선택합니다.
 4. 압축을 푼 폴더 안에 다음 항목이 보이면 맞게 연 것입니다. **이 항목 전체**를 게임 폴더에 복사하고 덮어씁니다.
 
 ```text
 게임 폴더/                   ← Biohazard.exe가 있는 곳
-  ddraw.dll                  ← 앞에서 설치한 REbirth 1.1.4
+  ddraw.dll                  ← 앞에서 설치한 REbirth 1.1.3 또는 1.1.4
   korean_subtitle.dll        ← 한글패치의 렌더러
   winmm.dll                  ← 한글 모드 자동 선택
   korean_subtitle.ini
@@ -132,7 +132,7 @@ Steam 루트 폴더
 
 ```text
 원본 게임 폴더/
-  ddraw.dll                       # Classic REbirth 1.1.4
+  ddraw.dll                       # Classic REbirth 1.1.3 또는 1.1.4
   jpn/Data/PBFONT1.TIM
   jpn/Data/EN05.TIM
   jpn/Data/EN07.TIM
@@ -163,9 +163,11 @@ $env:RE1_BUILD_FONT = 'C:\Windows\Fonts\batang.ttc'
 .venv\Scripts\python.exe scripts\package_release.py
 ```
 
-`RE1_GAME_ORIGINAL_DIR`는 필수이며 설치 폴더를 자동 추측하지 않습니다. `RE1_BUILD_FONT`는 TTF/OTF/TTC 파일 경로입니다. 기본값은 macOS의 AppleMyungjo, Windows의 Batang이고 Linux에서는 직접 지정해야 합니다. TTC는 첫 번째 face를 사용합니다. 다른 폰트의 글리프 누락·넘침은 생성 단계에서 검사하며 이미지 배치는 달라질 수 있습니다.
+`RE1_GAME_ORIGINAL_DIR`는 필수이며 설치 폴더를 자동 추측하지 않습니다. `RE1_BUILD_FONT`는 대사·메뉴용 TTF/OTF/TTC 파일 경로입니다. 기본값은 macOS의 AppleMyungjo, Windows의 Batang이고 Linux에서는 직접 지정해야 합니다. 문서는 저장소에 포함된 Noto Serif CJK KR SemiBold를 사용하며 `RE1_DOCUMENT_FONT`로 바꿀 수 있습니다. 라이선스와 출처는 `fonts/`에 있습니다. TTC는 첫 번째 face를 사용합니다. 다른 폰트의 글리프 누락·넘침은 생성 단계에서 검사하며 이미지 배치는 달라질 수 있습니다.
 
-결과: `dist/Resident-Evil-Korean-HD-Translation-1.0.2.zip`. 버전은 `VERSION`에서 관리합니다.
+문서 페이지 배치는 `translation/document-pages.json`에서 관리합니다. 원본 번역과 공백을 제외한 내용이 같은지 검사하며, 표지·암호 그림·특수 빈 페이지와 사육사의 일지 날짜별 배치를 보존합니다. 현재 PNG 문서는 81장 대신 70장이며 재배치한 페이지는 12px을 유지합니다. 렌더러가 문서를 열 때 해당 페이지 수를 적용하고, 다른 모드의 알 수 없는 페이지 수 표는 덮어쓰지 않습니다. 받는 사람 에이다(ADA)와 서명 존(JOHN)은 암호 입력용 영문을 함께 표시합니다.
+
+결과: `dist/Resident-Evil-Korean-HD-Translation-1.1.0.zip`. 버전은 `VERSION`에서 관리합니다.
 
 ## 번역과 생성 코드
 

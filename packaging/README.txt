@@ -1,6 +1,6 @@
-Resident Evil - Korean HD Translation (1.0.2)
+Resident Evil - Korean HD Translation (1.1.0)
 
-지원: GOG 일본어판 Resident Evil + Classic REbirth 1.1.4 이상(권장) 또는 1.1.3.
+지원: GOG 일본어판 Resident Evil + Classic REbirth 1.1.4(권장) 또는 1.1.3.
 REbirth 1.1.3에서는 영상 자막이 원래대로 나오고 대사 자막 크기는 HD로 고정됩니다.
 HD 문서 이미지는 REbirth HD Loader를 활성화한 환경에서 사용합니다.
 

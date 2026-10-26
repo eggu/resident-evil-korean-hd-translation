@@ -1,4 +1,4 @@
-"""Build all document HD replacements for REbirth 1.1.4's texture lookup."""
+"""Build all document HD replacements for REbirth 1.1.4's texture lookup and RE:Enhance's bio1hd.asi (REbirth 1.1.3)."""
 import argparse, json, zlib
 from pathlib import Path
 from PIL import Image
@@ -6,14 +6,24 @@ from build_resources import load_resources
 from build_rebirth_documents import ROOT, GAME, render_page
 
 
-def texture_key(page):
+def texture_key(page, legacy=False):
     pixels = bytearray(256*256*4)
     raw = page.tobytes('raw', 'BGRA')
-    # REbirth retains the transparent sentinel 1 until after its full-image CRC.
+    # REbirth 1.1.4 retains the transparent sentinel 1 until after its full-image CRC;
+    # bio1hd.asi on 1.1.3 clears zero alpha but hashes fractional alpha unchanged.
+    clear = b'\0\0\0\0' if legacy else b'\x01\0\0\0'
     for i in range(0, len(raw), 4):
         b, g, r, a = raw[i:i+4]
-        pixels[i:i+4] = bytes((b, g, r, 255)) if a else b'\x01\0\0\0'
+        pixels[i:i+4] = bytes((b, g, r, a if legacy else 255)) if a else clear
     return f'{zlib.crc32(pixels):08X}'
+
+
+def hd_page(page):
+    # Keep antialiased edge brightness even when a loader uses alpha testing.
+    opaque = Image.new('RGBA', page.size, (0, 0, 0, 255))
+    opaque.alpha_composite(page)
+    opaque.putalpha(page.getchannel('A').point(lambda a: 255 if a else 0))
+    return opaque
 
 
 def main():
@@ -30,17 +40,20 @@ def main():
         blank = info.get('blank')
         # Pad 256x192 pages to the loader's 256x256 UV allocation, scaled 4x.
         canvas = Image.new('RGBA', (1024, 1024), (0, 0, 0, 0) if blank else (0, 0, 0, 255))
-        if not blank: canvas.paste(high, (0, 0))
-        relative = 'hires/misc/' + texture_key(base) + '.webp'
-        target = out / relative
-        target.parent.mkdir(parents=True, exist_ok=True)
-        if relative in assets:
-            assert Image.open(target).convert('RGBA').tobytes() == canvas.tobytes(), ('CRC collision', relative)
-        else:
-            canvas.save(target, lossless=True, exact=True)
-            assert Image.open(target).convert('RGBA').tobytes() == canvas.tobytes()
-            assets.add(relative)
-        pages.append({'page': row['파일'], 'texture': relative, 'layout': info})
+        if not blank: canvas.paste(hd_page(high), (0, 0))
+        # ponytail: blank pages skip the 1.1.3 key; an all-zero texture would match any empty misc texture.
+        keys = [texture_key(base)] + ([] if blank else [texture_key(base, legacy=True)])
+        for key in keys:
+            relative = 'hires/misc/' + key + '.webp'
+            target = out / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if relative in assets:
+                assert Image.open(target).convert('RGBA').tobytes() == canvas.tobytes(), ('CRC collision', relative)
+            else:
+                canvas.save(target, lossless=True, exact=True)
+                assert Image.open(target).convert('RGBA').tobytes() == canvas.tobytes()
+                assets.add(relative)
+        pages.append({'page': row['파일'], 'texture': 'hires/misc/' + keys[0] + '.webp', 'textures': ['hires/misc/' + k + '.webp' for k in keys], 'layout': info})
     report = {'pages': pages, 'assets': sorted(assets), 'page_resolution': [1024, 768], 'physical_texture': [1024, 1024]}
     (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'pages': len(pages), 'unique_assets': len(assets)},ensure_ascii=False))

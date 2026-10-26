@@ -6,6 +6,9 @@ __attribute__((noinline,optnone)) __declspec(dllexport) int verify_snprintf(char
 #include "../src/korean_subtitle.c"
 __attribute__((noinline,optnone)) __declspec(dllexport) int verify_snprintf(char *dst,size_t count,const char *format,...) { return -1; }
 __declspec(dllexport) void verify_init(unsigned base, int m) {
+ /* DDHASH pins this 1.1.4 fixture; test_rebirth_versions checks discovery separately. */
+ discovered.sprite=0x128c;discovered.width=0x61b90;discovered.mods=0x229e290;discovered.reader=0x69f00;
+ discovered.movie_update=0x87670;discovered.movie_font=0xf6750;version=&discovered;
  rebirth=base;sprite=(void *)(base+0x128c);mode=m;performance_checked=1;
  checked_mod=*(void **)(base+0x229e290);
  *(int *)(0x441457+1)=(int)((unsigned)submit_tile-0x441457-5);
@@ -22,6 +25,7 @@ __declspec(dllexport) void *verify_insert(void) {return draw_insert;}
 
 __declspec(dllexport) void verify_choices(short x,short y) {draw_choices(x,y,0,0);}
 __declspec(dllexport) char *verify_read_file(const char *path,unsigned *size) { return read_mod(path,size); }
+__declspec(dllexport) void verify_document(void *state) { draw_document(state); }
 
 __declspec(dllexport) void verify_fill_cache(void) {
  for(unsigned i=0;i<CACHE_SIZE;i++) {cache[i].id=60000+i;cache[i].age=frame;memset(cache[i].state,0,SLOT_SIZE);}

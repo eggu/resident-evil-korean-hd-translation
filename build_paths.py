@@ -21,3 +21,6 @@ default_font = (Path(os.environ.get('WINDIR', 'C:/Windows')) / 'Fonts/batang.ttc
 FONT = Path(os.environ.get('RE1_BUILD_FONT', default_font)).expanduser().resolve()
 if not FONT.is_file():
     raise ValueError('Set RE1_BUILD_FONT to a Korean TTF/OTF/TTC font file; see README.md')
+DOCUMENT_FONT = Path(os.environ.get('RE1_DOCUMENT_FONT', ROOT / 'fonts/NotoSerifCJKkr-SemiBold.otf')).expanduser().resolve()
+if not DOCUMENT_FONT.is_file():
+    raise ValueError('Set RE1_DOCUMENT_FONT to a Korean TTF/OTF/TTC font file; see README.md')
