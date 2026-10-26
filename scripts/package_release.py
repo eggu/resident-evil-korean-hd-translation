@@ -17,7 +17,7 @@ def allowed_path(name):
         r'ITEM_M2/TEXTM_[A-Z0-9]+\.TIM|sentences(?:-sd)?/[0-9]{5}-[0-9]{2}\.tim)|'
         r'hires/misc/[A-F0-9]{8}\.webp|movie/(?:PJ|Ed4|Ed5)\.srt|'
         r'jpn/Item_m2/TEXTM_P0\.TIM|jpn/Data/EN0[57]\.TIM|'
-        r'korean_subtitle\.(?:dll|ini)|winmm\.dll|README\.txt|release\.json',name))
+        r'korean_subtitle\.(?:dll|ini)|optional/winmm\.dll|README\.txt|release\.json',name))
 
 
 def collect_payload():
@@ -35,7 +35,7 @@ def collect_payload():
         payload['jpn/Data/'+name]=build/'ending-caption-fix/jpn/Data'/name
     payload['jpn/Item_m2/TEXTM_P0.TIM']=mod/'ITEM_M2/TEXTM_P0.TIM'
     payload['korean_subtitle.dll']=build/'korean_subtitle.dll'
-    payload['winmm.dll']=build/'winmm.dll'
+    payload['optional/winmm.dll']=build/'winmm.dll'
     payload['korean_subtitle.ini']=ROOT/'korean_subtitle.ini'
     payload['README.txt']=ROOT/'packaging/README.txt'
     for name,path in payload.items():
@@ -45,7 +45,7 @@ def collect_payload():
     pe=struct.unpack_from('<I',data,0x3c)[0]
     if data[:2]!=b'MZ' or data[pe:pe+4]!=b'PE\0\0' or struct.unpack_from('<H',data,pe+4)[0]!=0x14c:
         raise ValueError('Renderer must be a 32-bit Windows PE DLL')
-    proxy=payload['winmm.dll'].read_bytes();pe=struct.unpack_from('<I',proxy,0x3c)[0]
+    proxy=payload['optional/winmm.dll'].read_bytes();pe=struct.unpack_from('<I',proxy,0x3c)[0]
     if proxy[:2]!=b'MZ' or struct.unpack_from('<H',proxy,pe+4)[0]!=0x14c:
         raise ValueError('Auto-select proxy must be a 32-bit Windows PE DLL')
     if data!=payload['mod_korean_translation/korean_subtitle.dll'].read_bytes():
