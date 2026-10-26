@@ -17,6 +17,7 @@ class PackageTests(unittest.TestCase):
             self.assertTrue(all(allowed_path(name) for name in names))
             self.assertIsNone(archive.testzip())
             self.assertEqual(archive.read('korean_subtitle.dll'),archive.read('mod_korean_translation/korean_subtitle.dll'))
+            self.assertEqual(archive.read('winmm.dll')[:2],b'MZ')
             self.assertIn('Name = Resident Evil - Korean HD Translation',archive.read('mod_korean_translation/manifest.txt').decode())
             self.assertEqual(archive.read('jpn/Item_m2/TEXTM_P0.TIM'),archive.read('mod_korean_translation/ITEM_M2/TEXTM_P0.TIM'))
             self.assertEqual(archive.read('mod_korean_translation/ko_sentence.flag'),b'KOSENT07')

@@ -1,6 +1,6 @@
 # Resident Evil - Korean HD Translation
 
-GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth.com/index.php/re1cb-changelog/)용 한글 HD 번역 모드입니다. 게임 대사·메뉴·문서·영상 자막을 포함합니다. REbirth 1.1.3은 지원하지 않습니다.
+GOG 일본어판 Resident Evil과 [Classic REbirth 1.1.4](https://classicrebirth.com/index.php/re1cb-changelog/)용 한글 HD 번역 모드입니다. 게임 대사·메뉴·문서·영상 자막을 포함합니다. REbirth 1.1.3에서도 대사와 메뉴가 한글로 나오지만, 영상 자막은 원래대로 나오고 자막 크기는 HD로 고정됩니다.
 
 배포 ZIP은 게임 폴더에 그대로 복사하는 형식입니다. HD 문서에는 REbirth의 HD Loader가 필요합니다. 모드 표시 이름은 **Resident Evil - Korean HD Translation**입니다. 모드 폴더 이름은 `mod_korean_translation`입니다.
 
@@ -100,6 +100,7 @@ Steam 루트 폴더
 게임 폴더/                   ← Biohazard.exe가 있는 곳
   ddraw.dll                  ← 앞에서 설치한 REbirth 1.1.4
   korean_subtitle.dll        ← 한글패치의 렌더러
+  winmm.dll                  ← 한글 모드 자동 선택
   korean_subtitle.ini
   mod_korean_translation/
   hires/
@@ -113,7 +114,7 @@ Steam 루트 폴더
    - **Retro Mode:** 끄기
    - **Enable Japanese:** 끄기 — 원본 게임 파일은 일본어판을 쓰지만, 이 설정은 한글 모드에 맞춰 끕니다.
    - **Enable movies:** 켜기
-7. **MOD SELECTION**에서 **Resident Evil - Korean HD Translation**을 체크합니다. 다른 번역 모드가 체크되어 있으면 체크를 해제하세요. **OK**를 눌러 게임을 시작합니다.
+7. 한글 모드는 `winmm.dll`이 **자동으로 선택**하므로 모드 선택 창이 나오지 않습니다. 모드 선택 창이 필요하면(다른 모드와 함께 쓰기 등) **Shift를 누른 채 게임을 실행**합니다. 이때는 **MOD SELECTION**에서 **Resident Evil - Korean HD Translation**을 직접 체크합니다.
 8. 새 게임을 시작해서 대사가 한글로 나오는지, 문서가 한글로 열리는지 확인합니다.
 
 ### 잘 안 될 때
@@ -122,6 +123,7 @@ Steam 루트 폴더
 - **문서가 원문이거나 작게 보임:** `Enable HD loader`를 켜고 `Retro Mode`를 끈 뒤 다시 실행합니다.
 - **대사가 원문으로 나옴:** 한글 모드가 체크되어 있는지 확인하고, 한글패치의 `korean_subtitle.dll`과 모드 폴더를 모두 복사했는지 확인합니다.
 - **영상 자막 글꼴이 이상함:** 아래 ‘영상 자막 폰트’ 안내를 확인합니다. 설정을 바꾼 다음에는 게임을 완전히 종료하고 다시 실행합니다.
+- **모드 선택 창이 계속 나옴:** `winmm.dll`이 `Biohazard.exe` 옆(Steam은 `japanese` 안)에 있는지 확인합니다. macOS·Linux(Wine, CrossOver, Whisky 등)에서는 `winmm` DLL을 **네이티브 우선(native, builtin)**으로 설정해야 동작합니다. 설정하지 않으면 모드 선택 창에서 직접 체크하면 됩니다. `korean_subtitle.log`의 `Auto-select` 줄에 이유가 기록됩니다.
 - **Steam에서 실행되지 않음:** 루트의 런처와 `japanese` 안의 DLL 위치를 위 그림과 비교합니다. 위치가 맞아도 문제가 남으면 사용한 버전과 오류를 알려주세요.
 
 ## 소스에서 직접 빌드

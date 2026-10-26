@@ -151,5 +151,6 @@ def main():
         assert decoded==sid
     subprocess.run([sys.executable,'-m','ziglang','cc','-target','x86-windows-gnu','-shared','-Os','-I',str(ROOT/'build'),'-o',str(ROOT/'build/korean_subtitle.dll'),str(ROOT/'src/korean_subtitle.c')],check=True)
     shutil.copy2(ROOT/'build/korean_subtitle.dll',out/'korean_subtitle.dll')
+    subprocess.run([sys.executable,'-m','ziglang','cc','-target','x86-windows-gnu','-shared','-Os','-o',str(ROOT/'build/winmm.dll'),str(ROOT/'src/autoselect.c')],check=True)
     print(json.dumps(report,ensure_ascii=False))
 if __name__=='__main__':main()

@@ -1,6 +1,6 @@
 /* REbirth 1.1.4's movie renderer uses FreeType file paths, not font family names. */
 static int __cdecl movie_font_face(void *library,const char *original,long index,void **face) {
-    int (__cdecl *load)(void *,const char *,long,void **)=(void *)(rebirth+0xf6750);
+    int (__cdecl *load)(void *,const char *,long,void **)=(void *)(rebirth+version->movie_font);
     const char *name=original;
     for(const char *p=original;*p;p++) if(*p=='\\' || *p=='/') name=p+1;
     if(strcmp(name,"segoeuib.ttf")) return load(library,original,index,face);

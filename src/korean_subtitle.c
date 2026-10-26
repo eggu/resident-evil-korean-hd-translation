@@ -1,4 +1,4 @@
-/* Resident Evil - Korean HD Translation; Classic REbirth 1.1.4. */
+/* Resident Evil - Korean HD Translation; Classic REbirth 1.1.3 and 1.1.4. */
 #include <windows.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -6,6 +6,20 @@
 #include "sentence_records.h"
 #include "subtitle_position.h"
 static uintptr_t rebirth;
+#include "rebirth_discover.h"
+/* REbirth-relative addresses; 0 = feature absent in that build. */
+struct Version {
+    const char *name;int legacy;
+    uintptr_t sprite,width,mods,reader,movie_update,movie_font;
+    uintptr_t sprite_sites[3],width_sites[MAX_WIDTH_SITES],movie_sites[2];unsigned width_count;
+};
+#define REBIRTH_114_STAMP 0x6ab973bc
+/* 1.1.3 (legacy): one selected-mod holder read by thiscall, no HDLoader key and no TrueType
+   movie subtitles, so movies stay original and HD tiles are fixed. 1.1.4 and later are discovered. */
+static const struct Version rebirth_113={"1.1.3",1,0x1278,0x69440,0x217a8f0,0x46960,0,0,
+    {0x68bed,0x68e5c,0x6983c},{0x695d2,0x697a8,0x726b2,0x7285a,0x72d79,0x731c7,0x73378},{0,0},7};
+static struct Version discovered={"1.1.4+",0};
+static const struct Version *version;
 static int (__cdecl *sprite)(void *,int);
 static void *checked_mod;
 static int mode;
@@ -14,12 +28,13 @@ volatile int ko_advance=-1,ko_handled;
 static int texture_scale;
 static int sd_subtitles;
 static void configure_subtitles(void) {
+    if(version->legacy) { sd_subtitles=0;return; }
     sd_subtitles=!GetPrivateProfileIntA("DLL","HDLoader",0,".\\config.ini") || GetPrivateProfileIntA("DLL","LowResEnable",0,".\\config.ini");
 }
 static int __thiscall movie_subtitle_update(void *owner,void *text,int width,int height) {
     unsigned *style=(void *)((unsigned char *)owner+0xc4);
     if((style[0]>>24) && style[2]) style[1]=0;
-    return ((int (__thiscall *)(void *,void *,int,int))(rebirth+0x87670))(owner,text,width,height);
+    return ((int (__thiscall *)(void *,void *,int,int))(rebirth+version->movie_update))(owner,text,width,height);
 }
 #define SLOT_SIZE 0x21c
 #define CACHE_SIZE 128
@@ -28,8 +43,10 @@ struct Cached { int id; unsigned age; unsigned char state[SLOT_SIZE]; };
 /* shortcut: 128 cached tiles; grow only if a scene exceeds this working set. */
 static struct Cached cache[CACHE_SIZE];
 static unsigned frame=1,position_reports;
+/* Game call targets; replaced by another mod's hook when one already owns the call (we chain to it). */
+__attribute__((used)) static uintptr_t next_submit=0x47a9b0,next_choices=0x491830,next_reset=0x47aa20,next_empty=0x491830;
 static int __thiscall reset_draw_commands(void *owner) {
-    int result=((int (__thiscall *)(void *))0x47aa20)(owner);
+    int result=((int (__thiscall *)(void *))next_reset)(owner);
     frame++;return result;
 }
 static void log_line(const char *s) {
@@ -38,18 +55,22 @@ static void log_line(const char *s) {
 }
 #include "movie_subtitle_font.h"
 static char *read_mod(const char *path,unsigned *size) {
-    uintptr_t begin=*(uintptr_t *)(rebirth+0x229e290),end=*(uintptr_t *)(rebirth+0x229e294);
-    if(!begin || begin==end) return NULL;
-    return ((char *(__stdcall *)(const char *,unsigned *))(rebirth+0x69f00))(path,size);
+    uintptr_t begin=*(uintptr_t *)(rebirth+version->mods),end=*(uintptr_t *)(rebirth+version->mods+4);
+    if(!begin) return NULL;
+    /* 1.1.3: thiscall on the single selected-mod holder; 1.1.4+: stdcall over the mounted-mod vector. */
+    if(version->legacy) return ((char *(__thiscall *)(void *,const char *,unsigned *))(rebirth+version->reader))((void *)(rebirth+version->mods),path,size);
+    if(begin==end) return NULL;
+    return ((char *(__stdcall *)(const char *,unsigned *))(rebirth+version->reader))(path,size);
 }
-static void free_mod(void *data) { if(data) ((void (__cdecl *)(void *))(rebirth+0xf1d99))(data); }
+/* REbirth's static CRT allocates from the process heap (no HeapCreate import in 1.1.3/1.1.4). */
+static void free_mod(void *data) { if(data) HeapFree(GetProcessHeap(),0,data); }
 static int selected(void) {
     if(!performance_checked) {
         performance_checked=1;
         if(GetFileAttributesA("biohazard_performance.dll")!=INVALID_FILE_ATTRIBUTES)
             log_line(LoadLibraryA("biohazard_performance.dll") ? "Existing performance module loaded" : "Performance module load failed");
     }
-    void *mod=*(void **)(rebirth+0x229e290);
+    void *mod=*(void **)(rebirth+version->mods);
     if(!mod) return 0;
     if(mod!=checked_mod) {
         unsigned size=0; char *data=read_mod("ko_sentence.flag",&size);
@@ -103,7 +124,7 @@ __attribute__((used)) void __cdecl ko_scale_command(unsigned char *command) {
     uv[2]=(uv[2]+1)*texture_scale-1;uv[3]=(uv[3]+1)*texture_scale-1;
 }
 __attribute__((naked)) static void submit_tile(void) {
-    __asm__ volatile("pushl %ecx\n pushl 8(%esp)\n call _ko_scale_command\n addl $4,%esp\n popl %ecx\n movl $0x47a9b0,%eax\n jmp *%eax\n");
+    __asm__ volatile("pushl %ecx\n pushl 8(%esp)\n call _ko_scale_command\n addl $4,%esp\n popl %ecx\n movl _next_submit,%eax\n jmp *%eax\n");
 }
 __attribute__((used)) int __cdecl ko_draw(void *descriptor,int light,const unsigned char *raw) {
     unsigned char *d=descriptor;ko_advance=-1;ko_handled=0;
@@ -160,11 +181,11 @@ static void draw_label(short x,short y,unsigned id) {
         *(uint16_t *)(d+12)=30;ko_draw(d,2,raw);
 }
 static void __cdecl draw_choices(short x,short y,unsigned char color,char flags) {
-    if(selected()!=3) { ((void (__cdecl *)(short,short,unsigned char,char))0x491830)(x,y,color,flags);return; }
+    if(selected()!=3) { ((void (__cdecl *)(short,short,unsigned char,char))next_choices)(x,y,color,flags);return; }
     draw_label(x,y,CHOICE_YES);draw_label(x+40,y,CHOICE_NO);
 }
 static void __cdecl draw_empty_box(short x,short y,unsigned char color,char flags) {
-    if(selected()!=3) { ((void (__cdecl *)(short,short,unsigned char,char))0x491830)(x,y,color,flags);return; }
+    if(selected()!=3) { ((void (__cdecl *)(short,short,unsigned char,char))next_empty)(x,y,color,flags);return; }
     if(EMPTY_ITEM!=0xffffffffu) draw_label(x,y,EMPTY_ITEM);
 }
 __attribute__((used)) int __cdecl ko_text_width(const unsigned char *raw) {
@@ -177,7 +198,7 @@ __attribute__((used)) int __cdecl ko_text_width(const unsigned char *raw) {
         if(id<SENTENCE_COUNT) return sentence_records[id][0];
         return 0;
     }
-    return ((int (__thiscall *)(const unsigned char *))(rebirth+0x61b90))(raw);
+    return ((int (__thiscall *)(const unsigned char *))(rebirth+version->width))(raw);
 }
 __attribute__((naked)) static void text_width(void) {
     __asm__ volatile("pushl %ecx\n call _ko_text_width\n addl $4,%esp\n ret\n");
@@ -187,28 +208,59 @@ BOOL WINAPI DllMain(HINSTANCE instance,DWORD reason,void *unused) {
     DisableThreadLibraryCalls(instance);rebirth=(uintptr_t)GetModuleHandleA("ddraw.dll");
     if(!rebirth || (uintptr_t)GetModuleHandleA(NULL)!=0x400000) return TRUE;
     IMAGE_NT_HEADERS32 *nt=(void *)(rebirth+((IMAGE_DOS_HEADER *)rebirth)->e_lfanew);
-    if(nt->FileHeader.TimeDateStamp!=0x6ab973bc || nt->OptionalHeader.SizeOfImage!=0x2492000) { log_line("Not installed: unsupported REbirth (requires 1.1.4)");return TRUE; }
+    if(nt->FileHeader.TimeDateStamp==0x5fcc2a03 && nt->OptionalHeader.SizeOfImage==0x22ce000) version=&rebirth_113;
+    else if(nt->FileHeader.TimeDateStamp>=REBIRTH_114_STAMP) {
+        struct Discovered d;
+        if(!discover_rebirth((const uint8_t *)rebirth,(uint32_t)rebirth,&d)) { log_line("Not installed: REbirth hook points not found");return TRUE; }
+        discovered.sprite=d.sprite;discovered.width=d.width;discovered.mods=d.mods;discovered.reader=d.reader;
+        discovered.movie_update=d.movie_update;discovered.movie_font=d.movie_font;discovered.width_count=d.width_count;
+        memcpy(discovered.sprite_sites,d.sprite_sites,sizeof(d.sprite_sites));
+        memcpy(discovered.width_sites,d.width_sites,sizeof(d.width_sites));
+        memcpy(discovered.movie_sites,d.movie_sites,sizeof(d.movie_sites));
+        if(!d.movie_update) log_line("Movie subtitle hooks not found; movies keep REbirth fonts");
+        version=&discovered;
+    }
+    if(!version) { log_line("Not installed: unsupported REbirth (requires 1.1.3 or later)");return TRUE; }
     IMAGE_NT_HEADERS32 *game_nt=(void *)(0x400000+((IMAGE_DOS_HEADER *)0x400000)->e_lfanew);
     if(game_nt->FileHeader.TimeDateStamp!=0x3642d468 || game_nt->OptionalHeader.SizeOfImage!=0x990000) { log_line("Unsupported game image");return TRUE; }
-    const uintptr_t sites[]={rebirth+0x613d2,rebirth+0x6164f,rebirth+0x61f8f,0x441457,0x491e2b,
-        rebirth+0x61d22,rebirth+0x61efb,rebirth+0x6e902,rebirth+0x6eaaa,rebirth+0x6efcb,rebirth+0x6f3a7,rebirth+0x6f518,0x416f96,0x417232,0x4172a8,rebirth+0x861b9,0x44aa3c,rebirth+0x86c03};
-    void *targets[]={draw_insert,draw_message,draw_message,submit_tile,draw_choices,
-        text_width,text_width,text_width,text_width,text_width,text_width,text_width,
-        reset_draw_commands,reset_draw_commands,reset_draw_commands,movie_subtitle_update,draw_empty_box,movie_font_face};
-    uintptr_t target=rebirth+0x128c;sprite=(void *)target;
-    const uintptr_t width_target=rebirth+0x61b90;
-    const uintptr_t expected[]={target,target,target,0x47a9b0,0x491830,
-        width_target,width_target,width_target,width_target,width_target,width_target,width_target,
-        0x47aa20,0x47aa20,0x47aa20,rebirth+0x87670,0x491830,rebirth+0xf6750};
-    for(unsigned i=0;i<sizeof(sites)/sizeof(sites[0]);i++) { uintptr_t at=sites[i];if(*(unsigned char *)at!=0xe8 || at+5+*(int32_t *)(at+1)!=expected[i]) { log_line("Unsupported renderer call site");return TRUE; } }
+    uintptr_t target=rebirth+version->sprite;sprite=(void *)target;
+    const uintptr_t width_target=rebirth+version->width;
+    uintptr_t sites[6+3+MAX_WIDTH_SITES+2]={0x441457,0x491e2b,0x416f96,0x417232,0x4172a8,0x44aa3c};
+    void *targets[6+3+MAX_WIDTH_SITES+2]={submit_tile,draw_choices,reset_draw_commands,reset_draw_commands,reset_draw_commands,draw_empty_box};
+    uintptr_t expected[6+3+MAX_WIDTH_SITES+2]={0x47a9b0,0x491830,0x47aa20,0x47aa20,0x47aa20,0x491830};
+    unsigned count=6;
+    void *const message_targets[3]={draw_insert,draw_message,draw_message};
+    for(unsigned i=0;i<3;i++) { sites[count]=rebirth+version->sprite_sites[i];targets[count]=message_targets[i];expected[count++]=target; }
+    for(unsigned i=0;i<version->width_count;i++) { sites[count]=rebirth+version->width_sites[i];targets[count]=text_width;expected[count++]=width_target; }
+    if(version->movie_update) {
+        sites[count]=rebirth+version->movie_sites[0];targets[count]=movie_subtitle_update;expected[count++]=rebirth+version->movie_update;
+        sites[count]=rebirth+version->movie_sites[1];targets[count]=movie_font_face;expected[count++]=rebirth+version->movie_font;
+    }
+    uintptr_t *const next[6]={&next_submit,&next_choices,&next_reset,&next_reset,&next_reset,&next_empty};
+    for(unsigned i=0;i<count;i++) {
+        uintptr_t at=sites[i],actual=*(unsigned char *)at==0xe8 ? at+5+*(int32_t *)(at+1) : 0;
+        if(actual && actual==expected[i] && (i>=6 || *next[i]==expected[i])) continue;
+        HMODULE owner;char module[MAX_PATH];
+        if(i<6 && actual && (*next[i]==expected[i] || *next[i]==actual)
+           && GetModuleHandleExA(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS|GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,(LPCSTR)actual,&owner)
+           && owner!=GetModuleHandleA(NULL) && GetModuleFileNameA(owner,module,sizeof(module))) {
+            char line[MAX_PATH+96];snprintf(line,sizeof(line),"Game call %08lx already hooked by %s; chaining",(unsigned long)at,module);
+            log_line(line);*next[i]=actual;continue;
+        }
+        unsigned char *c=(void *)at;char line[160];
+        snprintf(line,sizeof(line),"Unsupported renderer call site %u at %08lx (ddraw+%lx): %02x %02x %02x %02x %02x, expected call %08lx",
+            i,(unsigned long)at,(unsigned long)(at-rebirth),c[0],c[1],c[2],c[3],c[4],(unsigned long)expected[i]);
+        log_line(line);return TRUE;
+    }
     for(unsigned i=0;i<CACHE_SIZE;i++) cache[i].id=-1;
     configure_subtitles();
     log_line(sd_subtitles ? "SD subtitle tiles selected" : "HD subtitle tiles selected");
-    for(unsigned i=0;i<sizeof(sites)/sizeof(sites[0]);i++) {
+    for(unsigned i=0;i<count;i++) {
         uintptr_t at=sites[i];DWORD old,ignored;
         if(!VirtualProtect((void *)at,5,PAGE_EXECUTE_READWRITE,&old)) { log_line("Hook protection failure");return TRUE; }
         *(int32_t *)(at+1)=(int32_t)((uintptr_t)targets[i]-at-5);
         FlushInstructionCache(GetCurrentProcess(),(void *)at,5);VirtualProtect((void *)at,5,old,&ignored);
     }
-    log_line("Resident Evil - Korean HD Translation hooks installed");return TRUE;
+    char line[128];snprintf(line,sizeof(line),"Resident Evil - Korean HD Translation hooks installed (REbirth %s, stamp %08lx)",version->name,(unsigned long)nt->FileHeader.TimeDateStamp);
+    log_line(line);return TRUE;
 }
