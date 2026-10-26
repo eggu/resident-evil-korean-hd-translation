@@ -4,7 +4,7 @@ https://github.com/eggu/resident-evil-korean-hd-translation
 필요한 것
 - GOG판 또는 Steam판 Resident Evil(1996), 일본어로 설치
 - Classic REbirth 1.1.4(권장) 또는 1.1.3
-  1.1.3에서는 영상에 한글 자막이 나오지 않습니다. Steam판은 1.1.4만 지원합니다.
+  1.1.3에서는 영상에 한글 자막이 나오지 않습니다.
 
 설치
 1. 게임을 끕니다.
