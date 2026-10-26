@@ -1,6 +1,6 @@
 # Resident Evil 한글 HD 번역
 
-원작 Resident Evil(1996) PC판을 한국어로 플레이할 수 있게 해 주는 비공식 한글패치입니다. 대사, 메뉴, 아이템, 문서, 영상 자막을 번역했습니다.
+원작 Resident Evil(1996) PC판에서 Classic REbirth와 RE:Enhance 환경에 쓰는 비공식 한글 모드입니다. 대사, 메뉴, 아이템, 문서, 영상 자막을 번역했고, 문서는 고해상도로 새로 만들었습니다.
 
 - **지원 게임:** GOG판, Steam판 Resident Evil(1996). 게임은 일본어로 설치해야 합니다.
 - **함께 필요한 프로그램:** [Classic REbirth](https://classicrebirth.com/index.php/download/resident-evil-dll-fix-for-classic-edition/) 1.1.4(권장) 또는 1.1.3. 옛 게임을 요즘 Windows에서 실행되게 해 주는 무료 프로그램입니다.
